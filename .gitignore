@@ -3,7 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
+# .env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
@@ -11,6 +11,3 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-00enviromental.config
-03artisan.config
-02composer.config
