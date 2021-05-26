@@ -3,10 +3,11 @@
 use Illuminate\Support\Str;
 
 
-// define('RDS_HOSTNAME', $SERVER['RDS_HOSTNAME']);
-// define('RDS_USERNAME', $SERVER['RDS_USERNAME']);
-// define('RDS_PASSWORD', $SERVER['RDS_PASSWORD']);
-// define('RDS_DB_NAME', $SERVER['RDS_DB_NAME']);
+define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
+define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
+define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
+define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+define('RDS_PORT', $_SERVER['RDS_PORT']);
 
 
 return [
@@ -51,25 +52,25 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-        'mysql' => [
-            'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOSTNAME', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_NAME', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
-            'prefix' => '',
-            'prefix_indexes' => true,
-            'strict' => true,
-            'engine' => null,
-            'options' => extension_loaded('pdo_mysql') ? array_filter([
-                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-            ]) : [],
-        ],
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'url' => env('DATABASE_URL'),
+        //     'host' => env('DB_HOSTNAME', 'localhost'),
+        //     'port' => env('DB_PORT', '3306'),
+        //     'database' => env('DB_NAME', 'forge'),
+        //     'username' => env('DB_USERNAME', 'forge'),
+        //     'password' => env('DB_PASSWORD', ''),
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'prefix_indexes' => true,
+        //     'strict' => true,
+        //     'engine' => null,
+        //     'options' => extension_loaded('pdo_mysql') ? array_filter([
+        //         PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        //     ]) : [],
+        // ],
 
         // 'mysql' => [
         //     'driver' => 'mysql',
@@ -91,7 +92,20 @@ return [
         //     ]) : [],
         // ],
 
-        
+        'mysql' => [
+            'driver' => 'mysql',
+            'host' => RDS_HOSTNAME,
+            'port' => RDS_PORT,
+            'database' => RDS_DB_NAME,
+            'username' => RDS_USERNAME,
+            'password' => RDS_PASSWORD,
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ]
 
         'pgsql' => [
             'driver' => 'pgsql',
