@@ -128,7 +128,7 @@ return [
                     'monthly_id' => 'price_1I3CYzFMVk1XeOZgymYRYAqL',
                     //'yearly_id' => 'price_id',
                     'features' => [ 
-                        'Feature 1',
+                        'Feature ',
                         'Feature 2',
                         'Feature 3',
                     ],
