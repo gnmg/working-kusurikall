@@ -41,6 +41,9 @@ return [
     'yes' => 'はい',
     'no' => 'いいえ',
     'submit' => '送信',
+    'name' => '名前',
+    'password_confirm' => 'パスワード(確認）',
+    'register' => '登録',
 
 
 

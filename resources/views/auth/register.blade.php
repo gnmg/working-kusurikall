@@ -12,12 +12,12 @@
         <form method="POST" action="{{ route('register') }}">
             @csrf
             <div class="mb-2 text-3xl text-center">無料お試し申し込み</div>
-            <div class="mb-2 text-base text-center"><span class="font-bold">
+            <div class="text-base mb-7"><span class="font-bold">
                 30日間 無料で利用できる
             </span> メールワイズアカウントを作成できます。無料期間の終了後、自動的に課金されることはありません。</div>
             <!-- Name -->
             <div>
-                <x-label for="name" :value="__('Name')" />
+                <x-label for="name"/>{{ __('lang.name')}}
 
                 <x-input id="name" class="block w-full mt-1" type="text" name="name" :value="old('name')" required
                     autofocus />
@@ -25,7 +25,7 @@
 
             <!-- Email Address -->
             <div class="mt-4">
-                <x-label for="email" :value="__('Email')" />
+                <x-label for="email" />{{ __('lang.email')}}
 
                 <x-input id="email" class="block w-full mt-1" type="email" name="email" :value="old('email')"
                     required />
@@ -33,7 +33,7 @@
 
             <!-- Password -->
             <div class="mt-4">
-                <x-label for="password" :value="__('Password')" />
+                <x-label for="password"/>{{ __('lang.password') }} 
 
                 <x-input id="password" class="block w-full mt-1" type="password" name="password" required
                     autocomplete="new-password" />
@@ -41,19 +41,19 @@
 
             <!-- Confirm Password -->
             <div class="mt-4">
-                <x-label for="password_confirmation" :value="__('Confirm Password')" />
+                <x-label for="password_confirmation"" />{{ __('lang.password_confirm') }}
 
                 <x-input id="password_confirmation" class="block w-full mt-1" type="password"
                     name="password_confirmation" required />
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <a class="text-sm text-gray-600 underline hover:text-gray-900" href="{{ route('login') }}">
+                <!-- <a class="text-sm text-gray-600 underline hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
-                </a>
+                </a> -->
 
                 <x-button class="ml-4">
-                    {{ __('Register') }}
+                {{ __('lang.register') }}
                 </x-button>
             </div>
         </form>
