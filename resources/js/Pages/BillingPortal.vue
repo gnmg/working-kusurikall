@@ -2,7 +2,56 @@
     <div class="min-h-screen font-sans antialiased bg-gray-100">
         <div class="flex min-h-screen">
             <!-- Static Desktop Sidebar -->
-            
+             <div class="hidden px-6 pt-24 bg-white shadow-lg lg:block w-92" id="sideBar">
+                <div class="max-w-md" v-if="$page.props.appLogo" v-html="$page.props.appLogo">
+                </div>
+
+                <h1 class="text-3xl font-bold text-gray-900" v-else>
+                    {{ $page.props.appName }}
+                </h1>
+
+                <h2 class="mt-1 text-lg font-semibold text-gray-700">
+                    {{ __('Billing Management') }}
+                </h2>
+
+                <div class="flex items-center mt-12 text-gray-600">
+                    <div>rr
+                        {{ __('Signed in as') }}
+                    </div>
+
+                    <img :src="$page.props.userAvatar" class="w-6 h-6 ml-2 rounded-full" v-if="$page.props.userAvatar"/>
+
+                    <div :class="{'ml-1': ! $page.props.userAvatar, 'ml-2': $page.props.userAvatar}">
+                        {{ $page.props.userName }}.
+                    </div>
+                </div>
+
+                <div class="mt-3 text-sm text-gray-600" v-if="$page.props.billableName">
+                    {{ __('Managing billing for :billableName', {billableName: $page.props.billableName}) }}.
+                </div>
+
+                <div class="mt-12 text-gray-600">
+                    {{ __('Our billing management portal allows you to conveniently manage your subscription plan, payment method, and download your recent invoices.') }}
+                </div>
+
+                <div class="mt-12" id="sideBarTermsLink" v-if="$page.props.termsUrl">
+                    <a :href="$page.props.termsUrl" class="text-gray-600 underline">
+                        {{ __('Terms of Service') }}
+                    </a>
+                </div>
+
+                <div class="mt-12" id="sideBarReturnLink">
+                    <a :href="$page.props.dashboardUrl" class="flex items-center">
+                        <svg viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-gray-400 arrow-left">
+                            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+                        </svg>
+
+                        <div class="ml-2 text-gray-600 underline">
+                            {{ __('Return to :appName', {appName: $page.props.appName}) }}
+                        </div>
+                    </a>
+                </div>
+            </div>
 
             <div class="flex-1">
                 <!-- Mobile Top Nav -->
