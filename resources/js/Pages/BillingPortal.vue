@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen font-sans antialiased bg-gray-100">
         <div class="flex min-h-screen">
-            <!-- Static Desktop Sidebar -->
+            <!-- Static Desktop Sidebar1 -->
              <div class="hidden px-6 pt-24 bg-white shadow-lg lg:block w-92" id="sideBar">
                 <div class="max-w-md" v-if="$page.props.appLogo" v-html="$page.props.appLogo">
                 </div>
