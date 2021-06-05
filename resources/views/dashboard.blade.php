@@ -2,23 +2,28 @@
 
 @section('content')
 <div class="flex flex-col items-center px-8 py-6">
-@if (\Session::has('success'))
+    @if (\Session::has('success'))
     <div class="alert alert-success">
         <ul>
             <li>{!! \Session::get('success') !!}</li>
         </ul>
     </div>
-@endif
-    
+    @endif
+
     @if(is_countable($calls) && count($calls) > 0)
     <!-- Start Call Table-->
     <div class="mt-12 lg:w-1/2">
         <div class="flex justify-between">
             <h2 class="text-2xl font-medium">{{ __('lang.myreminders')}}</h2>
+            @if(is_countable($calls) && count($calls) < 3)
             <a href="{{route('call.create')}}"
                 class="flex px-4 py-2 font-bold text-white bg-green-500 rounded-full hover:bg-green-700">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20" fill="white" /></svg>{{ __('lang.addreminder')}}</a>
+                    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20" fill="white" />
+                    </svg>{{ __('lang.addreminder')}}</a>
+                    @else
+                    <div>You can not add any more calls.</div>
+                    @endif
         </div>
 
         <div class="mt-4">
@@ -41,7 +46,7 @@
                                         style="text-align: start">
                                         {{ __('lang.phone_number')}}
                                     </th>
-                                    
+
                                     <th class="px-6 py-3 border-b border-gray-200 bg-gray-50"></th>
                                     <th class="px-6 py-3 border-b border-gray-200 bg-gray-50"></th>
                                 </tr>
@@ -56,7 +61,7 @@
                                         {{ $call -> time }}
                                     </td>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
-                                        {{ $call -> phone_numbers }}
+                                        0{{ $call -> phone_numbers }}
                                     </td>
                                     <td
                                         class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
@@ -66,7 +71,8 @@
                                                 {{ __('lang.edit')}}
                                             </span></a>
                                     </td>
-                                    <td class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
+                                    <td
+                                        class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
                                         <button onclick="document.getElementById('id03').style.display='block'"
                                             class="inline-flex px-2 text-base font-semibold leading-5 bg-red-200 rounded-full text-black-800">{{ __('lang.delete')}}
                                         </button>
@@ -85,7 +91,7 @@
                                                         aria-hidden="true">&#8203;</span>
 
                                                     <div class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
-                                                        role="dialog" aria-modal="true"  x-show="on"
+                                                        role="dialog" aria-modal="true" x-show="on"
                                                         aria-labelledby="modal-headline">
                                                         <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
                                                             <div class="sm:flex sm:items-start">
@@ -109,7 +115,7 @@
                                                                     </h3>
                                                                     <div class="mt-2">
                                                                         <p class="text-sm text-gray-500">
-                                                                        {{ __("Are you sure you want to delete this reminder?")}}
+                                                                            {{ __("Are you sure you want to delete this reminder?")}}
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -125,16 +131,16 @@
                                                                     class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-red-600 border border-transparent rounded-md shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">
                                                                     {{ __('lang.delete')}}
                                                                 </button>
-                                                                 
+
                                                                 {{--
                                                                 <button type="button"
                                                                   
                                                                 class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm" 
                                                                 {{ __('lang.cancel')}}
-                                                            </button> // TODO: This button is not working.
-                                                            --}}
+                                                                </button> // TODO: This button is not working.
+                                                                --}}
                                                             </form>
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -156,28 +162,25 @@
 
 
                                     <div class="card-text">
-                                        <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">You do not have</h1>
-                                        <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">any reminders</h1>
-                                        
+                                        <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">You do not
+                                            have</h1>
+                                        <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">any
+                                            reminders</h1>
+
                                     </div>
 
                                     <div class="flex justify-center mt-10">
-                                    <div class=""><a href="{{ URL::route('call.create') }}"
-                                            class="flex px-4 py-2 font-bold text-white bg-green-500 rounded-full hover:bg-green-700">
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
-                                                width="24">
-                                                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20"
-                                                    fill="white" /></svg>Add Reminder</a></div>
-                                        
+                                        <div class=""><a href="{{ URL::route('call.create') }}"
+                                                class="flex px-4 py-2 font-bold text-white bg-green-500 rounded-full hover:bg-green-700">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
+                                                    width="24">
+                                                    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20"
+                                                        fill="white" /></svg>Add Reminder</a></div>
+
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
-
-
                         @endif
                     </div>
                 </div>
@@ -191,14 +194,14 @@ var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
 
-    $('#myModal').modal({
-    backdrop: 'static',
-    keyboard: false
-}
+        $('#myModal').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                }
 </script>
 
 @endsection
