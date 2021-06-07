@@ -3,22 +3,20 @@
 @section('content')
 <!-- Start of Header section
         ============================================= -->
-<section id="saas_two_banner" class="saas_two_banner_section relative-position">
+        <section id="saas_two_banner" class="saas_two_banner_section relative-position">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="s2-banner_area relative-position">
-                    <div class="s2-banner_content saas2-headline pera-content text-center">
+                    <div class="text-center s2-banner_content saas2-headline pera-content">
                         <h1>
-                            Never Forget <br>Your Medicine<br>again!
+                            お薬をのみ</br>わすれますか？
                         </h1>
                         <p>
-                            Personalized phone reminder for you or a loved one to take your medicine. Never forget
-                            again.
+                            お薬の飲み忘れを防ぐために</br>毎日お電話でお知らせします
                         </p>
-                        <div class="banner_btn text-center">
-                            <a href="#">Prelaunch Special</a>
-                            <p>pre launch</p>
+                        <div class="text-center banner_btn">
+                            <a href="#">14日間無料試し</a>
                         </div>
                     </div>
                     <div class="banner_mockup d-none d-lg-block">
@@ -35,14 +33,14 @@
         ============================================= -->
 <section id="saas_two_service" class="saas_two_service_section">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-center">
+        <div class="text-center saas_two_section_title saas2-headline">
 
-            <h2>KusuriCall Reminds You To<br>Take Your Medicine on Time Everytime</h2>
+            <h2>KusuriKall は毎日定刻にお薬を服用するためにお電話でリマインドします</h2>
         </div>
         <!-- /section title -->
         <div class="service_content">
             <div class="row justify-content-md-center">
-                <div class="col-lg-4 col-md-6  wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
@@ -82,45 +80,14 @@
                                             </g>
                                         </g>
                                     </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
                                 </svg>
                             </div>
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>Phone Call Reminder</h3>
+                            <h3>電話でお知らせ</h3>
                             <p>
-                                Receive up to three remider calls a day to a home phone to remind yourself or someone
-                                you are taking care of to take their medicine.
+                                ご自宅の固定電話に1日3回まで、お薬の時間にお電話をします。
                             </p>
                         </div>
                     </div>
@@ -147,10 +114,9 @@
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>Personalized Message</h3>
+                            <h3>パーソナライズされたメッセージ内容</h3>
                             <p>
-                                Enter a personalized message to be played when the call is answered. You can explain
-                                what medicine needs to be taken.
+                                メッセージの内容はパーソナライズされているのでどのお薬を飲むのかをメッセージで伝えることができます。
                             </p>
                         </div>
                     </div>
@@ -174,10 +140,9 @@
                             </div>
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>No Answer Notification</h3>
+                            <h3>電話に出ないと…</h3>
                             <p>
-                                We will make three attempts to call. If the call is not answered then an sos email
-                                notification will be sent. This is great for caretakers.
+                                3回お電話しても電話にでない場合は、事前に登録されている方にお薬の飲み忘れがあることをメールでお知らせします。
                             </p>
                         </div>
                     </div>
@@ -288,9 +253,9 @@
         ============================================= -->
 <section id="saas_two_about" class="saas_two_about_section relative-position">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-left">
+        <div class="text-left saas_two_section_title saas2-headline">
             <span class="title_tag">
-                Who is KusuriKall For
+                クスリコールはこんな方におすすめします
             </span>
         </div>
         <div class="about_content_s2">
@@ -305,14 +270,9 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>高齢者に</h3>
+                            <h3>ご高齢者に…</h3>
                             <p>
-                                The elderly and people with alztimers people have a difficult time remembering to
-                                take their medicine.
-                                Many do not have a smart phone to help them remember. KusuriKall will call them on
-                                time
-                                everytime with a personal message telling them exactly what to take. Follow up calls
-                                asking for a response can also be set up to make sure the medicine was taken.
+                                物忘れ多くなってきたご高齢者や認知症に悩まれている方などはお薬の飲み忘れが深刻な問題になります。スマートフォンが使いこなせない方やお持ちでない方も多いことでしょう。クスリコールは毎日、お薬を飲む時間にパーソナライズした電話をかけ何を飲むのかお知らせします。
                             </p>
                         </div>
                     </div>
@@ -325,12 +285,9 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>忙し人に</h3>
+                            <h3>お忙しい人に…</h3>
                             <p>
-                                Too busy to remember to take your medicine? Smartphone apps not enough to help you
-                                remember. We will call you up to three times on up to 10 different phone numbers to
-                                help you make sure your take your medicine. You can even have an optional follow up
-                                call to make sure you took your medicine.
+                                忙しい毎日で、ついついお薬を飲み忘れてしまう、そんな経験ありませんか。スマートフォンのアプリがあっても見落としてしまう。そんなあなたに私たちが毎日お電話でお知らせします。
                             </p>
 
                         </div>
@@ -356,14 +313,9 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>みまもる人に</h3>
+                            <h3>みまもるご家族やケアテイカーに…</h3>
                             <p>
-                                Are you a caretaker caring for an elderly parent or patient that needs to be
-                                reminded
-                                to take medicine? Are you worried that they are not taking their medicine?
-                                KusuriKall
-                                can notify you by email or SMS if a reminder call is not answered or there is a NO
-                                response to a follow up call.
+                                一緒に住んでいない高齢のご両親やお世話をしている人がお薬の飲み忘れがないか心配ですか？クスリコールは、お相手の方が電話に出ない場合に、登録者であるあなたのところにメールを送り、お薬の飲み忘れをお知らせしますので、薬の薬のリマインドに加えて、安全確認もできます。
                             </p>
                         </div>
                     </div>
@@ -379,124 +331,111 @@
         ============================================= -->
 <section id="s2-faq" class="s2-faq_section relative-position">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-center">
+        <div class="text-center saas_two_section_title saas2-headline">
             <span class="title_tag">
-                Frequently asked questions
+                よくある質問
             </span>
         </div>
         <!-- /section title -->
         <div class="s2_faq_content">
             <div class="accordion" id="accordionExample">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
                         <div class="s2_faq">
-                            <div class="s2_faq-header" id="headingOne">
-                                <button class="" data-toggle="collapse" data-target="#collapseOne"
-                                    aria-controls="collapseOne">
-                                    01. Is there a free trial available?
+                            <div class="s2_faq-header" id="heading1">
+                                <button class="collapsed" data-toggle="collapse" data-target="#collapse1">
+                                    01. 無料でお試しできますか？
                                 </button>
                             </div>
-                            <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                            <div id="collapse1" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Yes. When you sign up for a new account we will credit your account 1,000 yen
-                                    for you to try the service. If you want to continue to use the service then you
-                                    do not need to do anything we will automatically charge your credit card
-                                    according to the plan that you choose.
+                                    はい。ご登録後14日間、無料でお試しいただけます。15日目にご登録されたクレジットカードからお支払いがされ、毎月同じ日にお支払いとなります。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingTwo">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo">
-                                    02. Can I set up reminders to call a cell phone?
+                                    02. 登録電話を携帯電話に設定できますか。
                                 </button>
                             </div>
                             <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    No. This service is limited to landline phones only.
+                                    申し訳ございません。固定電話へのお電話のみとなります。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingThree">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseThree">
-                                    03. What is an no answer notification?
+                                    03. 電話に出なかった時のお知らせとはどういうものですか？
                                 </button>
                             </div>
                             <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    We will at tempt to call the number provided once every five minutes for up to three times or until the call is answered. If the call is not answered then an email will be sent to the email you give us. Typically this will be to a care provider so they can check on the callee.
+                                    登録された電話番号にお客様が設定したお時間にお電話をします。電話に出られるまで5分間おきに3回かけます。もし電話にでない場合、登録されているご家族またはケアテイカーあてにメールにて電話にでなかったことをお知らせします。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingFour">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseFour">
-                                    04. How do I pay for the service?
+                                    04. お支払方法は？
                                 </button>
                             </div>
                             <div id="collapseFour" class="collapse" data-parent="#accordionExample">
-                                <div class="s2_faq-body">
-                                    At the moment we only accept credit card. Your credit card will be charged on the 27th of every month. Your first months charge will be calculated according to the number of days between the date you start the service and the 27th of the month.
+                                <div class="s2_faq-body">クレジットカードでのお支払いとなります。
+                                    At the moment we only accept credit card. Your credit card will be charged on the
+                                    27th of every month. Your first months charge will be calculated according to the
+                                    number of days between the date you start the service and the 27th of the month.
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading5">
-                                <button class="" data-toggle="collapse" data-target="#collapse5"
-                                    aria-controls="collapse5">
-                                    05. What is a follow up call?
+                                <button class="collapsed" data-toggle="collapse" data-target="#collapse5">
+                                    05. スマートフォンのアプリではだめなの？
                                 </button>
                             </div>
-                            <div id="collapse5" class="collapse show" data-parent="#accordionExample">
+                            <div id="collapse5" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    This is an optional call that you can set up to call you or someone you caring
-                                    for to confirm that the medicine was taken. The callee can confirm by pressing 1
-                                    for yes and 2 for no. If the answer is no we can send an email or SMS to the
-                                    care taker.
+                                    スマートフォンには多くの便利な機能のついたアプリがあります。しかし、常に手元に持ち歩いていなければアプリの意味がありません。特に多くのご高齢者は携帯の不携帯が多いようです。クスリコールは、家の固定電話にお電話でお知らせをするため、聞こえない、ということがなく、毎日、薬の服用を忘れません。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading6">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse6">
-                                    06. Can I set up other kinds of reminder calls?
+                                    06. クスリコールを別の用途で使用できますか？
                                 </button>
                             </div>
                             <div id="collapse6" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Yes, you can set a reminder for anything you like. You can set it to wake you up everyday or to remind you of something that you need to do everyday.
+                                    はい。クスリコールはお薬のリマインドだけではなく、お好きなようにご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading7">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse7">
-                                    07. Why not just use a smartphone application?
+                                    07. スマートフォンの時代になぜ固定電話？
                                 </button>
                             </div>
                             <div id="collapse7" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Smartphone apps are useful and there are many goods apps avaialble. However they
-                                    do not work well unless you always have the phone with you. If you do not have
-                                    it with you then you will not hear it. KusuriKall reminders to a home phone can
-                                    usually be heard easily through the whole house. If you did not hear the call
-                                    the first time we will call you up to three times.
+                                    不思議に思われる方も多いことでしょう。とても便利で生活に欠かせないスマートフォンですが、ご高齢者やスマホを使いこなせない方には固定電話でのご連絡がまだまだ必要な時代です。スマホは便利で慣れすぎてしまいアラームをすぐに消してしまう、その場から立ち上がらないから忘れてしまう、などの問題を解決するのがクスリコールです。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading8">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse8">
-                                    08. Can I cancel anytime?
+                                    08. キャンセルはいつでもできますか？
                                 </button>
                             </div>
                             <div id="collapse8" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Yes, you can. Once you cancel your card will not be charged anymore. You will
-                                    still be able to use the balance that is leftover in your account.
+                                    はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。
                                 </div>
                             </div>
                         </div>
@@ -512,7 +451,7 @@
         ============================================= -->
 <section id="s2-pricing" class="s2-pricing_section">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-center">
+        <div class="text-center saas_two_section_title saas2-headline">
             <h2> MedCall Pricing</h2>
             <p class="pt-2">
                 All plans include a free 1000 yen credit for your to try the service. You will be automatically
@@ -522,116 +461,35 @@
         <!-- /section title -->
         <div class="s2-pricing_content">
             <div class="row justify-content-md-center">
-                <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-pricing_item">
-                        <div class="s2-pricing_price text-center clearfix">
-                            <div class="s2-pricing_text">
-                                <strong>900円</strong>
-                                <div class="s2-pricing-subtext">KusuriKall Credits</div>
-                            </div>
+                        <div class="clearfix text-center s2-pricing_price ">
+
+                            <strong>月額<span class="plan-price-num">1,700</span>円</strong>
                         </div>
 
                         <div class="s2-pricing_list ul-li-block">
                             <ul>
                                 <li class="text-center">
-                                    約34回固定電話薬コール
+                                    14日間無料試し
                                 </li>
                                 <li class="text-center">
-                                    約22携帯電話薬コール
+                                    毎日3回まで固定電話薬コール
                                 </li>
                                 <li class="text-center">
-                                    1000円free trial included
+                                    いつでもキャンセール可能
                                 </li>
                                 <li class="text-center">
-                                    Cancel anytime
+                                パーソナライズされたメッセージ内容
                                 </li>
                                 <li class="text-center">
-                                    Auto recharge when account reaches 200 yen
+                                電話に出ないとメールでお知らせ
                                 </li>
+
                             </ul>
                         </div>
                         <div class="s2-pricing_btn">
-                        @if (Auth::check())
-                        //show logged in navbar
-                        <a href="billing/user"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                        @else
-                        <a href="register"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                        @endif
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="s2-pricing_item">
-                        <div class="s2-pricing_price text-center clearfix">
-                            <div class="s2-pricing_text">
-                                <strong>1,700円</strong>
-                                <div class="s2-pricing-subtext">KusuriKall Credits</div>
-                            </div>
-                        </div>
-                        <div class="s2-pricing_list ul-li-block">
-                            <ul>
-                                <li class="text-center">
-                                    約65回固定電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    約42携帯電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    1000円free trial included
-                                </li>
-                                <li class="text-center">
-                                    Cancel anytime
-                                </li>
-                                <li class="text-center">
-                                    Auto recharge when account reaches 200 yen
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="s2-pricing_btn">
-                            @if (Auth::check())
-                            //show logged in navbar
-                            <a href="billing/user"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @else
-                            <a href="register"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @endif
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="s2-pricing_item">
-                        <div class="s2-pricing_price text-center clearfix">
-                            <div class="s2-pricing_text">
-                                <strong>2,500円</strong>
-                                <div class="s2-pricing-subtext">KusuriKall Credits</div>
-                            </div>
-                        </div>
-                        <div class="s2-pricing_list ul-li-block">
-                            <ul>
-                                <li class="text-center">
-                                    約96回固定電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    約62携帯電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    1000円free trial included
-                                </li>
-                                <li class="text-center">
-                                    Cancel anytime
-                                </li>
-                                <li class="text-center">
-                                    Auto recharge when account reaches 200 yen
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="s2-pricing_btn">
-                            @if (Auth::check())
-                            //show logged in navbar
-                            <a href="billing/user"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @else
-                            <a href="register"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @endif
+                            <a href="#"><i class="fas fa-cloud-download-alt"></i>14日間無料試し</a>
                         </div>
                     </div>
                 </div>
@@ -644,35 +502,7 @@
 
 <!-- Start of early sign up section
         ============================================= -->
-<div class="saas_early">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 text-center">
-                <h1>Prelaunch Bonus 2000円</h1>
 
-                <p>Sign up now and we will give you 2,000 yen<br> in credits when the service starts.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-12 pt-4">
-                <!-- Success message -->
-                @if(Session::has('success'))
-                <div class="alert alert-success">
-                    {{Session::get('success')}}
-                </div>
-                @endif
-
-                <form action="" method="post" action="{{ route('Prelaunchemail.store') }}">
-                    @csrf
-                    <div class="form-group">
-                        <input name="email" id="email" class="form-control" placeholder="Enter email">
-                    </div>
-                    <button type="submit" class="saas_early_button">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- End of early sign up section
         ============================================= -->
 
@@ -681,7 +511,7 @@
 <div class="about">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 text-center">
+            <div class="text-center col-lg-8 col-md-12">
                 <h1>About KusuriKall</h1>
             </div>
             <div class="col-lg-10 col-md-12">
