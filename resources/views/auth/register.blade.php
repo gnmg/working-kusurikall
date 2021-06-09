@@ -46,6 +46,7 @@
                 <x-input id="password_confirmation" class="block w-full mt-1" type="password"
                     name="password_confirmation" required />
             </div>
+            <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
 
             <div class="flex items-center justify-end mt-4">
                 <!-- <a class="text-sm text-gray-600 underline hover:text-gray-900" href="{{ route('login') }}">
