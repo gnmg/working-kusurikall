@@ -1,8 +1,8 @@
 <template>
-    <div class="font-sans antialiased min-h-screen bg-gray-100">
-        <div class="min-h-screen flex">
-            <!-- Static Desktop Sidebar -->
-            <div class="hidden lg:block w-92 pt-24 px-6 bg-white shadow-lg" id="sideBar">
+    <div class="min-h-screen font-sans antialiased bg-gray-100">
+        <div class="flex min-h-screen">
+            <!-- Static Desktop Sidebar1 -->
+             <div class="hidden px-6 pt-24 bg-white shadow-lg lg:block w-92" id="sideBar">
                 <div class="max-w-md" v-if="$page.props.appLogo" v-html="$page.props.appLogo">
                 </div>
 
@@ -15,11 +15,11 @@
                 </h2>
 
                 <div class="flex items-center mt-12 text-gray-600">
-                    <div>
+                    <div>rr
                         {{ __('Signed in as') }}
                     </div>
 
-                    <img :src="$page.props.userAvatar" class="ml-2 h-6 w-6 rounded-full" v-if="$page.props.userAvatar"/>
+                    <img :src="$page.props.userAvatar" class="w-6 h-6 ml-2 rounded-full" v-if="$page.props.userAvatar"/>
 
                     <div :class="{'ml-1': ! $page.props.userAvatar, 'ml-2': $page.props.userAvatar}">
                         {{ $page.props.userName }}.
@@ -42,7 +42,7 @@
 
                 <div class="mt-12" id="sideBarReturnLink">
                     <a :href="$page.props.dashboardUrl" class="flex items-center">
-                        <svg viewBox="0 0 20 20" fill="currentColor" class="arrow-left w-5 h-5 text-gray-400">
+                        <svg viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 text-gray-400 arrow-left">
                             <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
                         </svg>
 
@@ -55,8 +55,8 @@
 
             <div class="flex-1">
                 <!-- Mobile Top Nav -->
-                <a :href="$page.props.dashboardUrl" class="lg:hidden flex items-center w-full px-4 py-4 bg-white shadow-lg" id="topNavReturnLink">
-                    <svg viewBox="0 0 20 20" fill="currentColor" class="arrow-left w-4 h-4 text-gray-400">
+                <a :href="$page.props.dashboardUrl" class="flex items-center w-full px-4 py-4 bg-white shadow-lg lg:hidden" id="topNavReturnLink">
+                    <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 text-gray-400 arrow-left">
                         <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
                     </svg>
 
@@ -66,7 +66,7 @@
                 </a>
 
                 <!-- Main Content -->
-                <div class="pb-6 pt-6 lg:pt-24 lg:pb-24 lg:max-w-4xl lg:mx-auto">
+                <div class="pt-6 pb-6 lg:pt-24 lg:pb-24 lg:max-w-4xl lg:mx-auto">
                     <!-- Error Messages -->
                     <error-messages class="mb-10 sm:px-8" :errors="errors" v-if="errors.length > 0"/>
 
@@ -77,128 +77,128 @@
                         </section-heading>
 
                         <div class="mt-6 sm:px-8">
-                            <div class="bg-white sm:rounded-lg shadow-sm overflow-hidden" v-if="subscribing">
+                            <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg" v-if="subscribing">
                                 <plan :plan="subscribing" :seat-name="$page.props.seatName"/>
                             </div>
 
-                            <div class="mt-6 bg-white sm:rounded-lg shadow-sm overflow-hidden">
+                            <div class="mt-6 overflow-hidden bg-white shadow-sm sm:rounded-lg">
                                 <div class="px-6 py-4">
                                     <h2 class="text-xl font-semibold text-gray-700">
                                         {{ __('Subscription Information') }}
                                     </h2>
 
-                                    <div class="mt-6 flex items-center">
-                                        <span class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Card') }}</span>
+                                    <div class="flex items-center mt-6">
+                                        <span class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Card') }}</span>
 
-                                        <div id="card-element" class="w-full bg-white border border-gray-200 p-3 rounded"></div>
+                                        <div id="card-element" class="w-full p-3 bg-white border border-gray-200 rounded"></div>
                                     </div>
 
-                                    <div class="mt-1 flex items-center" v-if="! showingCouponCode">
+                                    <div class="flex items-center mt-1" v-if="! showingCouponCode">
                                         <span class="w-1/3 mr-10">&nbsp;</span>
 
-                                        <button class="w-full text-gray-400 text-sm underline text-left active:outline-none focus:outline-none" @click="showCouponCode">
+                                        <button class="w-full text-sm text-left text-gray-400 underline active:outline-none focus:outline-none" @click="showCouponCode">
                                             {{ __('Have a coupon code?') }}
                                         </button>
                                     </div>
 
-                                    <div class="mt-6 flex items-center" v-if="showingCouponCode">
-                                        <label for="coupon" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Coupon') }}</label>
+                                    <div class="flex items-center mt-6" v-if="showingCouponCode">
+                                        <label for="coupon" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Coupon') }}</label>
 
                                         <input type="text" id="coupon" ref="coupon"
                                                v-model="subscriptionForm.coupon"
                                                :placeholder="__('Coupon')"
                                                @keyup.enter="confirmSubscription"
-                                               class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                               class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                     </div>
 
                                     <template v-if="collectsVat">
-                                        <div class="mt-6 flex items-center">
-                                            <span class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Country') }}</span>
+                                        <div class="flex items-center mt-6">
+                                            <span class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Country') }}</span>
 
                                             <select name="country" id="country"
                                                     v-model="subscriptionForm.country"
-                                                    class="form-select w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none">
+                                                    class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none form-select">
                                                 <option value="" disabled="">{{ __('Select') }}</option>
                                                 <option v-for="(name, iso) in $page.props.countries" :value="iso">{{ name }}</option>
                                             </select>
                                         </div>
 
-                                        <div class="mt-1 flex items-center" v-if="! addingVatNumber && vatComplicit">
+                                        <div class="flex items-center mt-1" v-if="! addingVatNumber && vatComplicit">
                                             <span class="w-1/3 mr-10">&nbsp;</span>
 
-                                            <button class="w-full text-gray-400 text-sm underline text-left active:outline-none focus:outline-none" @click="showVatNumber">
+                                            <button class="w-full text-sm text-left text-gray-400 underline active:outline-none focus:outline-none" @click="showVatNumber">
                                                 {{ __('Add VAT Number') }}
                                             </button>
                                         </div>
 
                                         <template v-if="addingVatNumber && vatComplicit">
-                                            <div class="mt-6 flex items-center">
-                                                <label for="vat" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('VAT Number') }}</label>
+                                            <div class="flex items-center mt-6">
+                                                <label for="vat" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('VAT Number') }}</label>
 
                                                 <input type="text" id="vat" ref="vat"
                                                        v-model="subscriptionForm.vat"
                                                        :placeholder="__('VAT Number')"
-                                                       class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                       class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                             </div>
 
-                                            <div class="mt-6 flex items-center">
-                                                <label for="address" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Address') }}</label>
+                                            <div class="flex items-center mt-6">
+                                                <label for="address" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Address') }}</label>
 
                                                 <input type="text" id="address" ref="address"
                                                        v-model="subscriptionForm.address"
                                                        :placeholder="__('Address')"
-                                                       class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                       class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                             </div>
 
-                                            <div class="mt-6 flex items-center">
-                                                <label for="address2" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Address Line 2') }}</label>
+                                            <div class="flex items-center mt-6">
+                                                <label for="address2" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Address Line 2') }}</label>
 
                                                 <input type="text" id="address2" ref="address2"
                                                        v-model="subscriptionForm.address2"
                                                        :placeholder="__('Address Line 2')"
-                                                       class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                       class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                             </div>
 
-                                            <div class="mt-6 flex items-center">
-                                                <label for="city" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('City') }}</label>
+                                            <div class="flex items-center mt-6">
+                                                <label for="city" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('City') }}</label>
 
                                                 <input type="text" id="city" ref="city"
                                                        v-model="subscriptionForm.city"
                                                        :placeholder="__('City')"
-                                                       class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                       class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                             </div>
 
-                                            <div class="mt-6 flex items-center">
-                                                <label for="state" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('State / County') }}</label>
+                                            <div class="flex items-center mt-6">
+                                                <label for="state" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('State / County') }}</label>
 
                                                 <input type="text" id="state" ref="state"
                                                        v-model="subscriptionForm.state"
                                                        :placeholder="__('State / County')"
-                                                       class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                       class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                             </div>
 
-                                            <div class="mt-6 flex items-center">
-                                                <label for="postal_code" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Zip / Postal Code') }}</label>
+                                            <div class="flex items-center mt-6">
+                                                <label for="postal_code" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Zip / Postal Code') }}</label>
 
                                                 <input type="text" id="postal_code" ref="postal_code"
                                                        v-model="subscriptionForm.postal_code"
                                                        :placeholder="__('Zip / Postal Code')"
-                                                       class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                       class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                             </div>
                                         </template>
                                     </template>
 
-                                    <div class="mt-6 flex">
-                                        <label for="extra" class="w-1/3 mr-10 mt-2 text-gray-800 text-sm font-semibold">{{ __('Extra Billing Information') }}</label>
+                                    <div class="flex mt-6">
+                                        <label for="extra" class="w-1/3 mt-2 mr-10 text-sm font-semibold text-gray-800">{{ __('Extra Billing Information') }}</label>
 
                                         <textarea id="extra" rows="5"
                                                   v-model="subscriptionForm.extra"
                                                   :placeholder="__('If you need to add specific contact or tax information to your receipts, like your full business name, VAT identification number, or address of record, you may add it here.')"
-                                                  class="w-full bg-white border border-gray-200 px-3 py-2 rounded focus:outline-none"></textarea>
+                                                  class="w-full px-3 py-2 bg-white border border-gray-200 rounded focus:outline-none"></textarea>
                                     </div>
                                 </div>
 
-                                <div class="px-6 py-4 mt-5 bg-gray-100 bg-opacity-50 border-t border-gray-100 flex items-center">
+                                <div class="flex items-center px-6 py-4 mt-5 bg-gray-100 bg-opacity-50 border-t border-gray-100">
                                     <div v-if="! loadingTaxCalculations">
                                         <span v-if="checkoutAmount" v-html="__('Total:') + ' ' + checkoutAmount"></span>
                                         <span v-if="checkoutTax" v-html="'(' + checkoutTax + ' ' + __('TAX') + ')'" class="ml-1 text-gray-600"></span>
@@ -216,8 +216,8 @@
                         </div>
 
                         <!-- Nevermind -->
-                        <button class="flex items-center mt-4 px-4 sm:px-8" @click="subscribing = false">
-                            <svg viewBox="0 0 20 20" fill="currentColor" class="text-gray-400 w-4 h-4">
+                        <button class="flex items-center px-4 mt-4 sm:px-8" @click="subscribing = false">
+                            <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 text-gray-400">
                                 <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
                             </svg>
 
@@ -241,7 +241,7 @@
                             </div>
 
                             <!-- Interval Selector -->
-                            <interval-selector class="mt-6 px-4 sm:px-8"
+                            <interval-selector class="px-4 mt-6 sm:px-8"
                                                :showing-monthly-plans="showingPlansOfInterval == 'monthly'"
                                                @toggled="toggleDisplayedPlanIntervals"
                                                v-if="monthlyPlans.length > 0 && yearlyPlans.length > 0"/>
@@ -283,7 +283,7 @@
                                     {{ __('You are currently within your free trial period. Your trial will expire on :date.', {'date': $page.props.trialEndsAt}) }}
                                 </info-messages>
 
-                                <div class="bg-white sm:rounded-lg shadow-sm" v-if="! selectingNewPlan">
+                                <div class="bg-white shadow-sm sm:rounded-lg" v-if="! selectingNewPlan">
                                     <plan :plan="plan" :seat-name="seatName" :hide-incentive="true"/>
 
                                     <div class="px-6 pb-4">
@@ -297,7 +297,7 @@
 
                             <div v-if="selectingNewPlan">
                                 <!-- Interval Selector -->
-                                <interval-selector class="mt-6 px-4 sm:px-8"
+                                <interval-selector class="px-4 mt-6 sm:px-8"
                                                    :showing-monthly-plans="showingPlansOfInterval == 'monthly'"
                                                    @toggled="toggleDisplayedPlanIntervals"
                                                    v-if="monthlyPlans.length > 0 && yearlyPlans.length > 0"/>
@@ -323,8 +323,8 @@
                                 </transition>
 
                                 <!-- Nevermind, Keep Old Plan -->
-                                <button class="flex items-center mt-4 px-4 sm:px-8" @click="selectingNewPlan = false">
-                                    <svg viewBox="0 0 20 20" fill="currentColor" class="text-gray-400 w-4 h-4">
+                                <button class="flex items-center px-4 mt-4 sm:px-8" @click="selectingNewPlan = false">
+                                    <svg viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 text-gray-400">
                                         <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
                                     </svg>
 
@@ -341,7 +341,7 @@
                                 </section-heading>
 
                                 <div class="mt-3 sm:px-8">
-                                    <div class="bg-white sm:rounded-lg shadow-sm overflow-hidden">
+                                    <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
                                         <div class="px-6 py-4">
                                             <p class="max-w-2xl text-sm text-gray-600" v-if="$page.props.paymentMethod == 'card'"
                                                v-html="__('Your current payment method is a credit card ending in :lastFour that expires on :expiration.', {
@@ -350,7 +350,7 @@
                                                 })">
                                             </p>
 
-                                            <p class="max-w-2xl text-sm text-gray-600 mt-3" v-if="$page.props.billable.vat_id"
+                                            <p class="max-w-2xl mt-3 text-sm text-gray-600" v-if="$page.props.billable.vat_id"
                                                v-html="__('Your registered VAT Number is :vatNumber.', {
                                                     vatNumber: '<span class=\'font-semibold\'>'+$page.props.billable.vat_id+'</span>',
                                                 })">
@@ -360,73 +360,73 @@
                                                 {{ __('Update Payment Information') }}
                                             </spark-button>
 
-                                            <div class="mt-6 flex items-center" v-if="updatingPaymentMethod">
-                                                <span class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Card') }}</span>
+                                            <div class="flex items-center mt-6" v-if="updatingPaymentMethod">
+                                                <span class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Card') }}</span>
 
-                                                <div id="payment-card-element" class="w-full border border-gray-200 p-3 rounded"></div>
+                                                <div id="payment-card-element" class="w-full p-3 border border-gray-200 rounded"></div>
                                             </div>
 
                                             <template v-if="updatingPaymentMethod && collectsVat">
-                                                <div class="mt-6 flex items-center">
-                                                    <label for="vat" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('VAT Number') }}</label>
+                                                <div class="flex items-center mt-6">
+                                                    <label for="vat" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('VAT Number') }}</label>
 
                                                     <input type="text" id="vat" ref="vat"
                                                            v-model="paymentInformationForm.vat"
                                                            :placeholder="__('VAT Number')"
-                                                           class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                           class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                                 </div>
 
-                                                <div class="mt-6 flex items-center">
-                                                    <label for="address" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Address') }}</label>
+                                                <div class="flex items-center mt-6">
+                                                    <label for="address" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Address') }}</label>
 
                                                     <input type="text" id="address" ref="address"
                                                            v-model="paymentInformationForm.address"
                                                            :placeholder="__('Address')"
-                                                           class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                           class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                                 </div>
 
-                                                <div class="mt-6 flex items-center">
-                                                    <label for="address2" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Address Line 2') }}</label>
+                                                <div class="flex items-center mt-6">
+                                                    <label for="address2" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Address Line 2') }}</label>
 
                                                     <input type="text" id="address2" ref="address2"
                                                            v-model="paymentInformationForm.address2"
                                                            :placeholder="__('Address Line 2')"
-                                                           class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                           class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                                 </div>
 
-                                                <div class="mt-6 flex items-center">
-                                                    <label for="city" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('City') }}</label>
+                                                <div class="flex items-center mt-6">
+                                                    <label for="city" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('City') }}</label>
 
                                                     <input type="text" id="city" ref="city"
                                                            v-model="paymentInformationForm.city"
                                                            :placeholder="__('City')"
-                                                           class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                           class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                                 </div>
 
-                                                <div class="mt-6 flex items-center">
-                                                    <label for="state" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('State / County') }}</label>
+                                                <div class="flex items-center mt-6">
+                                                    <label for="state" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('State / County') }}</label>
 
                                                     <input type="text" id="state" ref="state"
                                                            v-model="paymentInformationForm.state"
                                                            :placeholder="__('State / County')"
-                                                           class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                           class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                                 </div>
 
-                                                <div class="mt-6 flex items-center">
-                                                    <label for="postal_code" class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Zip / Postal Code') }}</label>
+                                                <div class="flex items-center mt-6">
+                                                    <label for="postal_code" class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Zip / Postal Code') }}</label>
 
                                                     <input type="text" id="postal_code" ref="postal_code"
                                                            v-model="paymentInformationForm.postal_code"
                                                            :placeholder="__('Zip / Postal Code')"
-                                                           class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                           class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                                 </div>
 
-                                                <div class="mt-6 flex items-center">
-                                                    <span class="w-1/3 mr-10 text-gray-800 text-sm font-semibold">{{ __('Country') }}</span>
+                                                <div class="flex items-center mt-6">
+                                                    <span class="w-1/3 mr-10 text-sm font-semibold text-gray-800">{{ __('Country') }}</span>
 
                                                     <select name="country" id="country"
                                                             v-model="paymentInformationForm.country"
-                                                            class="form-select w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none">
+                                                            class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none form-select">
                                                         <option value="" disabled="">{{ __('Select') }}</option>
                                                         <option v-for="(name, iso) in $page.props.countries" :value="iso">{{ name }}</option>
                                                     </select>
@@ -434,7 +434,7 @@
                                             </template>
                                         </div>
 
-                                        <div class="px-6 py-4 mt-5 bg-gray-100 bg-opacity-50 border-t border-gray-100 text-right" v-if="updatingPaymentMethod">
+                                        <div class="px-6 py-4 mt-5 text-right bg-gray-100 bg-opacity-50 border-t border-gray-100" v-if="updatingPaymentMethod">
                                             <spark-button @click.native="updatePaymentMethod" disabled="true" ref="updatePaymentMethodButton">
                                                 {{ __('Update Payment Information') }}
                                             </spark-button>
@@ -444,12 +444,12 @@
                             </div>
 
                             <!-- Cancel Subscription -->
-                            <section-heading class="mt-10 px-4 sm:px-8">
+                            <section-heading class="px-4 mt-10 sm:px-8">
                                 {{ __('Cancel Subscription') }}
                             </section-heading>
 
                             <div class="mt-3 sm:px-8">
-                                <div class="px-6 py-4 bg-white sm:rounded-lg shadow-sm">
+                                <div class="px-6 py-4 bg-white shadow-sm sm:rounded-lg">
                                     <div class="max-w-2xl text-sm text-gray-600">
                                         {{ __('You may cancel your subscription at any time. Once your subscription has been cancelled, you will have the option to resume the subscription until the end of your current billing cycle.') }}
                                     </div>
@@ -471,7 +471,7 @@
                             </section-heading>
 
                             <div class="mt-3 sm:px-8">
-                                <div class="px-6 py-4 bg-white sm:rounded-lg shadow-sm">
+                                <div class="px-6 py-4 bg-white shadow-sm sm:rounded-lg">
                                     <div class="max-w-2xl text-sm text-gray-600">
                                         {{ __('Having second thoughts about cancelling your subscription? You can instantly reactive your subscription at any time until the end of your current billing cycle. After your current billing cycle ends, you may choose an entirely new subscription plan.') }}
                                     </div>
@@ -492,22 +492,22 @@
                             </section-heading>
 
                             <div class="mt-3 sm:px-8">
-                                <div class="bg-white sm:rounded-lg shadow-sm">
+                                <div class="bg-white shadow-sm sm:rounded-lg">
                                     <div class="px-6 py-4 ">
                                         <div class="max-w-2xl text-sm text-gray-600">
                                             {{ __('If you need to add specific contact or tax information to your receipts, like your full business name, VAT identification number, or address of record, you may add it here.') }}
                                         </div>
 
-                                        <div class="mt-6 flex">
-                                            <label for="extra" class="w-1/3 mr-10 mt-2 text-gray-800 text-sm font-semibold">{{ __('Extra Billing Information') }}</label>
+                                        <div class="flex mt-6">
+                                            <label for="extra" class="w-1/3 mt-2 mr-10 text-sm font-semibold text-gray-800">{{ __('Extra Billing Information') }}</label>
 
                                             <textarea id="extra" rows="3"
                                                       v-model="billingInformationForm.extra"
-                                                      class="w-full border border-gray-200 px-3 py-2 rounded focus:outline-none"></textarea>
+                                                      class="w-full px-3 py-2 border border-gray-200 rounded focus:outline-none"></textarea>
                                         </div>
                                     </div>
 
-                                    <div class="px-6 py-4 mt-5 bg-gray-100 bg-opacity-50 border-t border-gray-100 text-right">
+                                    <div class="px-6 py-4 mt-5 text-right bg-gray-100 bg-opacity-50 border-t border-gray-100">
                                         <spark-button @click.native="updateBillingInformation">
                                             {{ __('Update') }}
                                         </spark-button>
@@ -523,23 +523,23 @@
                             </section-heading>
 
                             <div class="mt-3 sm:px-8">
-                                <div class="bg-white sm:rounded-lg shadow-sm">
+                                <div class="bg-white shadow-sm sm:rounded-lg">
                                     <div class="px-6 py-4 ">
                                         <div class="max-w-2xl text-sm text-gray-600">
                                             {{ __('We will send a receipt download link to the email addresses that you specify below. You may separate multiple email addresses using commas.') }}
                                         </div>
 
-                                        <div class="mt-6 flex">
-                                            <label for="receipt_emails" class="w-1/3 mr-10 mt-2 text-gray-800 text-sm font-semibold">{{ __('Email Addresses') }}</label>
+                                        <div class="flex mt-6">
+                                            <label for="receipt_emails" class="w-1/3 mt-2 mr-10 text-sm font-semibold text-gray-800">{{ __('Email Addresses') }}</label>
 
                                             <input type="text" id="receipt_emails" ref="city"
                                                    v-model="receiptEmailsForm.receipt_emails"
                                                    :placeholder="__('Email Addresses')"
-                                                   class="w-full bg-white border border-gray-200 px-3 py-2 rounded outline-none"/>
+                                                   class="w-full px-3 py-2 bg-white border border-gray-200 rounded outline-none"/>
                                         </div>
                                     </div>
 
-                                    <div class="px-6 py-4 mt-5 bg-gray-100 bg-opacity-50 border-t border-gray-100 text-right">
+                                    <div class="px-6 py-4 mt-5 text-right bg-gray-100 bg-opacity-50 border-t border-gray-100">
                                         <spark-button @click.native="updateReceiptEmails">
                                             {{ __('Save') }}
                                         </spark-button>
@@ -557,7 +557,7 @@
                             <receipt-list class="mt-3 sm:px-8" :receipts="$page.props.receipts"/>
                         </div>
 
-                        <div class="text-center mt-10 lg:hidden" id="footerTermsLink" v-if="$page.props.termsUrl">
+                        <div class="mt-10 text-center lg:hidden" id="footerTermsLink" v-if="$page.props.termsUrl">
                             <a :href="$page.props.termsUrl" class="text-gray-600 underline">
                                 {{ __('Terms of Service') }}
                             </a>

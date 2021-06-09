@@ -2,6 +2,14 @@
 
 use Illuminate\Support\Str;
 
+
+// define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
+// define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
+// define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
+// define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
+// define('RDS_PORT', $_SERVER['RDS_PORT']);
+
+
 return [
 
     /*
@@ -15,7 +23,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -45,12 +53,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'url' => array_key_exists('DATABASE_URL', $_SERVER) ? $_SERVER['DATABASE_URL'] : env('DATABASE_URL'),
+            'host' => array_key_exists('DB_HOST', $_SERVER) ? $_SERVER['DB_HOST'] : env('DB_HOST'),
+            'port' => array_key_exists('DB_PORT', $_SERVER) ? $_SERVER['DB_PORT'] : env('DB_PORT'),
+            'database' => array_key_exists('DB_DATABASE', $_SERVER) ? $_SERVER['DB_DATABASE'] : env('DB_DATABASE'),
+            'username' => array_key_exists('DB_USERNAME', $_SERVER) ? $_SERVER['DB_USERNAME'] : env('DB_USERNAME'),
+            'password' => array_key_exists('DB_PASSWORD', $_SERVER) ? $_SERVER['DB_PASSWORD'] : env('DB_PASSWORD'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -62,6 +70,63 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
+
+
+
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'url' => env('DATABASE_URL'),
+        //     'host' => env('DB_HOSTNAME', 'localhost'),
+        //     'port' => env('DB_PORT', '3306'),
+        //     'database' => env('DB_NAME', 'forge'),
+        //     'username' => env('DB_USERNAME', 'forge'),
+        //     'password' => env('DB_PASSWORD', ''),
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'prefix_indexes' => true,
+        //     'strict' => true,
+        //     'engine' => null,
+        //     'options' => extension_loaded('pdo_mysql') ? array_filter([
+        //         PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        //     ]) : [],
+        // ],
+
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'url' => env('DATABASE_URL'),
+        //     'host' => RDS_HOSTNAME,
+        //     'port' => env('DB_PORT', '3306'),
+        //     'database' => RDS_DB_NAME,
+        //     'username' => RDS_USERNAME,
+        //     'password' => RDS_PASSWORD,
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'prefix_indexes' => true,
+        //     'strict' => true,
+        //     'engine' => null,
+        //     'options' => extension_loaded('pdo_mysql') ? array_filter([
+        //         PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        //     ]) : [],
+        // ],
+
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'host' => RDS_HOSTNAME,
+        //     'port' => RDS_PORT,
+        //     'database' => RDS_DB_NAME,
+        //     'username' => RDS_USERNAME,
+        //     'password' => RDS_PASSWORD,
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'strict' => true,
+        //     'engine' => null,
+        // ]
 
         'pgsql' => [
             'driver' => 'pgsql',

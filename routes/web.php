@@ -99,3 +99,4 @@ Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name
 //Prelaunch Email
 Route::get('/', [PrelaunchemailController::class, 'createmailForm']);
 Route::post('/', [PrelaunchemailController::class, 'PrelaunchemailForm'])->name('Prelaunchemail.store');
+

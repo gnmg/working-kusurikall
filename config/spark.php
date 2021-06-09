@@ -125,10 +125,10 @@ return [
                 [
                     'name' => 'Standard',
                     'short_description' => 'This is a short, human friendly description of the plan.',
-                    'monthly_id' => 'price_1IhYH3HV1Bj7WMm3MNJ709Zc',
+                    'monthly_id' => 'price_1I3CYzFMVk1XeOZgymYRYAqL',
                     //'yearly_id' => 'price_id',
                     'features' => [ 
-                        'Feature 1',
+                        'Feature ',
                         'Feature 2',
                         'Feature 3',
                     ],

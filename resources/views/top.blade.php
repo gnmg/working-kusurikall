@@ -3,22 +3,20 @@
 @section('content')
 <!-- Start of Header section
         ============================================= -->
-<section id="saas_two_banner" class="saas_two_banner_section relative-position">
+        <section id="saas_two_banner" class="saas_two_banner_section relative-position">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="s2-banner_area relative-position">
-                    <div class="s2-banner_content saas2-headline pera-content text-center">
+                    <div class="text-center s2-banner_content saas2-headline pera-content">
                         <h1>
-                            Never Forget <br>Your Medicine<br>again!
+                            お薬をのみ</br>わすれますか？
                         </h1>
                         <p>
-                            Personalized phone reminder for you or a loved one to take your medicine. Never forget
-                            again.
+                            お薬の飲み忘れを防ぐために</br>毎日お電話でお知らせします
                         </p>
-                        <div class="banner_btn text-center">
-                            <a href="#">Prelaunch Special</a>
-                            <p>pre launch</p>
+                        <div class="text-center banner_btn">
+                            <a href="#">14日間無料試し</a>
                         </div>
                     </div>
                     <div class="banner_mockup d-none d-lg-block">
@@ -35,14 +33,14 @@
         ============================================= -->
 <section id="saas_two_service" class="saas_two_service_section">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-center">
+        <div class="text-center saas_two_section_title saas2-headline">
 
-            <h2>KusuriCall Reminds You To<br>Take Your Medicine on Time Everytime</h2>
+            <h2>KusuriKall は毎日定刻にお薬を服用するためにお電話でリマインドします</h2>
         </div>
         <!-- /section title -->
         <div class="service_content">
             <div class="row justify-content-md-center">
-                <div class="col-lg-4 col-md-6  wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
@@ -82,45 +80,14 @@
                                             </g>
                                         </g>
                                     </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
                                 </svg>
                             </div>
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>Phone Call Reminder</h3>
+                            <h3>電話でお知らせ</h3>
                             <p>
-                                Receive up to three remider calls a day to a home phone to remind yourself or someone
-                                you are taking care of to take their medicine.
+                                ご自宅の固定電話に1日3回まで、お薬の時間にお電話をします。
                             </p>
                         </div>
                     </div>
@@ -147,10 +114,9 @@
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>Personalized Message</h3>
+                            <h3>パーソナライズされたメッセージ内容</h3>
                             <p>
-                                Enter a personalized message to be played when the call is answered. You can explain
-                                what medicine needs to be taken.
+                                メッセージの内容はパーソナライズされているのでどのお薬を飲むのかをメッセージで伝えることができます。
                             </p>
                         </div>
                     </div>
@@ -174,10 +140,9 @@
                             </div>
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>No Answer Notification</h3>
+                            <h3>電話に出ないと…</h3>
                             <p>
-                                We will make three attempts to call. If the call is not answered then an sos email
-                                notification will be sent. This is great for caretakers.
+                                3回お電話しても電話にでない場合は、事前に登録されている方にお薬の飲み忘れがあることをメールでお知らせします。
                             </p>
                         </div>
                     </div>
@@ -248,21 +213,71 @@
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
-                                <svg id="Layer_5" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64"
-                                    width="512" xmlns="http://www.w3.org/2000/svg">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 512.076 512.076" style="enable-background:new 0 0 512.076 512.076;"
+                                    xml:space="preserve">
+                                    <g transform="translate(-1 -1)">
+                                        <g>
+                                            <g>
+                                                <path style="fill:#6194FF;"
+                                                    d="M499.639,396.039l-103.646-69.12c-13.153-8.701-30.784-5.838-40.508,6.579l-30.191,38.818
+				                        c-3.88,5.116-10.933,6.6-16.546,3.482l-5.743-3.166c-19.038-10.377-42.726-23.296-90.453-71.04s-60.672-71.45-71.049-90.453
+				                        l-3.149-5.743c-3.161-5.612-1.705-12.695,3.413-16.606l38.792-30.182c12.412-9.725,15.279-27.351,6.588-40.508l-69.12-103.646
+				                        C109.12,1.056,91.25-2.966,77.461,5.323L34.12,31.358C20.502,39.364,10.511,52.33,6.242,67.539
+				                        c-15.607,56.866-3.866,155.008,140.706,299.597c115.004,114.995,200.619,145.92,259.465,145.92
+				                        c13.543,0.058,27.033-1.704,40.107-5.239c15.212-4.264,28.18-14.256,36.181-27.878l26.061-43.315
+				                        C517.063,422.832,513.043,404.951,499.639,396.039z M494.058,427.868l-26.001,43.341c-5.745,9.832-15.072,17.061-26.027,20.173
+				                        c-52.497,14.413-144.213,2.475-283.008-136.32S8.29,124.559,22.703,72.054c3.116-10.968,10.354-20.307,20.198-26.061
+				                        l43.341-26.001c5.983-3.6,13.739-1.855,17.604,3.959l37.547,56.371l31.514,47.266c3.774,5.707,2.534,13.356-2.85,17.579
+				                        l-38.801,30.182c-11.808,9.029-15.18,25.366-7.91,38.332l3.081,5.598c10.906,20.002,24.465,44.885,73.967,94.379
+				                        c49.502,49.493,74.377,63.053,94.37,73.958l5.606,3.089c12.965,7.269,29.303,3.898,38.332-7.91l30.182-38.801
+				                        c4.224-5.381,11.87-6.62,17.579-2.85l103.637,69.12C495.918,414.126,497.663,421.886,494.058,427.868z" />
+
+                                                <path style="fill:#6194FF;"
+                                                    d="M291.161,86.39c80.081,0.089,144.977,64.986,145.067,145.067c0,4.713,3.82,8.533,8.533,8.533s8.533-3.82,8.533-8.533
+				                        c-0.099-89.503-72.63-162.035-162.133-162.133c-4.713,0-8.533,3.82-8.533,8.533S286.448,86.39,291.161,86.39z" />
+
+                                                <path style="fill:#6194FF;" d="M291.161,137.59c51.816,0.061,93.806,42.051,93.867,93.867c0,4.713,3.821,8.533,8.533,8.533
+				                        c4.713,0,8.533-3.82,8.533-8.533c-0.071-61.238-49.696-110.863-110.933-110.933c-4.713,0-8.533,3.82-8.533,8.533
+				                        S286.448,137.59,291.161,137.59z" />
+
+                                                <path style="fill:#6194FF;"
+                                                    d="M291.161,188.79c23.552,0.028,42.638,19.114,42.667,42.667c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533
+				                        c-0.038-32.974-26.759-59.696-59.733-59.733c-4.713,0-8.533,3.82-8.533,8.533S286.448,188.79,291.161,188.79z" />
+
+                                            </g>
+                                        </g>
+                                    </g>
                                     <g>
-                                        <path style="fill:#6194FF;"
-                                            d="m43 23c-.718 0-1.425.042-2.124.116.074-.702.124-1.408.124-2.116 0-11.028-8.972-20-20-20s-20 8.972-20 20 8.972 20 20 20c.708 0 1.414-.049 2.116-.123-.074.698-.116 1.406-.116 2.123 0 11.028 8.972 20 20 20s20-8.972 20-20-8.972-20-20-20zm-22 16c-9.925 0-18-8.075-18-18s8.075-18 18-18 18 8.075 18 18c0 .821-.072 1.639-.182 2.447-.722.154-1.426.355-2.117.585.191-.995.299-2.008.299-3.032 0-8.822-7.178-16-16-16s-16 7.178-16 16 7.178 16 16 16c1.024 0 2.036-.108 3.032-.299-.23.691-.43 1.395-.585 2.116-.809.11-1.626.183-2.447.183zm3.959-4.575c-1.281.377-2.61.575-3.959.575-3.891 0-7.413-1.598-9.952-4.168.182-1.243 1.103-2.246 2.358-2.5l3.693-.749c.23-.066.448-.158.659-.261l3.242 4.352 3.249-4.361c.231.114.471.216.729.289l3.616.73c.219.044.426.119.627.209-1.758 1.676-3.204 3.668-4.262 5.884zm-8.959-13.425c-.551 0-1-.449-1-1s.449-1 1-1zm.78-4h-.78c-.263 0-.514.045-.757.109-.154-.468-.243-.957-.243-1.452 0-2.568 2.089-4.657 4.657-4.657h2.687c2.567 0 4.656 2.089 4.656 4.657 0 .495-.089.984-.243 1.452-.243-.064-.494-.109-.757-.109h-1-1.764c-1.308 0-2.618-.309-3.789-.895l-.211-.105h-.236c-.883 0-1.67.391-2.22 1zm9.22 2c.551 0 1 .449 1 1s-.449 1-1 1zm-2 2c0 1.654-1.346 3-3 3s-3-1.346-3-3v-2c0-.486.349-.893.809-.982 1.38.643 2.905.982 4.427.982h.764zm-4.539 4.732c.488.16.999.268 1.539.268.541 0 1.052-.108 1.54-.268.056.097.116.192.181.284l-1.721 2.31-1.72-2.308c.064-.093.124-.188.181-.286zm11.37 1.432c-.552-.382-1.173-.658-1.842-.792l-3.54-.712c-.502-.143-.914-.479-1.17-.917.548-.481.999-1.067 1.296-1.743h.425c1.654 0 3-1.346 3-3 0-.64-.205-1.23-.547-1.718.355-.827.547-1.721.547-2.625 0-3.671-2.986-6.657-6.657-6.657h-2.687c-3.67 0-6.656 2.986-6.656 6.657 0 .905.192 1.798.547 2.626-.342.487-.547 1.077-.547 1.717 0 1.654 1.346 3 3 3h.424c.297.677.749 1.263 1.297 1.744-.252.436-.648.768-1.095.897l-3.616.73c-1.553.313-2.792 1.319-3.461 2.658-1.6-2.276-2.549-5.041-2.549-8.029 0-7.72 6.28-14 14-14s14 6.28 14 14c0 1.351-.201 2.68-.578 3.961-1.278.61-2.479 1.348-3.591 2.203zm12.169 33.836c-9.925 0-18-8.075-18-18s8.075-18 18-18 18 8.075 18 18-8.075 18-18 18z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m57.562 27.223 1.967-.364c-.132-.709-.293-1.422-.479-2.118l-1.932.518c.173.645.322 1.306.444 1.964z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m42 10c.866 0 1.641-.374 2.19-.964 5.708 3.041 10.178 8.204 12.331 14.297l1.886-.666c-2.337-6.614-7.21-12.21-13.426-15.473.004-.065.019-.128.019-.194 0-1.654-1.346-3-3-3s-3 1.346-3 3 1.346 3 3 3zm0-4c.551 0 1 .449 1 1s-.449 1-1 1-1-.449-1-1 .449-1 1-1z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m6.438 36.777-1.967.364c.132.709.293 1.422.479 2.118l1.932-.518c-.173-.645-.322-1.306-.444-1.964z" />
-                                        <path
-                                            d="m22 54c-.866 0-1.641.374-2.19.964-5.707-3.041-10.177-8.204-12.331-14.297l-1.886.666c2.337 6.614 7.21 12.21 13.426 15.473-.004.065-.019.128-.019.194 0 1.654 1.346 3 3 3s3-1.346 3-3-1.346-3-3-3zm0 4c-.551 0-1-.449-1-1s.449-1 1-1 1 .449 1 1-.449 1-1 1z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m54.829 34.172c-.001 0-.001 0 0 0-.941-.941-2.241-1.343-3.567-1.105-.786.142-1.535.551-2.167 1.183l-11.095 11.093-3.095-3.096c-.633-.631-1.382-1.04-2.166-1.181-1.327-.24-2.626.163-3.567 1.104s-1.344 2.241-1.105 3.567c.142.786.551 1.535 1.183 2.167l5.922 5.923c.755.757 1.759 1.173 2.828 1.173s2.073-.416 2.828-1.172l13.923-13.923c.632-.632 1.041-1.381 1.183-2.167.238-1.325-.164-2.625-1.105-3.566zm-.864 3.212c-.087.483-.39.869-.628 1.107l-13.923 13.923c-.755.756-2.072.756-2.828 0l-5.923-5.923c-.238-.239-.541-.625-.628-1.108-.121-.671.08-1.326.552-1.797.38-.381.882-.586 1.415-.586.125 0 .253.011.382.034.482.087.869.39 1.107.628l4.509 4.509 12.509-12.508c.239-.238.625-.541 1.108-.628.671-.121 1.326.08 1.797.551.471.471.672 1.126.551 1.798z" />
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
                                     </g>
                                 </svg>
                             </div>
@@ -288,9 +303,9 @@
         ============================================= -->
 <section id="saas_two_about" class="saas_two_about_section relative-position">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-left">
+        <div class="text-left saas_two_section_title saas2-headline">
             <span class="title_tag">
-                Who is KusuriKall For
+                クスリコールはこんな方におすすめします
             </span>
         </div>
         <div class="about_content_s2">
@@ -305,14 +320,9 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>高齢者に</h3>
+                            <h3>ご高齢者に…</h3>
                             <p>
-                                The elderly and people with alztimers people have a difficult time remembering to
-                                take their medicine.
-                                Many do not have a smart phone to help them remember. KusuriKall will call them on
-                                time
-                                everytime with a personal message telling them exactly what to take. Follow up calls
-                                asking for a response can also be set up to make sure the medicine was taken.
+                                物忘れ多くなってきたご高齢者や認知症に悩まれている方などはお薬の飲み忘れが深刻な問題になります。スマートフォンが使いこなせない方やお持ちでない方も多いことでしょう。クスリコールは毎日、お薬を飲む時間にパーソナライズした電話をかけ何を飲むのかお知らせします。
                             </p>
                         </div>
                     </div>
@@ -325,12 +335,9 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>忙し人に</h3>
+                            <h3>お忙しい人に…</h3>
                             <p>
-                                Too busy to remember to take your medicine? Smartphone apps not enough to help you
-                                remember. We will call you up to three times on up to 10 different phone numbers to
-                                help you make sure your take your medicine. You can even have an optional follow up
-                                call to make sure you took your medicine.
+                                忙しい毎日で、ついついお薬を飲み忘れてしまう、そんな経験ありませんか。スマートフォンのアプリがあっても見落としてしまう。そんなあなたに私たちが毎日お電話でお知らせします。
                             </p>
 
                         </div>
@@ -356,14 +363,9 @@
                 <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-about_text_icon">
                         <div class="s2-about_text saas2-headline pera-content">
-                            <h3>みまもる人に</h3>
+                            <h3>みまもるご家族やケアテイカーに…</h3>
                             <p>
-                                Are you a caretaker caring for an elderly parent or patient that needs to be
-                                reminded
-                                to take medicine? Are you worried that they are not taking their medicine?
-                                KusuriKall
-                                can notify you by email or SMS if a reminder call is not answered or there is a NO
-                                response to a follow up call.
+                                一緒に住んでいない高齢のご両親やお世話をしている人がお薬の飲み忘れがないか心配ですか？クスリコールは、お相手の方が電話に出ない場合に、登録者であるあなたのところにメールを送り、お薬の飲み忘れをお知らせしますので、薬の薬のリマインドに加えて、安全確認もできます。
                             </p>
                         </div>
                     </div>
@@ -379,124 +381,111 @@
         ============================================= -->
 <section id="s2-faq" class="s2-faq_section relative-position">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-center">
+        <div class="text-center saas_two_section_title saas2-headline">
             <span class="title_tag">
-                Frequently asked questions
+                よくある質問
             </span>
         </div>
         <!-- /section title -->
         <div class="s2_faq_content">
             <div class="accordion" id="accordionExample">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
                         <div class="s2_faq">
-                            <div class="s2_faq-header" id="headingOne">
-                                <button class="" data-toggle="collapse" data-target="#collapseOne"
-                                    aria-controls="collapseOne">
-                                    01. Is there a free trial available?
+                            <div class="s2_faq-header" id="heading1">
+                                <button class="collapsed" data-toggle="collapse" data-target="#collapse1">
+                                    01. 無料でお試しできますか？
                                 </button>
                             </div>
-                            <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                            <div id="collapse1" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Yes. When you sign up for a new account we will credit your account 1,000 yen
-                                    for you to try the service. If you want to continue to use the service then you
-                                    do not need to do anything we will automatically charge your credit card
-                                    according to the plan that you choose.
+                                    はい。ご登録後14日間、無料でお試しいただけます。15日目にご登録されたクレジットカードからお支払いがされ、毎月同じ日にお支払いとなります。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingTwo">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo">
-                                    02. Can I set up reminders to call a cell phone?
+                                    02. 登録電話を携帯電話に設定できますか。
                                 </button>
                             </div>
                             <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    No. This service is limited to landline phones only.
+                                    申し訳ございません。固定電話へのお電話のみとなります。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingThree">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseThree">
-                                    03. What is an no answer notification?
+                                    03. 電話に出なかった時のお知らせとはどういうものですか？
                                 </button>
                             </div>
                             <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    We will at tempt to call the number provided once every five minutes for up to three times or until the call is answered. If the call is not answered then an email will be sent to the email you give us. Typically this will be to a care provider so they can check on the callee.
+                                    登録された電話番号にお客様が設定したお時間にお電話をします。電話に出られるまで5分間おきに3回かけます。もし電話にでない場合、登録されているご家族またはケアテイカーあてにメールにて電話にでなかったことをお知らせします。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="headingFour">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapseFour">
-                                    04. How do I pay for the service?
+                                    04. お支払方法は？
                                 </button>
                             </div>
                             <div id="collapseFour" class="collapse" data-parent="#accordionExample">
-                                <div class="s2_faq-body">
-                                    At the moment we only accept credit card. Your credit card will be charged on the 27th of every month. Your first months charge will be calculated according to the number of days between the date you start the service and the 27th of the month.
+                                <div class="s2_faq-body">クレジットカードでのお支払いとなります。
+                                    At the moment we only accept credit card. Your credit card will be charged on the
+                                    27th of every month. Your first months charge will be calculated according to the
+                                    number of days between the date you start the service and the 27th of the month.
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading5">
-                                <button class="" data-toggle="collapse" data-target="#collapse5"
-                                    aria-controls="collapse5">
-                                    05. What is a follow up call?
+                                <button class="collapsed" data-toggle="collapse" data-target="#collapse5">
+                                    05. スマートフォンのアプリではだめなの？
                                 </button>
                             </div>
-                            <div id="collapse5" class="collapse show" data-parent="#accordionExample">
+                            <div id="collapse5" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    This is an optional call that you can set up to call you or someone you caring
-                                    for to confirm that the medicine was taken. The callee can confirm by pressing 1
-                                    for yes and 2 for no. If the answer is no we can send an email or SMS to the
-                                    care taker.
+                                    スマートフォンには多くの便利な機能のついたアプリがあります。しかし、常に手元に持ち歩いていなければアプリの意味がありません。特に多くのご高齢者は携帯の不携帯が多いようです。クスリコールは、家の固定電話にお電話でお知らせをするため、聞こえない、ということがなく、毎日、薬の服用を忘れません。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading6">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse6">
-                                    06. Can I set up other kinds of reminder calls?
+                                    06. クスリコールを別の用途で使用できますか？
                                 </button>
                             </div>
                             <div id="collapse6" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Yes, you can set a reminder for anything you like. You can set it to wake you up everyday or to remind you of something that you need to do everyday.
+                                    はい。クスリコールはお薬のリマインドだけではなく、お好きなようにご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading7">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse7">
-                                    07. Why not just use a smartphone application?
+                                    07. スマートフォンの時代になぜ固定電話？
                                 </button>
                             </div>
                             <div id="collapse7" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Smartphone apps are useful and there are many goods apps avaialble. However they
-                                    do not work well unless you always have the phone with you. If you do not have
-                                    it with you then you will not hear it. KusuriKall reminders to a home phone can
-                                    usually be heard easily through the whole house. If you did not hear the call
-                                    the first time we will call you up to three times.
+                                    不思議に思われる方も多いことでしょう。とても便利で生活に欠かせないスマートフォンですが、ご高齢者やスマホを使いこなせない方には固定電話でのご連絡がまだまだ必要な時代です。スマホは便利で慣れすぎてしまいアラームをすぐに消してしまう、その場から立ち上がらないから忘れてしまう、などの問題を解決するのがクスリコールです。
                                 </div>
                             </div>
                         </div>
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading8">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse8">
-                                    08. Can I cancel anytime?
+                                    08. キャンセルはいつでもできますか？
                                 </button>
                             </div>
                             <div id="collapse8" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    Yes, you can. Once you cancel your card will not be charged anymore. You will
-                                    still be able to use the balance that is leftover in your account.
+                                    はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。
                                 </div>
                             </div>
                         </div>
@@ -512,7 +501,7 @@
         ============================================= -->
 <section id="s2-pricing" class="s2-pricing_section">
     <div class="container">
-        <div class="saas_two_section_title saas2-headline text-center">
+        <div class="text-center saas_two_section_title saas2-headline">
             <h2> MedCall Pricing</h2>
             <p class="pt-2">
                 All plans include a free 1000 yen credit for your to try the service. You will be automatically
@@ -522,116 +511,35 @@
         <!-- /section title -->
         <div class="s2-pricing_content">
             <div class="row justify-content-md-center">
-                <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="col-lg-6 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="s2-pricing_item">
-                        <div class="s2-pricing_price text-center clearfix">
-                            <div class="s2-pricing_text">
-                                <strong>900円</strong>
-                                <div class="s2-pricing-subtext">KusuriKall Credits</div>
-                            </div>
+                        <div class="clearfix text-center s2-pricing_price ">
+
+                            <strong>月額<span class="plan-price-num">1,700</span>円</strong>
                         </div>
 
                         <div class="s2-pricing_list ul-li-block">
                             <ul>
                                 <li class="text-center">
-                                    約34回固定電話薬コール
+                                    14日間無料試し
                                 </li>
                                 <li class="text-center">
-                                    約22携帯電話薬コール
+                                    毎日3回まで固定電話薬コール
                                 </li>
                                 <li class="text-center">
-                                    1000円free trial included
+                                    いつでもキャンセール可能
                                 </li>
                                 <li class="text-center">
-                                    Cancel anytime
+                                パーソナライズされたメッセージ内容
                                 </li>
                                 <li class="text-center">
-                                    Auto recharge when account reaches 200 yen
+                                電話に出ないとメールでお知らせ
                                 </li>
+
                             </ul>
                         </div>
                         <div class="s2-pricing_btn">
-                        @if (Auth::check())
-                        //show logged in navbar
-                        <a href="billing/user"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                        @else
-                        <a href="register"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                        @endif
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="s2-pricing_item">
-                        <div class="s2-pricing_price text-center clearfix">
-                            <div class="s2-pricing_text">
-                                <strong>1,700円</strong>
-                                <div class="s2-pricing-subtext">KusuriKall Credits</div>
-                            </div>
-                        </div>
-                        <div class="s2-pricing_list ul-li-block">
-                            <ul>
-                                <li class="text-center">
-                                    約65回固定電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    約42携帯電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    1000円free trial included
-                                </li>
-                                <li class="text-center">
-                                    Cancel anytime
-                                </li>
-                                <li class="text-center">
-                                    Auto recharge when account reaches 200 yen
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="s2-pricing_btn">
-                            @if (Auth::check())
-                            //show logged in navbar
-                            <a href="billing/user"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @else
-                            <a href="register"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @endif
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="s2-pricing_item">
-                        <div class="s2-pricing_price text-center clearfix">
-                            <div class="s2-pricing_text">
-                                <strong>2,500円</strong>
-                                <div class="s2-pricing-subtext">KusuriKall Credits</div>
-                            </div>
-                        </div>
-                        <div class="s2-pricing_list ul-li-block">
-                            <ul>
-                                <li class="text-center">
-                                    約96回固定電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    約62携帯電話薬コール
-                                </li>
-                                <li class="text-center">
-                                    1000円free trial included
-                                </li>
-                                <li class="text-center">
-                                    Cancel anytime
-                                </li>
-                                <li class="text-center">
-                                    Auto recharge when account reaches 200 yen
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="s2-pricing_btn">
-                            @if (Auth::check())
-                            //show logged in navbar
-                            <a href="billing/user"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @else
-                            <a href="register"><i class="fas fa-cloud-download-alt"></i> Try it now</a>
-                            @endif
+                            <a href="#"><i class="fas fa-cloud-download-alt"></i>14日間無料試し</a>
                         </div>
                     </div>
                 </div>
@@ -644,35 +552,7 @@
 
 <!-- Start of early sign up section
         ============================================= -->
-<div class="saas_early">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 text-center">
-                <h1>Prelaunch Bonus 2000円</h1>
 
-                <p>Sign up now and we will give you 2,000 yen<br> in credits when the service starts.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-12 pt-4">
-                <!-- Success message -->
-                @if(Session::has('success'))
-                <div class="alert alert-success">
-                    {{Session::get('success')}}
-                </div>
-                @endif
-
-                <form action="" method="post" action="{{ route('Prelaunchemail.store') }}">
-                    @csrf
-                    <div class="form-group">
-                        <input name="email" id="email" class="form-control" placeholder="Enter email">
-                    </div>
-                    <button type="submit" class="saas_early_button">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- End of early sign up section
         ============================================= -->
 
@@ -681,7 +561,7 @@
 <div class="about">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 text-center">
+            <div class="text-center col-lg-8 col-md-12">
                 <h1>About KusuriKall</h1>
             </div>
             <div class="col-lg-10 col-md-12">
