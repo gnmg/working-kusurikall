@@ -21,7 +21,7 @@
     <!-- preloader - start -->
     <div id="preloader" class="saas-classic-preloader"></div>
     <div class="up">
-        <a href="#" id="scrollup" class="saas-classic-scrollup text-center"><i class="fas fa-angle-up"></i></a>
+        <a href="#" id="scrollup" class="text-center saas-classic-scrollup"><i class="fas fa-angle-up"></i></a>
     </div>
     <!-- Start of nav section
         ============================================= -->
@@ -31,15 +31,16 @@
                 <div class="row">
                     <div class="col-md-2">
                         <div class="brand_logo">
-                            <a href="!#"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a>
+                            <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-10">
-                        <div class="main_menu_list clearfix float-right">
-                            <nav class="s2-main-navigation  clearfix ul-li">
-                                <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Pricing</a></li>
+                        <div class="clearfix float-right main_menu_list">
+                            <nav class="clearfix s2-main-navigation ul-li">
+                                <ul id="main-nav" class="clearfix navbar-nav text-capitalize">
+                                    <li><a href="#features">{{ __('lang.features')}}</a></li>
+                                    <li><a href="#s2-pricing">{{ __('lang.pricing')}}</a></li>
+                                    <li><a href="#faq">{{ __('lang.faq')}}</a></li>
                                     @if (Auth::guest())
                                     <li><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
                                     @else
@@ -48,11 +49,11 @@
                                 </ul>
                             </nav>
                             @if (Auth::guest())
-                            <div class="saas_sign_up_btn text-center">
-                                <a href="#!">無料お試し</a>
+                            <div class="text-center saas_sign_up_btn">
+                                <a href="{{ url('/register') }}">無料お試し</a>
                             </div>
                             @else
-                            
+
                             @endif
                         </div>
                     </div>
@@ -69,14 +70,14 @@
                         <div class="s2-mobile_menu_close s2-open_mobile_menu">
                             <i class="far fa-times-circle"></i>
                         </div>
-                        <div class="m-brand-logo text-center">
+                        <div class="text-center m-brand-logo">
                             <a href="!#"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a>
                         </div>
-                        <nav class="s2-mobile-main-navigation  clearfix ul-li">
-                            <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
-                                <li><a href="#saas_two_service">Service</a></li>
-                                <li><a href="#saas_two_feature">Features</a></li>
-                                <li><a href="#s2-pricing">Pricing</a></li>
+                        <nav class="clearfix s2-mobile-main-navigation ul-li">
+                            <ul id="m-main-nav" class="clearfix navbar-nav text-capitalize">
+                                <li><a href="#features">{{ __('lang.features')}}</a></li>
+                                <li><a href="#s2-pricing">{{ __('lang.pricing')}}</a></li>
+                                <li><a href="#faq">{{ __('lang.faq')}}</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -94,7 +95,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-12">
-                        <div class="s2_footer_widget clearfix ul-li-block  saas2-headline">
+                        <div class="clearfix s2_footer_widget ul-li-block saas2-headline">
                             <div class="s2_footer_about">
                                 <div class="s2-footer_logo">
                                     <img src="assets/img/saas-c/logo/medcall-logo4.png" alt="">
@@ -108,17 +109,19 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
-                        <div class="s2_footer_widget clearfix ul-li-block saas2-headline">
+                        <div class="clearfix s2_footer_widget ul-li-block saas2-headline">
                             <div class="s2_footer_menu">
                                 <h3 class="s2_widget_title">
 
                                 </h3>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="{{ Route('contact') }}">Contact</a></li>
+                                    <li><a href="/">{{ __('lang.home')}}</a></li>
+                                    <li><a href="#faq">{{ __('lang.faq')}}</a></li>
+                                    <li><a href="#features">{{ __('lang.features')}}</a></li>
+                                    <li><a href="#about">{{ __('lang.about')}}</a></li>
+                                    <li><a href="/terms">{{ __('lang.terms')}}</a></li>
+                                    <li><a href="/privacy">{{ __('lang.privacy')}}</a></li>
+                                    <li><a href="{{ Route('contact') }}">{{ __('lang.contact')}}</a></li>
                                 </ul>
                             </div>
                         </div>

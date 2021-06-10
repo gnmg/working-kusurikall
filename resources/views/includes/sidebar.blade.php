@@ -1,12 +1,12 @@
-<aside class="w-full md:w-64 bg-gray-800 md:min-h-screen" x-data="{ isOpen: false }">
-    <div class="flex items-center justify-between bg-gray-900 p-4 h-16">
+<aside class="w-full bg-gray-800 md:w-64 md:min-h-screen" x-data="{ isOpen: false }">
+    <div class="flex items-center justify-between h-16 p-4 bg-gray-900">
         <a href="/" class="flex items-center">
-            <span class="text-gray-300 text-xl text-center font-semibold mx-2">KusuriKall</span>
+            <span class="mx-2 text-xl font-semibold text-center text-gray-300">KusuriKall</span>
         </a>
         <div class="flex md:hidden">
             <button type="button" @click="isOpen = !isOpen"
                 class="text-gray-300 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-                <svg class="fill-current w-8" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                <svg class="w-8 fill-current" fill="none" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M4 6h16M4 12h16M4 18h16"></path>
                 </svg>
@@ -26,7 +26,7 @@
                     <span class="mx-2 text-gray-300">{{ __('lang.myreminders')}}</span>
                 </a>
             </li>
-            <li class="px-2 py-3 hover:bg-gray-900 rounded mt-2">
+            <li class="px-2 py-3 mt-2 rounded hover:bg-gray-900">
                 <a href="{{ URL::route('call.create') }}" class="flex items-center">
                     <svg class="w-6 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -37,8 +37,8 @@
                     <span class="mx-2 text-gray-300">{{ __('lang.addreminder')}}</span>
                 </a>
             </li>
-            <li class="px-2 py-3 hover:bg-gray-900 rounded mt-2">
-                <a href="#" class="flex items-center">
+            <li class="px-2 py-3 mt-2 rounded hover:bg-gray-900">
+                <a href="billing" class="flex items-center">
                     <svg class="w-6 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path>
@@ -47,10 +47,10 @@
                 </a>
             </li>
         </ul>
-        <div class="border-t border-gray-700 -mx-2 mt-2 md:hidden"></div>
+        <div class="mt-2 -mx-2 border-t border-gray-700 md:hidden"></div>
         <ul class="mt-6 md:hidden">
             
-            <li class="px-2 py-3 hover:bg-gray-900 rounded mt-2">
+            <li class="px-2 py-3 mt-2 rounded hover:bg-gray-900">
                 <button class="mx-2 text-gray-300" @click="logout">{{ __('lang.logout')}}</button>
             </li>
         </ul>

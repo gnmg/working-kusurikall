@@ -9,15 +9,16 @@
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-        <form method="POST" action="{{ route('register') }}" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+        <form method="POST" action="{{ route('register') }}"
+            onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('{{ __('lang.terms-agree')}}'); return false; }">
             @csrf
             <div class="mb-2 text-3xl text-center">無料お試し申し込み</div>
             <div class="text-base mb-7"><span class="font-bold">
-                30日間 無料で利用できる
-            </span> メールワイズアカウントを作成できます。無料期間の終了後、自動的に課金されることはありません。</div>
+                    30日間 無料で利用できる
+                </span> メールワイズアカウントを作成できます。無料期間の終了後、自動的に課金されることはありません。</div>
             <!-- Name -->
             <div>
-                <x-label for="name"/>{{ __('lang.name')}}
+                <x-label for="name" />{{ __('lang.name')}}
 
                 <x-input id="name" class="block w-full mt-1" type="text" name="name" :value="old('name')" required
                     autofocus />
@@ -33,7 +34,7 @@
 
             <!-- Password -->
             <div class="mt-4">
-                <x-label for="password"/>{{ __('lang.password') }} 
+                <x-label for="password" />{{ __('lang.password') }}
 
                 <x-input id="password" class="block w-full mt-1" type="password" name="password" required
                     autocomplete="new-password" />
@@ -43,10 +44,12 @@
             <div class="mt-4">
                 <x-label for="password_confirmation"" />{{ __('lang.password_confirm') }}
 
-                <x-input id="password_confirmation" class="block w-full mt-1" type="password"
+                <x-input id=" password_confirmation" class="block w-full mt-1" type="password"
                     name="password_confirmation" required />
             </div>
-            <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+            <div class="pt-3"><input type="checkbox" name="checkbox" value="check" id="agree" />
+            I have read and agree to the <a href="{{ url('/terms') }}" class="text-indigo-600">terms and Conditions</a> and<a href="{{ url('/privacy') }}" class="text-indigo-600"> Privacy Policy</a>.</div>
+
 
             <div class="flex items-center justify-end mt-4">
                 <!-- <a class="text-sm text-gray-600 underline hover:text-gray-900" href="{{ route('login') }}">
@@ -54,7 +57,7 @@
                 </a> -->
 
                 <x-button class="ml-4">
-                {{ __('lang.register') }}
+                    {{ __('lang.register') }}
                 </x-button>
             </div>
         </form>

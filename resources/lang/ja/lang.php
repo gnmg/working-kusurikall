@@ -44,6 +44,20 @@ return [
     'name' => '名前',
     'password_confirm' => 'パスワード(確認）',
     'register' => '登録',
+    'features' => '機能',
+    'pricing' => '金額プラン',
+    'faq' => 'よくある質問',
+    'home' => 'トップページ',
+    'contact' => 'お問い合わせ',
+    'about' => 'About Us',
+    'terms' => '利用規約',
+    'privacy' => ' 個人情報保護方針',
+    'terms-agree' => 'Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy.',
+    'read-terms' => 'I have read and agree to the Terms and Conditions and Privacy Policy.',
+
+
+
+    
 
 
 

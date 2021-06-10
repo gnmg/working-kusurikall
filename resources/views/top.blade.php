@@ -16,7 +16,7 @@
                             お薬の飲み忘れを防ぐために</br>毎日お電話でお知らせします
                         </p>
                         <div class="text-center banner_btn">
-                            <a href="#">14日間無料試し</a>
+                            <a href="#">21日間無料試し</a>
                         </div>
                     </div>
                     <div class="banner_mockup d-none d-lg-block">
@@ -33,7 +33,7 @@
         ============================================= -->
 <section id="saas_two_service" class="saas_two_service_section">
     <div class="container">
-        <div class="text-center saas_two_section_title saas2-headline">
+        <div id="features" class="text-center saas_two_section_title saas2-headline">
 
             <h2>KusuriKall は毎日定刻にお薬を服用するためにお電話でリマインドします</h2>
         </div>
@@ -381,7 +381,7 @@
         ============================================= -->
 <section id="s2-faq" class="s2-faq_section relative-position">
     <div class="container">
-        <div class="text-center saas_two_section_title saas2-headline">
+        <div id="faq" class="text-center saas_two_section_title saas2-headline">
             <span class="title_tag">
                 よくある質問
             </span>
@@ -399,7 +399,7 @@
                             </div>
                             <div id="collapse1" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    はい。ご登録後14日間、無料でお試しいただけます。15日目にご登録されたクレジットカードからお支払いがされ、毎月同じ日にお支払いとなります。
+                                    はい。ご登録後21日間、無料でお試しいただけます。22日目にご登録されたクレジットカードからお支払いがされ、毎月同じ日にお支払いとなります。
                                 </div>
                             </div>
                         </div>
@@ -502,7 +502,7 @@
 <section id="s2-pricing" class="s2-pricing_section">
     <div class="container">
         <div class="text-center saas_two_section_title saas2-headline">
-            <h2> MedCall Pricing</h2>
+            <h2 id="pricing"> MedCall Pricing</h2>
             <p class="pt-2">
                 All plans include a free 1000 yen credit for your to try the service. You will be automatically
                 charged the plan fee if you do not cancel before the credits are used.
@@ -515,13 +515,13 @@
                     <div class="s2-pricing_item">
                         <div class="clearfix text-center s2-pricing_price ">
 
-                            <strong>月額<span class="plan-price-num">1,700</span>円</strong>
+                            <strong>月額<span class="plan-price-num">2,650</span>円</strong>
                         </div>
 
                         <div class="s2-pricing_list ul-li-block">
                             <ul>
                                 <li class="text-center">
-                                    14日間無料試し
+                                    21日間無料試し
                                 </li>
                                 <li class="text-center">
                                     毎日3回まで固定電話薬コール
@@ -539,7 +539,7 @@
                             </ul>
                         </div>
                         <div class="s2-pricing_btn">
-                            <a href="#"><i class="fas fa-cloud-download-alt"></i>14日間無料試し</a>
+                            <a href="#">21日間無料試し</a>
                         </div>
                     </div>
                 </div>
@@ -558,7 +558,7 @@
 
 <!-- Start of about sign up section
         ============================================= -->
-<div class="about">
+<div id="about" class="about">
     <div class="container">
         <div class="row justify-content-center">
             <div class="text-center col-lg-8 col-md-12">
