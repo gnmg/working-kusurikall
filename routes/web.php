@@ -92,6 +92,9 @@ Route::get('/contact', function () {
 
 Route::get('/makecall', [\App\Http\Controllers\MakeCallController::class, 'index'])->name('makecall');
 
+Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');
+
+
 //Contact
 Route::get('/contact', [ContactUsFormController::class, 'createForm'])->name('contact');
 Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
