@@ -134,8 +134,8 @@
 
                                                                 {{--
                                                                 <button type="button"
-                                                                  
-                                                                class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm" 
+
+                                                                class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
                                                                 {{ __('lang.cancel')}}
                                                                 </button> // TODO: This button is not working.
                                                                 --}}
@@ -194,14 +194,15 @@ var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 
-        $('#myModal').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                }
+    $('#myModal').modal({
+        backdrop: 'static',
+        keyboard: false
+    })
+}
 </script>
 
 @endsection
