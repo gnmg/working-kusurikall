@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class="saas-classic">
