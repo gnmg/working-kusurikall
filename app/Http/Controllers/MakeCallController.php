@@ -46,5 +46,12 @@ $call->gather_using_speak([
         
     }
 
+    public function send_reminder(Request $request)
+    {
+        $call = new Call();
+        $call->callReminders();
+
+    }
+
     
 }

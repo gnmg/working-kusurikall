@@ -121,7 +121,7 @@ class Call extends Model
     
                     foreach($call_queue as $row){
                       
-                        $to = $row->phone_numbers;
+                        $to = '+'.$row->phone_numbers;
                         
                         $attempt = (int)$row->attempt+1;
                         
