@@ -194,15 +194,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full mb-4">
-                    <div class="items-center">
+                <div class="flex w-full mb-4">
+
+                   
+                        <a href="/dashboard"
+                            class="px-4 py-3 font-medium text-black bg-white border border-gray-400 rounded place-self-center">{{ __('lang.cancel')}}</a>
+                    
+                    
                         <button type="submit"
-                            class="px-4 py-3 font-medium text-white bg-blue-500 rounded place-self-center ">{{ __('lang.submit')}}</button>
-                    </div>
+                            class="px-4 py-3 mx-8 font-medium text-white bg-blue-500 rounded place-self-center">{{ __('lang.submit')}}</button>
+                    
+
                 </div>
             </div>
         </div>
     </div>
-
 </form>
 @endsection('content')

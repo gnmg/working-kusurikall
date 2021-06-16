@@ -23,7 +23,7 @@ return [
     'logout' => 'ログアウト',
     'contact_us' => 'お問い合わせ',
     'top' => 'トップ',
-    'reminder_title' => 'リマインダータイトル',
+    'reminder_title' => 'タイトル',
     'phone_number' => '電話番号',
     'time' => '時間',
     'edit' => '編集',

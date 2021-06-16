@@ -17,7 +17,7 @@
             <h2 class="text-2xl font-medium">{{ __('lang.myreminders')}}</h2>
             @if(is_countable($calls) && count($calls) < 3)
             <a href="{{route('call.create')}}"
-                class="flex px-4 py-2 font-bold text-white bg-green-500 rounded-full hover:bg-green-700">
+                class="flex px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20" fill="white" />
                     </svg>{{ __('lang.addreminder')}}</a>
@@ -67,14 +67,14 @@
                                         class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
                                         <a href="{{ route('call.edit', $call->id)}}"
                                             class="text-indigo-600 hover:text-indigo-900"><span
-                                                class="inline-flex px-2 text-base font-semibold leading-5 bg-blue-200 rounded-full text-black-800">
+                                                class="inline-flex px-4 py-2 text-base font-semibold leading-5 bg-blue-200 rounded text-black-800">
                                                 {{ __('lang.edit')}}
                                             </span></a>
                                     </td>
                                     <td
                                         class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
                                         <button onclick="document.getElementById('id03{{$call->id}}').style.display='block'"
-                                            class="inline-flex px-2 text-base font-semibold leading-5 bg-red-200 rounded-full text-black-800">{{ __('lang.delete')}}
+                                            class="inline-flex px-4 py-2 text-base font-semibold leading-5 bg-red-200 rounded text-black-800">{{ __('lang.delete')}}
                                         </button>
                                         <div id="id03{{$call->id}}" class='hidden'>
                                             <!-- This example requires Tailwind CSS v2.0+ -->
@@ -168,11 +168,8 @@
 
                                     <div class="flex justify-center mt-10">
                                         <div class=""><a href="{{ URL::route('call.create') }}"
-                                                class="flex px-4 py-2 font-bold text-white bg-green-500 rounded-full hover:bg-green-700">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
-                                                    width="24">
-                                                    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20"
-                                                        fill="white" /></svg>{{ __('lang.addreminder')}}</a></div>
+                                                class="flex px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
+                                                {{ __('lang.addreminder')}}</a></div>
 
                                     </div>
                                 </div>
