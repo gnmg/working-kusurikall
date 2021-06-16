@@ -14,10 +14,10 @@
     <!-- Start Call Table-->
     <div class="mt-12 lg:w-1/2">
         <div class="flex justify-between">
-            <h2 class="text-2xl font-medium">{{ __('lang.myreminders')}}</h2>
+            <h2 class="text-2xl font-bold">{{ __('lang.myreminders')}}</h2>
             @if(is_countable($calls) && count($calls) < 3)
             <a href="{{route('call.create')}}"
-                class="flex px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
+                class="flex px-4 py-2 font-bold text-white bg-green-400 rounded hover:bg-green-500">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20" fill="white" />
                     </svg>{{ __('lang.addreminder')}}</a>
@@ -34,15 +34,15 @@
                         <table class="min-w-full">
                             <thead class="bg-gray-100">
                                 <tr>
-                                    <th class="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-right text-gray-500 uppercase border-b border-gray-200 bg-gray-50"
+                                    <th class="px-6 py-3 text-sm font-semibold leading-4 tracking-wider text-right text-gray-700 uppercase border-b border-gray-200 bg-gray-50"
                                         style="text-align: start">
                                         {{ __('lang.reminder_title')}}
                                     </th>
-                                    <th class="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-gray-500 uppercase border-b border-gray-200 bg-gray-50"
+                                    <th class="px-6 py-3 text-sm font-semibold leading-4 tracking-wider text-gray-700 uppercase border-b border-gray-200 bg-gray-50"
                                         style="text-align: start">
                                         {{ __('lang.time')}}
                                     </th>
-                                    <th class="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-gray-500 uppercase border-b border-gray-200 bg-gray-50"
+                                    <th class="px-6 py-3 text-sm font-semibold leading-4 tracking-wider text-gray-700 uppercase border-b border-gray-200 bg-gray-50"
                                         style="text-align: start">
                                         {{ __('lang.phone_number')}}
                                     </th>

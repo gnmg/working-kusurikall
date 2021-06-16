@@ -25,7 +25,7 @@
 
 </head>
 
-<body class="min-h-screen bg-gray-200 font-base">
+<body class="min-h-screen bg-gray-200 font-body">
     <div id="app">
 
         <div class="flex flex-col md:flex-row">
