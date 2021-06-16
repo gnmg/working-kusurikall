@@ -25,7 +25,7 @@
 
 </head>
 
-<body class="bg-gray-200 min-h-screen font-base">
+<body class="min-h-screen bg-gray-200 font-base">
     <div id="app">
 
         <div class="flex flex-col md:flex-row">
@@ -33,14 +33,14 @@
             @include('includes.sidebar')
 
             <div class="w-full md:flex-1">
-                <nav class="hidden md:flex justify-end bg-white p-4 shadow-md h-16 pr-16">
-                    <a href="/" class="block mt-4 lg:inline-block text-teal-600 lg:mt-0 mr-10">
+                <nav class="justify-end hidden h-16 p-4 pr-16 bg-white shadow-md md:flex">
+                    <a href="/" class="block mt-0 mr-10 text-teal-600 lg:inline-block lg:mt-0">
                     {{ __('lang.top') }}
                     </a>
-                    <a href="/contact" class="block mt-4 lg:inline-block text-teal-600 lg:mt-0 mr-10">
+                    <a href="/contact" class="block mt-0 mr-10 text-teal-600 lg:inline-block lg:mt-0">
                     {{ __('lang.contact_us') }}
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <div class="block mt-0 mr-10 text-teal-600 dropdown-menu dropdown-menu-right lg:inline-block lg:mt-0" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                             {{ __('lang.logout') }}
