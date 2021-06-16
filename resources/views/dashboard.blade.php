@@ -73,10 +73,10 @@
                                     </td>
                                     <td
                                         class="px-6 py-4 text-sm font-medium leading-5 whitespace-no-wrap border-b border-gray-200">
-                                        <button onclick="document.getElementById('id03').style.display='block'"
+                                        <button onclick="document.getElementById('id03{{$call->id}}').style.display='block'"
                                             class="inline-flex px-2 text-base font-semibold leading-5 bg-red-200 rounded-full text-black-800">{{ __('lang.delete')}}
                                         </button>
-                                        <div id="id03" class='hidden'>
+                                        <div id="id03{{$call->id}}" class='hidden'>
                                             <!-- This example requires Tailwind CSS v2.0+ -->
                                             <div class="fixed inset-0 z-10 overflow-y-auto">
                                                 <div
@@ -132,13 +132,15 @@
                                                                     {{ __('lang.delete')}}
                                                                 </button>
 
-                                                                {{--
+                                                                
                                                                 <button type="button"
 
-                                                                class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-                                                                {{ __('lang.cancel')}}
-                                                                </button> // TODO: This button is not working.
-                                                                --}}
+                                                                class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+
+                                                                <span onclick="document.getElementById('id03{{$call->id}}').style.display='none'">{{ __('lang.cancel')}}</span>
+                                                                
+                                                                </button> 
+                                                                
                                                             </form>
 
                                                         </div>
@@ -188,21 +190,6 @@
         </div>
     </div>
 </div>
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-
-    $('#myModal').modal({
-        backdrop: 'static',
-        keyboard: false
-    })
-}
-</script>
 
 @endsection
