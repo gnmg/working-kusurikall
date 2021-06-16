@@ -158,7 +158,7 @@
                                 <div class="px-8 py-8 card">
 
 
-                                    <div class="card-text">
+                                    <div class="text-center card-text">
                                         <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">You do not
                                             have</h1>
                                         <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">any
@@ -172,7 +172,7 @@
                                                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24"
                                                     width="24">
                                                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20"
-                                                        fill="white" /></svg>Add Reminder</a></div>
+                                                        fill="white" /></svg>{{ __('lang.addreminder')}}</a></div>
 
                                     </div>
                                 </div>
