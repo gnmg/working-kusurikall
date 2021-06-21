@@ -25,7 +25,7 @@
 
 </head>
 
-<body class="min-h-screen bg-gray-200 font-body">
+<body class="min-h-screen bg-gray-100 font-body">
     <div id="app">
 
         <div class="flex flex-col md:flex-row">
@@ -33,7 +33,7 @@
             @include('includes.sidebar')
 
             <div class="w-full md:flex-1">
-                <nav class="justify-end hidden h-16 p-4 pr-16 mb-10 bg-white shadow-md md:flex">
+                <!-- <nav class="justify-end hidden h-16 p-4 pr-16 mb-10 bg-white shadow-md md:flex">
                     <a href="/" class="block mt-0 mr-10 text-teal-600 lg:inline-block lg:mt-0">
                     {{ __('lang.top') }}
                     </a>
@@ -50,7 +50,7 @@
                             @csrf
                         </form>
                     </div>
-                </nav>
+                </nav> -->
                 <main>
                     <!-- Replace with your content -->
 

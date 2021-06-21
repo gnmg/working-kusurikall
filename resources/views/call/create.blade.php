@@ -21,7 +21,11 @@
 <form action="{{ route('call.store') }}" method="post">
     @csrf
     <div class="md:ml-64">
-        <div class="flex flex-col items-center px-8 py-6">
+        <div class="flex flex-col items-center px-8 py-20">
+            <div class="mb-4 text-left lg:w-3/5">
+                <h2 class="text-xl font-bold ">{{ __('lang.addreminder')}}</h2>
+            </div>
+
             <div class="items-center w-full p-8 my-4 bg-white shadow lg:w-3/5">
                 <div class="flex items-center mb-8">
                     <div
