@@ -15,7 +15,7 @@
                 </h2>
 
                 <div class="flex items-center mt-12 text-gray-600">
-                    <div>rr
+                    <div>
                         {{ __('Signed in as') }}
                     </div>
 
