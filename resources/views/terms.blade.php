@@ -4,151 +4,87 @@
 <div class="container terms">
     <div class="col-lg-12">
 
-        <h2>Terms and Conditions</h2>
+        <h2>規約と条件</h2>
         <br>
         <ol>
 
-            <li><b>User (“You”, “Your”)</b><br>
-                A user of the service refers to any person of legal age, or minor who received the consent of their
-                legal representative, which has registered on www.memo24.net and is using the Service.
+            <li><b>ユーザー（「あなた」）</b><br>
+                本サービスの利用者とは、KusuriKallに登録し、本サービスを利用している法定年齢の者を指します。
             </li>
 
-            <li><b>Recipient</b><br>
-                A recipient of the service is any natural person who receives a voice reminder/notification or an SOS
-                alert (via email or short message service, i.e. SMS).
+            <li><b>受信者</b><br>
+                サービスの受信者は、音声リマインダー/通知またはSOSアラート（電子メールまたはショートメッセージサービス、つまりSMSを介して）を受信する人を指します。
             </li>
 
-            <li><b>Voice reminder and notification</b><br>
-                A voice reminder or notification, also called sms voice, is a telephone call that is placed and followed
-                by a played sound message to a recipient. In the remainder of the document the word reminder and
-                notification will be used interchangeably. Sending a reminder is meant as the action of placing a
-                telephone call and playing a sound message.
+            <li><b>音声によるリマインダーと通知</b><br>
+                音声リマインダーまたは通知は、受信者に発信され、その後に再生される音声メッセージが続く電話です。リマインダーの送信は、電話をかけ、音声メッセージを再生することです。
             </li>
 
-            <li><b>SOS alert</b><br>
-                In the event that the callee does not pick up or the call fails to reach the callee, the user can chose
-                to send an SOS alert as an SMS or an email.
+            <li><b>SOSアラート</b><br>
+                着信者が電話に出られない場合、または通話が着信者に届かない場合、ユーザーは、ユーザーが登録した電子メールアドレスにSOSアラートメールを送信することを選択できます。
             </li>
 
-            <li><b>Service</b><br>
-                Memo24 (“Memo24.net”, “We,” “Us,” “Our”) provides an online application to set up and send voice
-                reminders and notifications. It allows the Users to enter the details of the voice reminder along with
-                the recipient(s) details and to subsequently send this reminder based on a (repetitive) schedule. The
-                service also sends predefined SMSes (short message service) and emails when the User choses to send SOS
-                alerts.
-                NOTE THAT THE SERVICE SHOULD NOT BE USED AS A REPLACEMENT FOR PROFESSIONAL MEDICAL CARE SERVICES.
+            <li><b>サービス</b><br>
+                KusuriKallは、音声によるリマインダーと通知を設定および送信するためのオンラインアプリケーションを提供します。これにより、ユーザーは受信者の設定内容と音声リマインダーの内容を入力します。その後、設定したスケジュールで音声リマインダーを送信できます。また、ユーザーがSOSアラートの送信を選択した場合、サービスは事前に設定された電子メールを送信します。このサービスは、専門的な医療サービスではありません。
+                <div class="terms-red-text">医療サービスとしての使用はしないで下さい。</div>
             </li>
 
-            <li><b>Registration and Acceptance of Terms and Conditions</b><br>
-                By registering with www.memo24.net, the User agrees to these Terms and Conditions and to the <a
-                    href="privacy.php">Privacy Policy</a>. Registration shall mean entering an email address, a
-                password, and an optional full name with which usage and access to the Service can be granted.
-                Memo24.net reserves the right to change these Terms and Conditions and/or Privacy Policy. If Memo24.net
-                decides to make such (a) change(s), it will be amended to this document or to the Privacy Policy
-                document and posted on the website www.memo24.net.
+            <li><b>利用規約の登録と承諾</b><br>
+                KusuriKallに登録することは、ユーザーはこれらの利用規約と<a
+                    href="{{ url('privacy') }}">プライバシーポリシー</a>に同意するものとします。登録とは、本サービスの利用およびアクセスを許可するための電子メールアドレス、パスワード、および氏名を入力することを意味します。
+                KusuriKallは、これらの利用規約および/またはプライバシーポリシーを変更する権利を留保します。
+                KusuriKallがそのような変更を行う場合、当規約書またはプライバシーポリシー上にて修正され、KusuriKallのWebサイトに掲載されます。　
             </li>
 
-            <li><b>Pricing and Payment terms</b><br>
+            <li><b>価格と支払い条件</b><br>
                 <ul>
-                    <li>Pricing and pricing modalities for sending voice and SOS alerts can be found on www.memo24.net.
+                    <li>音声およびSOS電子メールを送信するための価格設定および価格設定方法は、KusuriKallWebサイト上に掲載しています。
                     </li>
-                    <li>Memo24.net reserves the right to issue price changes in the event of (but not necessarily only)
-                        telecom operators’ price changes. Price changes will be advertised on www.memo24.net.</li>
-                    <li>Memo24 reserves the right to change the list of countries and list of languages for which the
-                        User can set up a voice reminder.</li>
-                    <!--li>Credits bought are non-refundable; i.e. once the User makes a payment to credit his/her account, then the User cannot claim back the money for unused credits. However, at our (and only our) discretion, Memo24 might (but is not obliged to) issue a refund for amounts exceeding 20 USD or refund in case of a substantial price increase (a very rare event and often due to Telecom operators’ policies) that is no longer considered acceptable by the User.</li-->
-                    <li>Credits bought are non-refundable; i.e. once the User makes a payment to credit his/her account,
-                        then the User cannot claim back the money for unused credits.</li>
+                    <li>KusuriKallは、通信事業者の価格変更が発生した場合は、価格変更を発行する権利を留保します。価格の変更は、KusuriKallのWebサイト上でに記載されます。</li>
+                    <li>毎月のサービス料金が発生した後に、請求期間が終了する前にサービスを終了した場合の返金はありません。</li>
+                    <li>サービスをキャンセルすると、リマインダー通話は削除されます。</li>
+                </ul>
+            </li>
+            <li><b>サービスの停止とキャンセル</b><br>
+                <p>KusuriKallは、以下の場合には、何らかの手段でユーザーに通知することにより、一方的にユーザーのアカウントを終了することができます。</p>
+                <ul>
+                    <li>KusuriKall Webサイトまたはサービス、またはそれらに含まれるデータに対する著作権侵害行為がある場合。
+                    </li>
+                    <li>規約に反する行為がある場合。</li>
+                </ul>
+                <p>この条項により、アカウントの終了において法的にKusuriKallの責任は問えないものとします。</p>
+            </li>
+
+            <li><b>ユーザーの責任</b><br>
+                <ul>
+                    <li>ユーザーは当サービスの使用に責任を負い、違法な行為にサービスを使用してはなりません。詐欺的、違法、または違法と見なされる可能性のある行為を目的とする場合、当サービスを悪用してはなりません。
+                    </li>
+                    <li>ユーザーは当サービスを転売することはできません。</li>
+                    <li>ユーザーは、サービスへの登録に関連して提供する情報が正確であることを保証します。</li>
+                    <li>ユーザーは、受信者にリマインダーを送信することを事前に確認し、許可を得る必要があります。</li>
+                    <li>ユーザーは、広告またはマーケティングの目的（別途書面での合意がない限り）、または違法、不道徳、​​または不適切な目的で当サービスを使用することを禁じられています。
+                        KusuriKallは、これらの利用規約を確実に遵守するために、通知なしに当社のサービスの使用を監視する権利を留保します。</li>
+                    <li>本サービスは、意図された使用のためにユーザーが利用するものです。他の目的で本サービスを利用することは出来ません。ユーザーが使用目的に従って本サービスを使用しない場合、KusuriKallはいつでもユーザーのアカウントを終了する権利を留保します。
+                    </li>
                 </ul>
             </li>
 
-            <li><b>Suspension of service and cancellation</b><br>
-                Memo24.net may unilaterally terminate a User’s account without notice, by notifying the User by any
-                means and without further formality, particularly in the following cases:
+            <li><b>KusuriKallの責任</b><br>
+                <p>KusuriKallは、別途書面にて合意がない限り、本サービスが実施されることを保証します。ただし、ユーザーは、技術的な理由により、サービスの可用性と機能が保証されない場合があります。当サービスの利用可能性および機能に関する一時的な制限は、いかなる種類の損害賠償を請求する権利はありません。
+                    KusuriKallは、サービスに障害が発生しないことを保証するものではありません。サービスの障害が報告された場合は直ちに修正し、できるだけ早くサービスの復興を努めます。
+                    KusuriKallは、メンテナンスを行うために、サービスまたはWebサイトへのアクセスを一時的に停止する場合があります。
+                    KusuriKallは、このようなサービスの一時的停止については、事前に電子メールで通知するよう努めます。</p>
+                <p>KUSURIKALLは、以下に関して法定裁判所で法的な責任を負うことはできません。</p>
                 <ul>
-                    <li>Attempted act of piracy to the website www.memo24.net or the Service, or the data they contain.
-                    </li>
-                    <li>Impersonating a third party.</li>
-                    <li>Violation of one or more terms of the current document.</li>
+                    <li>ユーザーによるサービスの不適切または違法な使用。</li>
+                    <li>音声リマインダーのコンテンツに関し,ユーザー、受信者、または第三者が被った偏見（物理的または金銭的）に対して。</li>
+                    <li>
+                        ウェブサイトKusuriKallおよびサービスの利用不可、または第三者のサービスの技術的障害または利用不能を含むがこれらに限定されない、ハードウェアまたはソフトウェアによるサービスの誤動作または一時的な利用不能を引き起こす技術的障害。
+                        KusuriKallサービスは（通信事業者など）に依存しています。</li>
                 </ul>
-                This clause eliminates the need for Memo24 to be held responsible, in front of a legal court, for any
-                account termination.
+                <li><b>不可抗力</b><br>
+                KusuriKallは、その制御が及ばない事例が発生した場合、またはKusuriKallの制御が及ばない第三者の行動の結果として、サービスを一時停止する場合があります。
             </li>
-
-            <li><b>User’s responsibility</b><br>
-                The User is responsible for the use of the Service and shall not use the Service in conflict with the
-                local law to which the User is subject and shall not misuse the Service for actions that can be regarded
-                as fraudulent, illegal or unlawful. <br>
-                The User is not permitted to resell the Service.<br>
-                The User warrants that the information provided in connection with his/her registration for the Service
-                is accurate and complete.<br>
-                The User is responsible for abiding by applicable local legislation with regard to processing of
-                personal information and individual privacy when making use of the Service.<br>
-                The User must have prior authorization to send reminders to his/her recipients.<br>
-                The User is forbidden to use the Service for advertising or marketing purposes (unless otherwise agreed
-                upon in writing), or any illegal, immoral or improper purpose. Memo24.net reserves the right to monitor,
-                without notice, your use of our Service to insure your compliance with these terms and conditions.<br>
-                The Service is made available to the User for the intended use; it is not permitted to use the Service
-                for other purposes. If The User does not use the Service in accordance with the intended use, Memo24.net
-                reserves the right to terminate the User’s account at any time.<br>
-            </li>
-
-            <li><b>Memo24’s responsibility</b><br>
-                To the extent not agreed otherwise in writing, Memo24.net guarantees that the Service shall be
-                implemented to the best of its ability.
-                However, the User acknowledges that for technical reasons, the availability and functioning of the
-                Service cannot be guaranteed. Temporary limitations regarding the availability and the functioning of
-                the Service shall not result in a right to claim damages of any kind.
-                Memo24.net cannot guarantee that the Service will not be faulty, and will take efforts to correct
-                reported faults and restore the Service as soon as possible.
-                Memo24.net may temporarily suspend the Service or access to the website www.memo24.net in order to
-                undertake maintenance. Memo24.net will endeavor to give a prior email notification for such Service
-                suspension.
-                <br>
-                <font style="text-transform: uppercase">Memo24 cannot be held liable in front of a legal court with
-                    respect to</font>:
-                <ul>
-                    <li>
-                        <font style="text-transform: uppercase">The improper or illegal use of the Service by the User.
-                        </font>
-                    </li>
-                    <li>
-                        <font style="text-transform: uppercase">Any prejudice (physical or financial) suffered by the
-                            User, a recipient, or any third party with respect to the voice reminders’ content and the
-                            use of the Service by Users.</font>
-                    </li>
-                    <li>
-                        <font style="text-transform: uppercase">Any technical failure that would cause a malfunction or
-                            a temporary unavailability of the Service due to Hardware or Software including, but not
-                            limited to, the unavailability of the website www.memo24.net and the Service, or the
-                            technical failure or unavailability of third parties’ services on which the Memo24 Service
-                            relies (such as the telecom operators).</font>
-                    </li>
-                </ul>
-
-            </li>
-
-            <li><b>Intellectual Property</b><br>
-                The brand and logo Memo24 is a trademark owned by Memo24.
-                Memo24 holds the intellectual property rights relating to the website www.memo24.net content and the
-                Service. These intellectual property rights are not transferable.
-                Accordingly, the User agrees not to infringe in any way the rights of intellectual property owned by
-                Memo24.
-            </li>
-
-            <li><b>Force majeure</b><br>
-                Memo24.net may suspend the service in case of occurrence of an event beyond its control, or as a
-                consequence of an action of a third party outside the control of Memo24.net.
-            </li>
-
-            <!--li><b>Governing law</b><br>
-                Polish law shall apply to these Terms and Conditions. All disputes that may arise shall be brought before a Polish court. 
-                </li-->
-
-            <li><b>Contact information</b><br>
-                For any further inquiry, contact us at info<i class="fa fa-at"></i>memo24.net.
-            </li>
-
         </ol>
 
 
