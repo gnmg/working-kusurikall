@@ -111,4 +111,8 @@ Route::get('/privacy', function () {
     return view('privacy');
 });
 
+Route::get('lp1', function () {
+    return view('lp1');
+});
+
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');

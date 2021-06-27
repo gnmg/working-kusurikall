@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="assets/css/fontawesome-all.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">  
 </head>
 
 <body class="saas-classic">
@@ -94,20 +96,7 @@
         <div class="footer_content pera-content">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="clearfix s2_footer_widget ul-li-block saas2-headline">
-                            <div class="s2_footer_about">
-                                <div class="s2-footer_logo">
-                                    <img src="assets/img/saas-c/logo/medcall-logo4.png" alt="">
-                                </div>
-                                <div class="footer_about">
-                                    30 Commercial Road Fratton
-                                    PORTSMOUTH Hampshire PO1 1AA
-                                    UNITED KINGDOM
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="col-lg-4 col-md-12">
                         <div class="clearfix s2_footer_widget ul-li-block saas2-headline">
                             <div class="s2_footer_menu">

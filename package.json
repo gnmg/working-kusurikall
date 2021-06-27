@@ -27,6 +27,7 @@
         "@inertiajs/inertia-vue": "^0.6.2",
         "@tailwindcss/postcss7-compat": "^2.1.4",
         "vue": "^2.6.13",
-        "vue-server-renderer": "^2.6.13"
+        "vue-server-renderer": "^2.6.13",
+        "yakuhanjp": "^3.4.1"
     }
 }
