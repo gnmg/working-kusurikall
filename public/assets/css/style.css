@@ -3126,3 +3126,55 @@ select:visited {
 .ul-center li:last-child {
     padding-top: 30px;
 }
+
+
+/* Terms Page */
+
+.terms {
+    padding-top: 180px;
+}
+
+.terms h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+    padding: 0;
+    border-bottom: none;
+    margin: 0 auto 36px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 36px;
+    margin-left: auto;
+}
+
+.terms li {
+    margin-bottom: 15px;
+}
+
+.terms ol {
+    margin-bottom: 100px;
+}
+
+.terms-red-text {
+    color: red;
+    font-weight: 600;
+}
+
+.terms a {
+    color: #0000FF;
+}
+
+.terms a​:visited {
+    color: purple;
+}
+
+.terms ul li::marker {
+    font-size: 150%;
+    color: black;
+}
+
+.terms b {
+    margin-bottom: 5px;
+}
