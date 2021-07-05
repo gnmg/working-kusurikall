@@ -65,11 +65,6 @@ Route::group([
 Route::get('/stripe-payment', [StripeController::class, 'handleGet']);
 Route::post('/stripe-payment', [StripeController::class, 'handlePost'])->name('stripe.payment');
  
-Route::get('/', function () {
-    return view('top');
-});
-//['as'=>'home','uses'=>'HomeController@index']
-//Route::get('/',['as'=>'home','uses'=>'HomeController@index'])->name('top');
 
 
 Route::post('/telnyxwebhook', [\App\Http\Controllers\TelnyxWebHook::class, 'index'])->name('telnyxwebhook');
@@ -112,6 +107,10 @@ Route::get('/privacy', function () {
 });
 
 Route::get('lp1', function () {
+    return view('lp1');
+});
+
+Route::get('/', function () {
     return view('lp1');
 });
 

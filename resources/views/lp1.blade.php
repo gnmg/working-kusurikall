@@ -52,7 +52,7 @@
                                     <g transform="translate(-1 -1)">
                                         <g>
                                             <g>
-                                                <path style="fill:#6194FF;"
+                                                <path style="fill:#AC0123;"
                                                     d="M499.639,396.039l-103.646-69.12c-13.153-8.701-30.784-5.838-40.508,6.579l-30.191,38.818
 				                        c-3.88,5.116-10.933,6.6-16.546,3.482l-5.743-3.166c-19.038-10.377-42.726-23.296-90.453-71.04s-60.672-71.45-71.049-90.453
 				                        l-3.149-5.743c-3.161-5.612-1.705-12.695,3.413-16.606l38.792-30.182c12.412-9.725,15.279-27.351,6.588-40.508l-69.12-103.646
@@ -66,15 +66,15 @@
 				                        c49.502,49.493,74.377,63.053,94.37,73.958l5.606,3.089c12.965,7.269,29.303,3.898,38.332-7.91l30.182-38.801
 				                        c4.224-5.381,11.87-6.62,17.579-2.85l103.637,69.12C495.918,414.126,497.663,421.886,494.058,427.868z" />
 
-                                                <path style="fill:#6194FF;"
+                                                <path style="fill:#AC0123;"
                                                     d="M291.161,86.39c80.081,0.089,144.977,64.986,145.067,145.067c0,4.713,3.82,8.533,8.533,8.533s8.533-3.82,8.533-8.533
 				                        c-0.099-89.503-72.63-162.035-162.133-162.133c-4.713,0-8.533,3.82-8.533,8.533S286.448,86.39,291.161,86.39z" />
 
-                                                <path style="fill:#6194FF;" d="M291.161,137.59c51.816,0.061,93.806,42.051,93.867,93.867c0,4.713,3.821,8.533,8.533,8.533
+                                                <path style="fill:#AC0123;" d="M291.161,137.59c51.816,0.061,93.806,42.051,93.867,93.867c0,4.713,3.821,8.533,8.533,8.533
 				                        c4.713,0,8.533-3.82,8.533-8.533c-0.071-61.238-49.696-110.863-110.933-110.933c-4.713,0-8.533,3.82-8.533,8.533
 				                        S286.448,137.59,291.161,137.59z" />
 
-                                                <path style="fill:#6194FF;"
+                                                <path style="fill:#AC0123;"
                                                     d="M291.161,188.79c23.552,0.028,42.638,19.114,42.667,42.667c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533
 				                        c-0.038-32.974-26.759-59.696-59.733-59.733c-4.713,0-8.533,3.82-8.533,8.533S286.448,188.79,291.161,188.79z" />
 
@@ -98,18 +98,17 @@
                     <div class="service_content_box relative-position">
                         <div class="service_icon_box relative-position">
                             <div class="upper_icon">
-                                <svg id="Capa_1" enable-background="new 0 0 512.01 512.01" height="512"
-                                    viewBox="0 0 512.01 512.01" width="512" xmlns="http://www.w3.org/2000/svg">
-                                    <g>
-                                        <path style="fill:#6194FF;"
-                                            d="m234.603 46.947-134.809 82.058h-84.794c-8.284 0-15 6.716-15 15v224c0 8.284 6.716 15 15 15h84.794l134.808 82.058c29.996 18.259 68.398-3.311 68.398-38.439v-341.238c0-35.116-38.394-56.703-68.397-38.439zm-204.603 112.058h59v194h-59zm243 267.619c0 11.698-12.787 18.908-22.8 12.813l-131.2-79.862v-207.14l131.2-79.861c9.995-6.084 22.8 1.091 22.8 12.813z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m345.678 217.114c-5.858 5.858-5.858 15.355 0 21.213 9.77 9.771 9.771 25.584 0 35.355-5.858 5.858-5.858 15.355 0 21.213 5.857 5.858 15.355 5.859 21.213 0 21.444-21.444 21.444-56.337 0-77.781-5.858-5.858-15.356-5.858-21.213 0z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m412.146 171.86c-5.857-5.858-15.355-5.858-21.213 0s-5.858 15.355 0 21.213c34.701 34.701 34.701 91.164 0 125.865-5.858 5.858-5.858 15.355 0 21.213 5.857 5.858 15.355 5.859 21.213 0 46.398-46.398 46.398-121.893 0-168.291z" />
-                                        <path style="fill:#6194FF;"
-                                            d="m457.4 126.605c-5.857-5.858-15.355-5.858-21.213 0s-5.858 15.355 0 21.213c60.666 60.666 60.666 155.709 0 216.375-5.858 5.858-5.858 15.355 0 21.213 5.857 5.858 15.355 5.859 21.213 0 72.774-72.774 72.851-185.95 0-258.801z" />
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
+                                    viewBox="0 0 512 512" width="512" height="512">
+                                    <title>E-mail</title>
+                                    <path
+                                        d="m359.015625 375.574219-102.992187-28.605469v-24.769531l21.703124 6.511719 11.464844.335937c25.824219 0 46.832032-21.007813 46.832032-46.832031 0-4.765625 1.128906-9.527344 3.257812-13.789063l9.695312-19.402343c10.589844-.496094 19.046876-9.269532 19.046876-19.976563 0-4.292969-1.414063-8.550781-4-12l-2.984376-3.976563c-10.976562-14.628906-17.015624-32.757812-17.015624-51.054687 0-8.390625-2.121094-16.449219-6.0625-23.589844l2.648437-2.648437c17.679687-17.679688 27.414063-41.183594 27.414063-66.191406 0-20.121094-6.648438-40.074219-18.71875-56.171876l-10.089844-13.414062-5.152344 1.289062c-41.816406 10.453126-85.191406 15.757813-128.925781 15.757813h-4.394531c-70.972657 0-128.71875 57.746094-128.71875 128.722656 0 21.824219 5.601562 43.4375 16.550781 63.085938l27.929687 41.511719c8.144532 12.089843 14.609375 25.25 19.222656 39.097656 5.503907 16.511718 8.296876 33.703125 8.296876 51.101562v6.402344l-102.992188 28.605469c-24.144531 6.714843-41.0078125 28.898437-41.0078125 53.960937v67.511719h400.0000005v-67.511719c0-25.0625-16.863282-47.246094-41.007813-53.960937zm-109.609375-13.839844 5.792969 1.609375-11.847657 47.398438-29.984374-24.980469zm98.832031-139.0625 2.976563 3.96875c.527344.703125.808594 1.535156.808594 2.40625 0 2.210937-1.792969 4-4 4h-8.945313l-14.101563 28.21875c-3.242187 6.460937-4.953124 13.710937-4.953124 20.949219 0 17-13.832032 30.832031-30.832032 30.832031h-7.992187l-78.878907-23.664063-4.59375 15.328126 42.296876 12.6875v31.371093l-40 26.664063-40-26.664063v-8.203125c0-7.589844-.625-15.132812-1.582032-22.621094l2.949219-2.953124c19.753906-19.753907 30.632813-46.015626 30.632813-73.945313v-8h-16c-8.824219 0-16-7.175781-16-16s7.175781-16 16-16h16v-18.382813c0-12.128906 4.167968-24.023437 11.746093-33.496093 10.238281-12.785157 25.496094-20.121094 41.871094-20.121094h49.414063c8.808593 0 17.089843 3.433594 23.3125 9.65625 6.226562 6.226563 9.65625 14.511719 9.65625 23.3125 0 21.738281 7.175781 43.273437 20.214843 60.65625zm-197.597656 139.0625 36.039063 24.027344-29.984376 24.980469-11.847656-47.398438zm-20.863281-120.292969-27.570313-40.9375c-9.277343-16.695312-14.183593-35.625-14.183593-54.734375 0-62.152343 50.570312-112.722656 112.71875-112.722656h4.394531c43.359375 0 86.382812-5.0625 127.664062-14.976563l3.703125 4.945313c10.007813 13.351563 15.519532 29.886719 15.519532 46.570313 0 20.726562-8.070313 40.214843-22.726563 54.878906l-1.351563 1.351562c-9.035156-8.222656-20.601562-12.769531-32.890624-12.769531h-49.414063c-21.265625 0-41.074219 9.519531-54.359375 26.128906-9.839844 12.296875-15.257812 27.734375-15.257812 43.488281v2.382813c-17.648438 0-32 14.351563-32 32 0 17.527344 14.167968 31.808594 31.648437 32-1.625 18.265625-8.824219 35.359375-20.734375 49.335937-1.152344-4.703124-2.488281-9.367187-4.027344-13.976562-5.070312-15.222656-12.191406-29.679688-21.132812-42.964844zm254.246094 239.605469h-368v-51.511719c0-17.894531 12.046874-33.75 29.296874-38.542968l84.105469-23.359376 17.933594 71.71875 52.664063-43.886718 52.664062 43.894531 17.9375-71.71875 84.101562 23.359375c17.25 4.785156 29.296876 20.632812 29.296876 38.535156zm0 0" />
+                                    <path
+                                        d="m463.214844 169.855469-11.3125 11.3125c18.136718 18.128906 28.121094 42.238281 28.121094 67.878906s-9.984376 49.753906-28.121094 67.882813l11.3125 11.308593c21.160156-21.148437 32.808594-49.269531 32.808594-79.191406 0-29.917969-11.648438-58.039063-32.808594-79.191406zm0 0" />
+                                    <path
+                                        d="m440.59375 192.480469-11.3125 11.3125c12.085938 12.085937 18.742188 28.160156 18.742188 45.253906 0 17.097656-6.65625 33.167969-18.742188 45.257813l11.3125 11.3125c15.101562-15.105469 23.429688-35.203126 23.429688-56.570313s-8.328126-41.460937-23.429688-56.566406zm0 0" />
+                                    <path
+                                        d="m417.96875 215.105469-11.3125 11.308593c6.039062 6.050782 9.367188 14.089844 9.367188 22.632813 0 8.546875-3.328126 16.585937-9.367188 22.632813l11.3125 11.3125c9.0625-9.070313 14.054688-21.121094 14.054688-33.945313s-4.992188-24.871094-14.054688-33.941406zm0 0" />
                                 </svg>
                             </div>
 
@@ -130,11 +129,11 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1"
                                     viewBox="0 0 512 512" width="512" height="512">
                                     <title>E-mail</title>
-                                    <path style="fill:#6194FF;"
+                                    <path style="fill:#AC0123;"
                                         d="M118.5,477h160a46.052,46.052,0,0,0,46-46V338h89a26.03,26.03,0,0,0,26-26V174a26.03,26.03,0,0,0-26-26h-89V81a46.052,46.052,0,0,0-46-46h-160a46.052,46.052,0,0,0-46,46V431A46.052,46.052,0,0,0,118.5,477Zm95-151a13.907,13.907,0,0,1-6.6-1.661L255.661,264.2a6,6,0,1,0-9.32-7.557l-46.654,57.535A13.977,13.977,0,0,1,199.5,312V193.654l93.71,73.862a29.264,29.264,0,0,0,40.583,0L427.5,193.663V312a13.979,13.979,0,0,1-.2,2.237l-47.063-57.611a6,6,0,0,0-9.293,7.592l49.125,60.135A13.906,13.906,0,0,1,413.5,326Zm214-152v4.384L326.111,258.292a5.936,5.936,0,0,0-.511.452,17.226,17.226,0,0,1-24.2,0,5.941,5.941,0,0,0-.512-.453L199.5,178.374V174a14.015,14.015,0,0,1,14-14h200A14.015,14.015,0,0,1,427.5,174ZM118.5,47h160a34.038,34.038,0,0,1,34,34V95h-14a6,6,0,0,0,0,12h14v41h-99a26.03,26.03,0,0,0-26,26V312a26.03,26.03,0,0,0,26,26h99v55H84.5V107h163a6,6,0,0,0,0-12H84.5V81A34.038,34.038,0,0,1,118.5,47Zm-34,358h228v26a34.038,34.038,0,0,1-34,34h-160a34.038,34.038,0,0,1-34-34Z" />
-                                    <path style="fill:#6194FF;"
+                                    <path style="fill:#AC0123;"
                                         d="M267.2,107H278.31a6,6,0,0,0,0-12H267.2a6,6,0,0,0,0,12Z" />
-                                    <path style="fill:#6194FF;"
+                                    <path style="fill:#AC0123;"
                                         d="M198.5,456a21,21,0,1,0-21-21A21.024,21.024,0,0,0,198.5,456Zm0-30a9,9,0,1,1-9,9A9.01,9.01,0,0,1,198.5,426Z" />
                                 </svg>
 
@@ -195,8 +194,7 @@
         <div class="text-center saas_two_section_title saas2-headline">
             <h2 id="pricing">薬コールプライスプラン</h2>
             <p class="pt-2">
-                All plans include a free 1000 yen credit for your to try the service. You will be automatically
-                charged the plan fee if you do not cancel before the credits are used.
+            Sign up for a 21 day trial. Cancel anytime before the end of the trial and you will not be charged.  
             </p>
         </div>
         <!-- /section title -->
@@ -368,30 +366,29 @@
                 <h1>About KusuriKall</h1>
             </div>
             <div class="col-lg-10 col-md-12 jp-font">
-                <p>はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。KusuriKall was started to help people like me, a kidney
-                    transplant recipient, remember to take
-                    their medicine. For transplant patients it is very critical that medications are taken every
-                    time and on time.</p>
-                <p>I started using a smartphone application and still do just as an extra reminder but the app was
-                    just not that effective for me. Often there are times where I do not have the smartphone with me
-                    especially when at home so I never hear or see the reminder until it is too late.</p>
-                <p>So I set up a system to actually call me on my home phone, at exactly the right time, so I am
-                    able to hear the call where ever I am in the house.</p>
-                <p>Medicine adherence is a big problem for all patients. The WHO states that 50% of patients do not
-                    take their medications as prescribed. This percentage is probably even higher among elderly and
-                    Alzheimer patients. There are many other factors that can be attributed to this low adherence
-                    rate. Some of these factors include suboptimal health literacy, lack of involvement in the
-                    treatment decision–making process and prescription of complex drug regimens.</p>
-                <p>Medicine adherence is not just the patients responsibility especially for older people or those
-                    with Alzheimer’s. It is also the responsibility of those who are taking care of patients or
-                    family members that need to help to adhere to medication requirements.</p>
-                <p>For these caretakers KusuriKall has features that help you keep your patients or family members
-                    on track with their medicine. If the first call is not answered then we will call up to three
-                    more times at 5 minute intervals. If the call is not answered then we will send you a text
-                    message or email notifying your that the call was not answered.</p>
-                <p>As an option you can set up a follow up call for anytime you want that will ask the callee to
-                    press 1 if the medicine was taken or 2 if it was not. If the medicine was not taken then a
-                    notification will be sent.</p>
+                <p>I started KusuriKall in search of a way to better remind myself to take my immunosuppressants after
+                    my kidney transplant. It is very important for transplant patients to take their medicine on time
+                    everyday. Smartphone reminder apps did not work well for me even when at home because I did not
+                    always have my smartphone with me. However I can usually hear the home phone.
+                </p>
+                <p>Older people are in a similar situation. New technology like smartphones can be very difficult to use
+                    and many older people do not use smartphones. So a regular phone is perfect for these people.
+                </p>
+                <p>Medicine adherence is a big problem for all patients. The WHO states that 50% of patients do not take
+                    their medications as prescribed. This percentage is probably even higher among elderly and Alzheimer
+                    patients.
+                </p>
+                <p>Medicine adherence is not just the patient's responsibility especially for older people or those with
+                    Alzheimer’s. It is also the responsibility of those who are taking care of patients or family
+                    members that need to help to adhere to medication requirements.
+                </p>
+                <p>With proper medicine adherence patients will have better medical outcomes.
+                </p>
+                <p>For these caretakers KusuriKall has features that help you keep your patients or family members on
+                    track with their medicine. If the first call is not answered then we will call up to three more
+                    times at 5 minute intervals. If the call is not answered then we will send you a text message or
+                    email notifying you that the call was not answered.
+                </p>
             </div>
         </div>
     </div>

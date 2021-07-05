@@ -1311,9 +1311,9 @@ select:visited {
 }
 
 .saas_two_service_section .service_content_box .service_icon_box .upper_icon svg {
-    height: 48px;
-    width: 48px;
-    fill: #30347b;
+    height: 40px;
+    width: 40px;
+    fill: #AC0123;
 }
 
 .saas_two_service_section .service_content_box .service_icon_box .lower_icon {

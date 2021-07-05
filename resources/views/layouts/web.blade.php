@@ -5,18 +5,30 @@
     <meta charset="UTF-8">
     <title>KusuriKall</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="assets/img/fv.png" type="image/x-icon">
-    <link rel="icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/saas-c/phone.svg" type="image/x-icon">
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">  
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60d89d8d7f4b000ac039cc8c/1f972esvh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </head>
 
 <body class="saas-classic">
@@ -33,7 +45,8 @@
                 <div class="row">
                     <div class="col-md-2">
                         <div class="brand_logo">
-                            <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a>
+                            <!-- <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a> -->
+                            <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/kusuricall-logo-ja8.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-10">
