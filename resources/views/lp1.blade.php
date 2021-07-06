@@ -159,7 +159,7 @@
         ============================================= -->
 <section id="s2-benifit" class="s2-benifit_section relative-position">
     <div class="container">
-        <div id="faq" class="text-center saas_two_section_title saas2-headline">
+        <div class="text-center saas_two_section_title saas2-headline">
             <h2>
                 薬コールの特徴
             </h2>

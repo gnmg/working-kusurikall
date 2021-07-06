@@ -118,9 +118,9 @@ s0.parentNode.insertBefore(s1,s0);
                                 </h3>
                                 <ul>
                                     <li><a href="/">{{ __('lang.home')}}</a></li>
-                                    <li><a href="#faq">{{ __('lang.faq')}}</a></li>
-                                    <li><a href="#features">{{ __('lang.features')}}</a></li>
-                                    <li><a href="#about">{{ __('lang.about')}}</a></li>
+                                    <li><a href="/#faq">{{ __('lang.faq')}}</a></li>
+                                    <li><a href="/#features">{{ __('lang.features')}}</a></li>
+                                    <li><a href="/#about">{{ __('lang.about')}}</a></li>
                                     <li><a href="/terms">{{ __('lang.terms')}}</a></li>
                                     <li><a href="/privacy">{{ __('lang.privacy')}}</a></li>
                                     <li><a href="{{ Route('contact') }}">{{ __('lang.contact')}}</a></li>
