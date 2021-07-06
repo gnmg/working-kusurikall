@@ -128,9 +128,9 @@ class Call extends Model
                         $next_attmpt_time = date('H:i',strtotime('+5 minutes',strtotime($row->time)));
                       
                         $call = \Telnyx\Call::create([
-                                'connection_id' => '1576959036576761626',
+                                'connection_id' => getenv( 'TELNYX_CONNECTION_ID'),
                                 'to' => $to,
-                                'from' => '+815045603515'
+                                'from' => getenv( 'TELNYX_CONNECTION_FROM')
                             ]);
                             
                         if($call && isset($call->call_control_id) && null !== $call->call_control_id) {
