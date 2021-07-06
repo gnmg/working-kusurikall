@@ -34,8 +34,8 @@ class StripeController extends Controller
         var_dump($charge);
         */
 
-        // $user = User::factory()->withSubscription('prod_IeVaIiQY1SXMx7')->create();
-        $user = User::factory()->withSubscription($ENV['STRIPE_PROD'])->create();
+        $user = User::factory()->withSubscription('prod_IeVaIiQY1SXMx7')->create();
+        // $user = User::factory()->withSubscription($ENV['STRIPE_PROD'])->create();
 
         $result = $user->subscribed(); // true
 
