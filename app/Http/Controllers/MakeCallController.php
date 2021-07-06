@@ -24,7 +24,8 @@ class MakeCallController extends Controller
 
         // outgoing call
        $call = \Telnyx\Call::create([
-            'connection_id' => '1576959036576761626',
+            // 'connection_id' => '1576959036576761626',
+            'connection_id' => getenv( 'TELNYX_CONNECTION_ID'),
             'to' => '+918866607616',
             'from' => '+815045603515'
         ]);
@@ -34,12 +35,12 @@ class MakeCallController extends Controller
         print_r($answer); exit;
  
         // incoming call
-$call = \Telnyx\Call::retrieve('v2:9ZODmGs046yp9cSWO89zMzbLAt7lXw6pwq_LoLcxWRwKG0T2SD1Rgw');
-$call->gather_using_speak([
-            "language" => "ja-JP",
-            "voice" => "female",
-            "payload" => "Google's free service instantly translates words, phrases, and web pages between English and over 100 other languages."
-        ]);
+        $call = \Telnyx\Call::retrieve('v2:9ZODmGs046yp9cSWO89zMzbLAt7lXw6pwq_LoLcxWRwKG0T2SD1Rgw');
+        $call->gather_using_speak([
+                    "language" => "ja-JP",
+                    "voice" => "female",
+                    "payload" => "Google's free service instantly translates words, phrases, and web pages between English and over 100 other languages."
+                ]);
 
         
         exit($call);
