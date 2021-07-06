@@ -125,9 +125,7 @@ return [
                 [
                     'name' => 'Standard',
                     'short_description' => 'This is a short, human friendly description of the plan.',
-                    'monthly_id' => 'price_1I3CYzFMVk1XeOZgymYRYAqL',
-                    // 'monthly_id' => $ENV['STRIPE_PROD'],
-                    //'yearly_id' => 'price_id',
+                    'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
                         'Feature ',
                         'Feature 2',
@@ -140,3 +138,8 @@ return [
         ],
     ]
 ];
+
+
+ // 'monthly_id' => 'price_1I3CYzFMVk1XeOZgymYRYAqL',
+                    // 'monthly_id' => $ENV['STRIPE_PROD'],
+                    //'yearly_id' => 'price_id',
