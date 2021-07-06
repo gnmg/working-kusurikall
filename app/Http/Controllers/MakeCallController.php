@@ -27,7 +27,8 @@ class MakeCallController extends Controller
             // 'connection_id' => '1576959036576761626',
             'connection_id' => getenv( 'TELNYX_CONNECTION_ID'),
             'to' => '+918866607616',
-            'from' => '+815045603515'
+            // 'from' => '+815045603515'
+            'from' => getenv( 'TELNYX_CONNECTION_FROM')
         ]);
         
         $answer = $call->answer();
