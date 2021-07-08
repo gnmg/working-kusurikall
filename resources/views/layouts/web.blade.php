@@ -86,13 +86,18 @@ s0.parentNode.insertBefore(s1,s0);
                             <i class="far fa-times-circle"></i>
                         </div>
                         <div class="text-center m-brand-logo">
-                            <a href="!#"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a>
+                            <a href="!#"><img src="assets/img/saas-c/logo/kusuricall-logo-ja8.png" alt=""></a>
                         </div>
                         <nav class="clearfix s2-mobile-main-navigation ul-li">
                             <ul id="m-main-nav" class="clearfix navbar-nav text-capitalize">
                                 <li><a href="#features">{{ __('lang.features')}}</a></li>
                                 <li><a href="#s2-pricing">{{ __('lang.pricing')}}</a></li>
                                 <li><a href="#faq">{{ __('lang.faq')}}</a></li>
+                                @if (Auth::guest())
+                                    <li><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
+                                    @else
+                                    <li><a href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
+                                    @endif
                             </ul>
                         </nav>
                     </div>

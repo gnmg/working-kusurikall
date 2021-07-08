@@ -39,7 +39,7 @@
                         <label for="title" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.title')}}<span
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <input type="text" id="title" name="title" placeholder="{{ __('lang.title')}}"
-                            class=" text-sm border-gray-300 md:w-1/8 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('title') border-2 border-red-500 @enderror"
+                            class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('title') border-2 border-red-500 @enderror"
                             value="{{ old('title') }}">
 
                         @error('title')
@@ -67,7 +67,7 @@
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
 
                         <input type="text" id="time" name="time" placeholder="Time"
-                            class=" bs-timepicker text-sm border-gray-300 md:w-1/8 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
+                            class=" bs-timepicker text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
                             value="{{ old('time') }}">
 
                         @error('time')
@@ -89,7 +89,7 @@
                             class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.phone_number')}}<span
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <input type="text" id="phone_numbers" name="phone_numbers"
-                            class="text-sm border-gray-300 md:w-1/4  shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('phone_numbers') border-2 border-red-500 @enderror"
+                            class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('phone_numbers') border-2 border-red-500 @enderror"
                             placeholder="{{ __('lang.phone_number')}}" value="{{ old('phone_numbers') }}">
 
                         @error('phone_numbers')
@@ -193,7 +193,7 @@
                         <div class="mb-16">
                             <label for="sos_email" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.email')}}</label>
                             <input type="text" id="sos_email" name="sos_email" value="{{ old('sos_email') }}"
-                                class="text-sm border-gray-300 md:w-1/4 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5  @error('sos_email') border-2 border-red-500 @enderror"
+                                class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5  @error('sos_email') border-2 border-red-500 @enderror"
                                 placeholder="{{ __('lang.email')}}">
                             @error('sos_email')
                             <div class="mt-2 text-sm text-red-500">
@@ -206,6 +206,9 @@
                     </div>
                     <div class="w-full mb-4">
                         <div class="items-center">
+                        <a href="/dashboard"
+                            class="px-4 py-3 font-medium text-black bg-white border border-gray-400 rounded place-self-center">{{ __('lang.cancel')}}</a>
+                            
                             <button type="submit"
                                 class="px-4 py-3 font-medium text-white bg-blue-500 rounded place-self-center ">{{ __('lang.submit')}}</button>
                         </div>

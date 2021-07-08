@@ -10,15 +10,15 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-                body: ['Hiragino Kaku Gothic ProN', 'メイリオ'],
+                body: ['Noto Sans JP', 'メイリオ'],
             },
         },
     },
 
     variants: {
         extend: {
-            opacity: ['disabled'], backgroundColor: ['active'],
+            opacity: ['disabled'],
+            backgroundColor: ['active'],
         },
     },
 

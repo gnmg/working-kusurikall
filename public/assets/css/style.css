@@ -2971,6 +2971,23 @@ select:visited {
     .saas_early {
         padding: 60px 0px 40px;
     }
+    .saas_two_main_header .brand_logo img {
+        max-width: 32%;
+    }
+    .saas_two_banner_section .s2-banner_content .banner_btn a {
+        height: 55px;
+        width: 190px;
+        text-align: center;
+        line-height: 55px;
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        display: inline-block;
+        z-index: 1;
+        background-color: #6194FF;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -3030,6 +3047,7 @@ select:visited {
     }
     .saas_two_main_header .saas_sign_up_btn {
         right: 55px;
+        visibility: hidden;
     }
 }
 
@@ -3115,6 +3133,7 @@ select:visited {
     font-weight: 300;
     color: #303030;
     list-style: none;
+    padding-left: 0;
 }
 
 .ul-center li {

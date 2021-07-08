@@ -3,7 +3,7 @@
 </svg> -->
 
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="537.829px" height="92.446px" viewBox="0 0 537.829 92.446" enable-background="new 0 0 537.829 92.446"
 	 xml:space="preserve" padding-bottom=20px>
 <g>
@@ -45,4 +45,5 @@
 	<path fill="#C7936D" d="M492.671,1.655h16.136v89.136h-16.136V1.655z"/>
 	<path fill="#C7936D" d="M521.692,1.655h16.137v89.136h-16.137V1.655z"/>
 </g>
-</svg>
+</svg> -->
+<div class="w-48 center"><img src="assets/img/saas-c/logo/kusuricall-logo-ja8.png" alt=""></div>

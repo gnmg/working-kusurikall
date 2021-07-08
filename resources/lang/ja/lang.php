@@ -14,7 +14,7 @@ return [
 
     'login'   => 'ログイン',
     'remember_me' => 'ログイン状態を保存す',
-    'email' => 'マールアドレス',
+    'email' => 'メールアドレス',
     'forget_password' => 'パスワードをお忘れですか？',
     'password' => 'パスワード',
     'myreminders' => 'マイリマインダー',

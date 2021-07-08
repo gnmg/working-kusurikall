@@ -37,7 +37,7 @@
                         <label for="title" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.title')}}<span
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <input type="text" id="title" name="title" placeholder="Title"
-                            class=" text-sm border-gray-300 md:w-1/8 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('title') border-2 border-red-500 @enderror"
+                            class=" text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('title') border-2 border-red-500 @enderror"
                             value="{{ old('title',$call->title) }}">
 
                         @error('title')
@@ -64,7 +64,7 @@
                         <label for="time" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.time')}}<span
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <input type="text" id="time" name="time" placeholder="Time"
-                            class=" bs-timepicker text-sm border-gray-300 md:w-1/8 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
+                            class=" bs-timepicker text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('time') border-2 border-red-500 @enderror"
                             value="{{ old('time',date('H:i',strtotime($call->time))) }}">
 
                         @error('time')
@@ -191,7 +191,7 @@
                         <div class="mb-16">
                             <label for="sos_email" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.email')}}</label>
                             <input type="text" id="sos_email" name="sos_email"
-                                class="text-sm border-gray-300 md:w-1/4 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5  @error('sos_email') border-2 border-red-500 @enderror"
+                                class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5  @error('sos_email') border-2 border-red-500 @enderror"
                                 placeholder="Enter the email address of the"
                                 value="{{old('sos_email',$call->sos_email) }}">
                             @error('sos_email')
