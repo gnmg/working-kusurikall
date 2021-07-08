@@ -93,11 +93,11 @@ return [
     */
 
     'receipt_data' => [
-        'vendor' => 'Your Product',
-        'product' => 'Your Product',
-        'street' => '111 Example St.',
-        'location' => 'Los Angeles, CA',
-        'phone' => '555-555-5555',
+        'vendor' => 'KusuriKall',
+        'product' => 'リマインダーコール',
+        'street' => '〒399-4117長野県駒ヶ根市',
+        'location' => '赤穂10405-3',
+        'phone' => '050-3186-2388',
     ],
 
     /*
@@ -125,6 +125,7 @@ return [
                 [
                     'name' => 'Standard',
                     'short_description' => 'This is a short, human friendly description of the plan.',
+                    'trial_days' => 21,
                     'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
                         'Feature ',

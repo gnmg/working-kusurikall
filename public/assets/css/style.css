@@ -3178,3 +3178,7 @@ select:visited {
 .terms b {
     margin-bottom: 5px;
 }
+
+.trade {
+    list-style: none;
+}

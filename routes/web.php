@@ -110,6 +110,10 @@ Route::get('lp1', function () {
     return view('lp1');
 });
 
+Route::get('trade', function () {
+    return view('trade');
+});
+
 Route::get('/', function () {
     return view('lp1');
 });
