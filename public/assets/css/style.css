@@ -3133,7 +3133,6 @@ select:visited {
     font-weight: 300;
     color: #303030;
     list-style: none;
-    padding-left: 0;
 }
 
 .ul-center li {
@@ -3200,4 +3199,10 @@ select:visited {
 
 .trade {
     list-style: none;
+}
+
+.benifit {
+    font-size: 1.2em;
+    color: #AC0123;
+    padding-right: 6px;
 }

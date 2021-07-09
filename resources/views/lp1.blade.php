@@ -168,15 +168,17 @@
         <div class="s2_benifit_content">
             <div class=" accordion" id="accordionExample">
                 <ul class="ul-center">
-                    <li> ご登録後21日間、無料でお試しいただけます。22日目にご登録さご登録後21日間、無料でお試しいただけます。
+                    <li>
+                        <i class="far fa-check-circle benifit"></i>
+                        ご登録後21日間、無料でお試しいただけます。22日目にご登録さご登録後21日間、無料でお試しいただけます。
                     </li>
-                    <li> ご登録後21日間、無料でお試しいただけます。22日目にご登録さ
+                    <li> <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。22日目にご登録さ
                     </li>
-                    <li> ご登録後21日間、無料でお試しいただけます。
+                    <li>  <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。
                     </li>
-                    <li> ご登録後21日間、無料でお試しいただけます。22日目にご登録さ無料でおただけます。22日目にご登録さご
+                    <li>  <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。22日目にご登録さ無料でおただけます。22日目にご登録さご
                     </li>
-                    <li> ご登録後21日間、無料でお試しいただけます。22日目にご登録さ無料でお試しいただけます。22日目にご登録さご
+                    <li>  <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。22日目にご登録さ無料でお試しいただけます。22日目にご登録さご
                     </li>
                 </ul>
 
@@ -194,7 +196,7 @@
         <div class="text-center saas_two_section_title saas2-headline">
             <h2 id="pricing">薬コールプライスプラン</h2>
             <p class="pt-2">
-            Sign up for a 21 day trial. Cancel anytime before the end of the trial and you will not be charged.  
+                Sign up for a 21 day trial. Cancel anytime before the end of the trial and you will not be charged.
             </p>
         </div>
         <!-- /section title -->

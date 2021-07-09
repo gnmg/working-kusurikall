@@ -34,9 +34,6 @@ s0.parentNode.insertBefore(s1,s0);
 <body class="saas-classic">
     <!-- preloader - start -->
     <div id="preloader" class="saas-classic-preloader"></div>
-    <div class="up">
-        <a href="#" id="scrollup" class="text-center saas-classic-scrollup"><i class="fas fa-angle-up"></i></a>
-    </div>
     <!-- Start of nav section
         ============================================= -->
     <header id="header_main" class="saas_two_main_header">

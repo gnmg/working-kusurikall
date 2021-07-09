@@ -146,5 +146,17 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'title' => 'タイトル',
+        'time' => '時間',
+        'phone_numbers' => '電話番号',
+        'message_voice' => 'メッセージの声',
+        'message' => 'メッセージ',
+        'sos' => '警告メッセージ',
+        'sos_email' => 'メールアドレス',
+
+        ],
+
+        
 ];
+
