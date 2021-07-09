@@ -230,7 +230,7 @@
                             </ul>
                         </div>
                         <div class="s2-pricing_btn">
-                            <a href="#">21日間無料試し</a>
+                            <a href="billing">21日間無料試し</a>
                         </div>
                     </div>
                 </div>
