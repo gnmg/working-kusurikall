@@ -16,7 +16,7 @@
                             お薬の飲み忘れを防ぐために</br>毎日お電話でお知らせしますお知らせします<br>お薬の飲み忘れを防ぐためにお知らせ
                         </p>
                         <div class="text-center banner_btn">
-                            <a href="#">21日間無料試し</a>
+                            <a href="billing">21日間無料試し</a>
                         </div>
                     </div>
                     <div class="banner_mockup d-none d-lg-block">
