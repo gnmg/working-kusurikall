@@ -46,7 +46,7 @@
                         </div>
                         @enderror
 
-                        <div class="block mt-3 mb-2 mr-3 text-xs text-gray-600 md:text-base">
+                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
                             {{ __("Enter a title that is easy to　remember.")}}</div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                     </div>
                     <h2 class="text-lg">{{ __('lang.schedule')}}</h2>
                 </div>
-                <div class="w-full mb-4">
+                <div class="w-full mb-7">
                     <div class="">
                         <label for="time" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.time')}}<span
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
@@ -74,7 +74,7 @@
                         @enderror
 
 
-                        <div class="block mt-3 mb-16 mr-3 text-xs text-gray-600 md:text-base">
+                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
                             {{ __("Enter the time you want to be called.")}}</div>
                     </div>
                 </div>
@@ -94,8 +94,8 @@
                             {{ $message }}
                         </div>
                         @enderror
-                        <div class="block mt-3 mb-2 mr-3 text-xs text-gray-600 md:text-base">
-                            {{ __("Enter the phone number you would like to be called at.")}}</div>
+                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
+                            {{ __("Enter the phone number you would like to be called at.")}}<br>{{ __("Can not register cell phone number.")}}</div>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     </div>
                     <h2 class="text-lg">{{ __('lang.message')}}</h2>
                 </div>
-                <div class="w-full mb-4">
+                <div class="w-full mb-7">
                     <div class="">
                         <label for="message_voice"
                             class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.message_voice')}}<span
@@ -130,8 +130,8 @@
                             {{ $message }}
                         </div>
                         @enderror
-                        <div class="block mt-3 mb-16 mr-3 text-xs text-gray-600 md:text-base">
-                            {{ __("Choose the voice that the message will be played in.")}}</div>
+                        <!-- <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
+                            {{ __("Choose the voice that the message will be played in.")}}</div> -->
 
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                             {{ $message }}
                         </div>
                         @enderror
-                        <div class="block mt-3 mb-2 mr-3 text-xs text-gray-600 md:text-base">
+                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
                             {{ __("Type in a message that will be played when the call is answered.")}}</div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                     <h2 class="text-lg">{{ __('lang.alert')}}</h2>
                 </div>
                 <div class="w-full mb-4">
-                    <div class="">
+                    <div class="mb-7">
                         <label for="sos" class="block mt-3 mb-2 mr-3 text-lg">{{ __('lang.turn_on_alert_message')}}<span
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <label class="inline-flex items-center">
@@ -181,7 +181,7 @@
                             {{ $message }}
                         </div>
                         @enderror
-                        <div class="block mt-3 mb-16 mr-3 text-xs text-gray-600 md:text-base">
+                        <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
                             {{ __("Do you want to have an alert email sent if the call is not answered?")}}</div>
 
                     </div>
@@ -198,6 +198,8 @@
                             <div class="mt-2 text-sm text-red-500">
                                 {{ $message }}
                                 @enderror
+                                <div class="block mt-3 mb-2 mr-3 text-sm text-gray-400">
+                                    {{ __("Enter the email addess where you want the alert sent to.")}}</div>
                             </div>
                         </div>
                     </div>
