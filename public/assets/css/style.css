@@ -1201,6 +1201,21 @@ select:visited {
     background-color: #6194FF;
 }
 
+.banner_btn a {
+    height: 55px;
+    width: 190px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    display: inline-block;
+    z-index: 1;
+    background-color: #6194FF;
+}
+
 .saas_two_banner_section .s2-banner_content .banner_btn a i {
     font-size: 20px;
     margin-right: 8px;
@@ -2904,7 +2919,7 @@ select:visited {
 
 @media screen and (max-width: 480px) {
     .saas_two_banner_section {
-        padding-top: 180px;
+        padding-top: 100px;
     }
     .saas_two_banner_section .s2-banner_content h1 {
         font-size: 45px;
@@ -2988,6 +3003,14 @@ select:visited {
         z-index: 1;
         background-color: #6194FF;
     }
+    .ul-center {
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 300;
+        color: #303030;
+        list-style: none;
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -3049,11 +3072,20 @@ select:visited {
         right: 55px;
         visibility: hidden;
     }
+    .saas_two_banner_section .s2-banner_content p {
+        margin-top: 0.875em;
+        font-size: 1.0em;
+        font-weight: bold;
+        line-height: 1.8em;
+        letter-spacing: -0.02em;
+        color: #333;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 380px) {
     .saas_two_banner_section .s2-banner_content h1 {
-        font-size: 36px;
+        font-size: 25px;
     }
     .saas_two_about_section .s2-about_text_icon .s2-about_text h3 {
         font-size: 26px;

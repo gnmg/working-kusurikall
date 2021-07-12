@@ -10,10 +10,10 @@
                 <div class="s2-banner_area relative-position">
                     <div class="text-center s2-banner_content saas2-headline pera-content">
                         <h1>
-                            お薬をのみ</br>わすれますか？
+                            お母様が毎日薬飲んで<br>いるか心配ですよね？
                         </h1>
                         <p>
-                            お薬の飲み忘れを防ぐために</br>毎日お電話でお知らせしますお知らせします<br>お薬の飲み忘れを防ぐためにお知らせ
+                            別居しているご両親が定時に薬を飲むように<br>１日３回までお電話してリマインドします<br>電話に出なければ飲み忘れメールを送ります
                         </p>
                         <div class="text-center banner_btn">
                             <a href="billing">21日間無料試し</a>
@@ -114,7 +114,7 @@
 
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>パーソナライズされたメッセージ内容</h3>
+                            <h3>個人メッセージの内容</h3>
                             <p>
                                 メッセージの内容はパーソナライズされているのでどのお薬を飲むのかをメッセージで伝えることができます。
                             </p>
@@ -170,15 +170,16 @@
                 <ul class="ul-center">
                     <li>
                         <i class="far fa-check-circle benifit"></i>
-                        ご登録後21日間、無料でお試しいただけます。22日目にご登録さご登録後21日間、無料でお試しいただけます。
+                        ご両親に対して口うるさく言う必要がなくなります。
                     </li>
-                    <li> <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。22日目にご登録さ
+                    <li> <i class="far fa-check-circle benifit"></i>ご両親にとっても人から言われるストレスから解放されます。
                     </li>
-                    <li>  <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。
+                    <li> <i class="far fa-check-circle benifit"></i>"きちんと薬の服用をすることにより
+                        より良い健康状態を維持します"。
                     </li>
-                    <li>  <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。22日目にご登録さ無料でおただけます。22日目にご登録さご
+                    <li> <i class="far fa-check-circle benifit"></i>毎日、リマインダーの電話をしなくてもよくなります。
                     </li>
-                    <li>  <i class="far fa-check-circle benifit"></i>ご登録後21日間、無料でお試しいただけます。22日目にご登録さ無料でお試しいただけます。22日目にご登録さご
+                    <li> <i class="far fa-check-circle benifit"></i>年配のご両親が、慣れないアプリに苦労する必要はありません、ただ電話に出るだけでいいのです。
                     </li>
                 </ul>
 
@@ -196,7 +197,7 @@
         <div class="text-center saas_two_section_title saas2-headline">
             <h2 id="pricing">薬コールプライスプラン</h2>
             <p class="pt-2">
-                Sign up for a 21 day trial. Cancel anytime before the end of the trial and you will not be charged.
+                21日間の無料お試しサービスに登録しましょう。無料期間内であればいつでもキャンセルでき、料金はかかりません。
             </p>
         </div>
         <!-- /section title -->
@@ -368,30 +369,24 @@
                 <h1>About KusuriKall</h1>
             </div>
             <div class="col-lg-10 col-md-12 jp-font">
-                <p>I started KusuriKall in search of a way to better remind myself to take my immunosuppressants after
-                    my kidney transplant. It is very important for transplant patients to take their medicine on time
-                    everyday. Smartphone reminder apps did not work well for me even when at home because I did not
-                    always have my smartphone with me. However I can usually hear the home phone.
+                <p>「薬コール」をはじめようと思ったのは、私自身がその必要性を体感していたからです。
+                    私は去年、腎臓移植手術を受けました。移植を受けた人にとって、免疫抑制剤を毎日、決められた時間に服用することはとても大切なことです。はじめはスマートフォンのアプリを使用していましたが、私の場合、常に身に付けているわけではないので、アプリのアラームが聞えない事がよくありました。一方で家の固定電話ならいつでも聞こえることから、このサービスを始めようと思いました。
                 </p>
-                <p>Older people are in a similar situation. New technology like smartphones can be very difficult to use
-                    and many older people do not use smartphones. So a regular phone is perfect for these people.
+                <p>同じ状況のお年寄りの方々も多くいらっしゃいます。最新のスマートフォンを使いこなすのはなかなか難しいことではないでしょうか。使い慣れている家の固定電話がストレスにならずにクスリの飲み忘れを防ぐお手伝いになります。
                 </p>
-                <p>Medicine adherence is a big problem for all patients. The WHO states that 50% of patients do not take
-                    their medications as prescribed. This percentage is probably even higher among elderly and Alzheimer
-                    patients.
+                <p>クスリの飲み忘れは全ての患者さんにとって大きな問題に繋がりかねません。世界保健機関（WHO）によると、患者さんの約半数の人が処方された薬を指示通りに服用していないそうです。年配の患者さんやアルツハイマーの患者さんにおいては更に飲み忘れの割合が高いと言うことです。
                 </p>
-                <p>Medicine adherence is not just the patient's responsibility especially for older people or those with
-                    Alzheimer’s. It is also the responsibility of those who are taking care of patients or family
-                    members that need to help to adhere to medication requirements.
+                <p>アルツハイマーを患っている方や、年配の方々においてはクスリの飲み忘れは単にご本人のみの問題ではありません。家族やケアテイカーの方々が毎日確認したり、リマインドしなければならないため、負担も大きくなります。
                 </p>
-                <p>With proper medicine adherence patients will have better medical outcomes.
+                <p>きちんと処方通りにクスリを服用することが、より良い健康維持に繋がります。
                 </p>
-                <p>For these caretakers KusuriKall has features that help you keep your patients or family members on
-                    track with their medicine. If the first call is not answered then we will call up to three more
-                    times at 5 minute intervals. If the call is not answered then we will send you a text message or
-                    email notifying you that the call was not answered.
+                <p>「薬コール」はお父様、お母様、またはご家族の方がきちんとクスリを服用できるようにお手伝いします。そして、あなたがご家族の毎日のクスリ時間を心配するストレスを軽減します。最初のコール（電話の呼び出し）に出ない場合、5分間隔で更に2回コールします。もし3回目までの電話に出ない場合は、事前に登録いただいているメールアドレスに、クスリを飲み忘れている可能性があることをご連絡します。電話に出ないことがすぐにわかるので、その時点でご家族の方が対応可能になります。
                 </p>
             </div>
+
+        </div>
+        <div class="text-center banner_btn">
+            <a href="billing">21日間無料試し</a>
         </div>
     </div>
 </section>

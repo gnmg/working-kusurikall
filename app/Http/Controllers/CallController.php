@@ -69,7 +69,7 @@ class CallController extends Controller
         $call['user_id'] = $request->user()->id;
         Call::create($call);
    
-        return redirect('/dashboard')->with('success', 'Call is successfully saved');
+        return redirect('/dashboard')->with('success', 'リマインダーが保存されました。');
     }
 
     /**
@@ -117,7 +117,7 @@ class CallController extends Controller
         ]);
         call::whereId($id)->update($validatedData);
 
-        return redirect('/dashboard')->with('success', 'Call is successfully saved');
+        return redirect('/dashboard')->with('success', 'リマインダーが保存されました。');
     }
 
     /**
