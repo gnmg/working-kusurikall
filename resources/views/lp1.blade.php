@@ -16,7 +16,7 @@
                             別居しているご両親が定時に薬を飲むように<br>１日３回までお電話してリマインドします<br>電話に出なければ飲み忘れメールを送ります
                         </p>
                         <div class="text-center banner_btn">
-                            <a href="billing">21日間無料試し</a>
+                            <a href="register">21日間無料試し</a>
                         </div>
                     </div>
                     <div class="banner_mockup d-none d-lg-block">
@@ -231,7 +231,7 @@
                             </ul>
                         </div>
                         <div class="s2-pricing_btn">
-                            <a href="billing">21日間無料試し</a>
+                            <a href="register">21日間無料試し</a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +386,7 @@
 
         </div>
         <div class="text-center banner_btn">
-            <a href="billing">21日間無料試し</a>
+            <a href="register">21日間無料試し</a>
         </div>
     </div>
 </section>
