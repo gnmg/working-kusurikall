@@ -98,9 +98,8 @@ class Call extends Model
                     
                     Mail::send('max_attampt', $data, function($message) use ($toMail) {
                     $message->to($toMail)
-                    ->subject('「薬コール」のリマインダー
-                    ');
-                    $message->from(env('MAIL_FROM_ADDRESS'),'薬コール);
+                    ->subject('「薬コール」のリマインダー');
+                    $message->from(env('MAIL_FROM_ADDRESS'),'薬コール');
                     });
                     
                 } 
