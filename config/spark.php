@@ -123,14 +123,14 @@ return [
  
             'plans' => [
                 [
-                    'name' => 'Standard',
-                    'short_description' => 'This is a short, human friendly description of the plan.',
+                    'name' => '月額プラン',
+                    'short_description' => '',
                     'trial_days' => 21,
                     'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
-                        'Feature ',
-                        'Feature 2',
-                        'Feature 3',
+                        '毎日3回まで固定電話薬コール',
+                        'パーソナライズされたメッセージ内容 ',
+                        '電話に出ないとメールでお知らせ',
                     ],
                 ],
             ],

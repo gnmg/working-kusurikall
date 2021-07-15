@@ -1,5 +1,5 @@
 {
-    ":days day trial": ":days day trial",
+    ":days day trial": ":days 日間無料試し",
     "Add VAT Number": "Add VAT Number",
     "Address Line 2": "Address Line 2",
     "Address": "Address",
@@ -172,8 +172,8 @@
     "Monaco": "Monaco",
     "Mongolia": "Mongolia",
     "Montenegro": "Montenegro",
-    "Monthly": "Monthly",
-    "monthly": "monthly",
+    "Monthly": "月",
+    "monthly": "月",
     "Montserrat": "Montserrat",
     "Morocco": "Morocco",
     "Mozambique": "Mozambique",
