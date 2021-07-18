@@ -52,7 +52,7 @@ return [
     'about' => 'About Us',
     'terms' => '利用規約',
     'privacy' => ' 個人情報保護方針',
-    'terms-agree' => 'Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy.',
+    'terms-agree' => '利用規約・プライバシーポリシーに同意の上でお進みください。',
     'read-terms' => 'I have read and agree to the Terms and Conditions and Privacy Policy.',
     'edit_reminder' => 'リマインダーを変化',
 

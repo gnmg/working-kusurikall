@@ -47,8 +47,7 @@
                 <x-input id=" password_confirmation" class="block w-full mt-1" type="password"
                     name="password_confirmation" required />
             </div>
-            <div class="pt-3"><input type="checkbox" name="checkbox" value="check" id="agree" />
-            I have read and agree to the <a href="{{ url('/terms') }}" class="text-indigo-600">terms and Conditions</a> and<a href="{{ url('/privacy') }}" class="text-indigo-600"> Privacy Policy</a>.</div>
+            <div class="pt-3"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree" /><a href="{{ url('/terms') }}" class="ml-2 text-indigo-600">利用規約</a>・<a href="{{ url('/privacy') }}" class="text-indigo-600">プライバシーポリシー</a>に同意の上でお進みください。</div>
 
 
             <div class="flex items-center justify-end mt-4">
