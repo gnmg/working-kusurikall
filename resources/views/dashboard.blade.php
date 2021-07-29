@@ -171,7 +171,6 @@
                                             <div class=""><a href="{{ URL::route('call.create') }}"
                                                     class="flex px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
                                                     {{ __('lang.addreminder')}}</a></div>
-
                                         </div>
                                     </div>
                                 </div>
