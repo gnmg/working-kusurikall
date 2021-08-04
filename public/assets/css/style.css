@@ -2253,8 +2253,8 @@ select:visited {
 /*----------------------------------------------------*/
 
 .about {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-color: #FFFFFF;
 }
 
@@ -2938,7 +2938,7 @@ select:visited {
         padding-bottom: 30px;
     }
     .saas_two_service_section {
-        padding: 60px 0px;
+        padding: 20px 0px;
     }
     .saas_two_about_section {
         padding: 60px 0px 30px;
@@ -3010,6 +3010,24 @@ select:visited {
         color: #303030;
         list-style: none;
         padding-left: 0px;
+    }
+    .s2-benifit_section {
+        z-index: 1;
+        padding: 20px 0px 85px;
+        background-color: #F8F1E8;
+    }
+    .s2-faq_section .s2_faq_content button {
+        font-size: .9rem;
+    }
+    .s2-faq_section .s2_faq_content .s2_faq .s2_faq-body {
+        font-size: .8rem;
+    }
+    .about {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .about h1 {
+        margin-bottom: 50px;
     }
 }
 
@@ -3175,6 +3193,11 @@ select:visited {
 
 .ul-center li:last-child {
     padding-top: 30px;
+}
+
+.ul-center li:first-child {
+    padding-top: 30px;
+    border-top: #eee solid 0px;
 }
 
 
