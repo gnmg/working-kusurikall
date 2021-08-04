@@ -140,7 +140,7 @@
                             </div>
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>電話に出ないと…</h3>
+                            <h3>電話に出ないと...</h3>
                             <p>
                                 ３回お電話しても電話にでない場合は、事前に登録されている方にお薬の飲み忘れがあることをメールでお知らせします。
                             </p>
