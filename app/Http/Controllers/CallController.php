@@ -131,6 +131,6 @@ class CallController extends Controller
         $call = Call::findOrFail($id);
         $call->delete();
 
-        return redirect('/dashboard')->with('success', 'Reminder was successfully deleted');
+        return redirect('/dashboard')->with('success', 'リマインダーは削除されました。');
     }
 }

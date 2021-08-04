@@ -22,7 +22,7 @@
                         <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" stroke-width="20" fill="white" />
                     </svg>{{ __('lang.addreminder')}}</a>
                     @else
-                    <div>You can not add any more calls.</div>
+                    <div>{{ __('lang.can_not_add_anymore_reminders')}}</div>
                     @endif
             </div>
 

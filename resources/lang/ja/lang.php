@@ -55,6 +55,8 @@ return [
     'terms-agree' => '利用規約・プライバシーポリシーに同意の上でお進みください。',
     'read-terms' => 'I have read and agree to the Terms and Conditions and Privacy Policy.',
     'edit_reminder' => 'リマインダーを変化',
+    'can_not_add_anymore_reminders' => 'リマインダーを追加できません。',
+    
 
 
 
