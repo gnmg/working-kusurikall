@@ -108,8 +108,8 @@ class CallController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|max:50',
             'time' => 'required',
-            //'phone_numbers' => ['required', 'regex:/^0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$/'],
-            'phone_numbers' => 'required',
+            'phone_numbers' => ['required', 'regex:/^0([0-9][0-9]{4}[0-9]{2}[0-9]{3}|[0-9]{3}[0-9]{2}|[0-9]{4}[0-9])[0-9]{4}$/'],
+            // 'phone_numbers' => 'required',
             'message_voice' => 'required',
             'message' => 'required',
             'sos' => 'required',
@@ -131,6 +131,6 @@ class CallController extends Controller
         $call = Call::findOrFail($id);
         $call->delete();
 
-        return redirect('/dashboard')->with('success', 'Reminder was successfully deleted');
+        return redirect('/dashboard')->with('success', 'リマインダーは削除されました');
     }
 }
