@@ -3,7 +3,7 @@
 return [
     /*
     |--------------------------------------------------------------------------
-    | Authentication Language Lines
+    | Authentication Language Lines 
     |--------------------------------------------------------------------------
     |
     | The following language lines are used during authentication for various
@@ -19,25 +19,30 @@ return [
     'password' => 'パスワード',
     'myreminders' => 'マイリマインダー',
     'addreminder' => 'リマインダーを追加',
+    'addreminder-green' => 'リマインダーを設定',
     'subscription' => '購読管理',
     'logout' => 'ログアウト',
     'contact_us' => 'お問い合わせ',
     'top' => 'トップ',
     'reminder_title' => 'タイトル',
     'phone_number' => '電話番号',
+    'phone_number_placeholder' => 'ハイフンをいれない',
     'time' => '時間',
+    'time_placeholder' => '時間',
     'edit' => '編集',
     'delete' => '削除',
     'delete_reminder' => 'リマインダーを削除',
     'cancel' => 'キャンセル',
     'title' => 'タイトル',
+    'title_placeholder' => '例）朝の薬',
     'schedule' => 'スケジュール',
     'message' => 'メッセージ',
     'message_voice' => 'メッセージの声',
+    'message_placeholder' => 'placeholder',
     'male' => '男性',
     'female' => '女性',
-    'alert' => '警告メッセージ',
-    'turn_on_alert_message' => '警告メッセージオンにする',
+    'alert' => '「電話に出ない」ＳＯＳ通知',
+    'turn_on_alert_message' => 'ＳＯＳ通知をオンにする',
     'yes' => 'はい',
     'no' => 'いいえ',
     'submit' => '送信',

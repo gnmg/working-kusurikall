@@ -58,7 +58,8 @@
                                             {{ $call -> title }}
                                         </td>
                                         <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
-                                            {{str_replace(':00', '', $call -> time)}}
+                                            <!-- {{str_replace(':00', '', $call -> time)}} -->
+                                            {{$call -> time}}
                                         </td>
                                         <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                                             0{{ $call -> phone_numbers }}
@@ -170,7 +171,7 @@
                                         <div class="flex justify-center mt-10">
                                             <div class=""><a href="{{ URL::route('call.create') }}"
                                                     class="flex px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-700">
-                                                    {{ __('lang.addreminder')}}</a></div>
+                                                    {{ __('lang.addreminder-green')}}</a></div>
                                         </div>
                                     </div>
                                 </div>

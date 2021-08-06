@@ -87,7 +87,7 @@
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <input type="text" id="phone_numbers" name="phone_numbers"
                             class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('phone_numbers') border-2 border-red-500 @enderror"
-                            value="">
+                            placeholder="{{ __('lang.phone_number_placeholder')}}" value="{{ old('phone_numbers') }}">
 
                         @error('phone_numbers')
                         <div class="mt-2 text-sm text-red-500">
@@ -142,7 +142,7 @@
 
                         <textarea type="textarea" id="message" name="message"
                             class="text-sm border-gray-300 w-full  md:w-3/4 shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none  @error('message') border-2 border-red-500 @enderror"
-                            placeholder="Message">{{ old('message', $call->message ?? null) }}</textarea>
+                            placeholder="{{ __('lang.message_placeholder')}}">{{ old('message', $call->message ?? null) }}</textarea>
                         @error('message')
                         <div class="mt-2 text-sm text-red-500">
                             {{ $message }}
