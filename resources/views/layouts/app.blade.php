@@ -26,6 +26,16 @@
 
 <script type="text/javascript" src="{{ asset('js/timepicker.min.js') }}"></script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XY58M9JFJS');
+</script>
+
 </head>
 
 <body class="min-h-screen bg-gray-100 font-body">
