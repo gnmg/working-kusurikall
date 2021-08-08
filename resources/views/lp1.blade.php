@@ -366,7 +366,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="text-center col-lg-8 col-md-12">
-                <h1>About KusuriKall</h1>
+                <h1>薬コールについて</h1>
             </div>
             <div class="col-lg-10 col-md-12 jp-font">
                 <p>「薬コール」をはじめようと思ったのは、私自身がその必要性を体感していたからです。

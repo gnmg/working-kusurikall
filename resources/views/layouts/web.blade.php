@@ -135,6 +135,7 @@ s0.parentNode.insertBefore(s1,s0);
                                     <li><a href="/#about">{{ __('lang.about')}}</a></li>
                                     <li><a href="/terms">{{ __('lang.terms')}}</a></li>
                                     <li><a href="/privacy">{{ __('lang.privacy')}}</a></li>
+                                    <li><a href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh">{{ __('lang.contact')}}</a></li>
                                     <!-- <li><a href="{{ Route('contact') }}">{{ __('lang.contact')}}</a></li> -->
                                 </ul>
                             </div>
