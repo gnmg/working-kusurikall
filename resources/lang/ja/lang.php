@@ -38,7 +38,7 @@ return [
     'schedule' => 'スケジュール',
     'message' => 'メッセージ',
     'message_voice' => 'メッセージの声',
-    'message_placeholder' => 'placeholder',
+    'message_placeholder' => '例）お薬の時間です。3粒飲んでください。',
     'male' => '男性',
     'female' => '女性',
     'alert' => '「電話に出ない」ＳＯＳ通知',
