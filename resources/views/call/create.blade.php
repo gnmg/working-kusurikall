@@ -40,7 +40,7 @@
                                 class="text-sm bg-red-400 text-white rounded-sm px-1 py-0.5 ml-1">必要</span></label>
                         <input type="text" id="title" name="title" placeholder="{{ __('lang.title_placeholder')}}"
                             class="text-sm border-gray-300 md:w-3/4 w-full shadow-md rounded bg-gray-200 text-gray-900  p-3 focus:outline-none mb-0.5 @error('title') border-2 border-red-500 @enderror"
-                            value="{{ old('title') }}">
+                            value="{{ old('title')}}">
 
                         @error('title')
                         <div class="mt-2 text-sm text-red-500">

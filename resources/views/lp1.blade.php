@@ -10,7 +10,7 @@
                 <div class="s2-banner_area relative-position">
                     <div class="text-center s2-banner_content saas2-headline pera-content">
                         <h1>
-                        親御様が毎日<br>薬を飲んでいますか？
+                        親御様は毎日<br>薬を飲んでいますか？
                         </h1>
                         <p>
                             別居しているご両親が定時に薬を飲むように１日３回までお電話でリマインドします電話に出なければ飲み忘れメールを管理者に送ります
@@ -36,7 +36,7 @@
         <div id="features" class="text-center saas_two_section_title saas2-headline">
 
             <!-- <h2>KusuriKall は毎日定刻にお薬を服用するためにお電話でリマインドします</h2> -->
-            <h2>薬コールのとは...</h2>
+            <h2>薬コールとは...</h2>
         </div>
         <!-- /section title -->
         <div class="service_content">
@@ -140,7 +140,7 @@
                             </div>
                         </div>
                         <div class="service_text_box saas2-headline pera-content">
-                            <h3>電話に出ないと...</h3>
+                            <h3>電話に出ないと…</h3>
                             <p>
                                 ３回お電話しても電話にでない場合は、事前に登録されている方にお薬の飲み忘れがあることをメールでお知らせします。
                             </p>
@@ -161,6 +161,7 @@
     <div class="container">
         <div class="text-center saas_two_section_title saas2-headline">
             <h2>
+
                 薬コールを使うと...
             </h2>
         </div>
@@ -174,10 +175,10 @@
                     </li>
                     <li> <i class="far fa-check-circle benifit"></i>ご両親にとっても人から言われるストレスから解放されます。
                     </li>
-                    <li> <i class="far fa-check-circle benifit"></i>"きちんと薬の服用をすることにより
-                        より良い健康状態を維持します"。
+                    <li> <i class="far fa-check-circle benifit"></i>きちんと薬の服用をすることにより
+                        より良い健康状態を維持します。
                     </li>
-                    <li> <i class="far fa-check-circle benifit"></i>毎日、リマインダーの電話をしなくてもよくなります。
+                    <li> <i class="far fa-check-circle benifit"></i>毎日、リマインダーの電話をしなくても安心です。
                     </li>
                     <li> <i class="far fa-check-circle benifit"></i>年配のご両親が慣れないアプリに苦労する必要はなく、ただ電話に出るだけでいいのです。
                     </li>
@@ -213,7 +214,7 @@
                         <div class="s2-pricing_list ul-li-block">
                             <ul>
                                 <li class="text-center">
-                                    21日間無料試し
+                                    21日間無料で試お試し
                                 </li>
                                 <li class="text-center">
                                     毎日３回まで固定電話へ薬コール
@@ -318,12 +319,12 @@
                         <div class="s2_faq">
                             <div class="s2_faq-header" id="heading6">
                                 <button class="collapsed" data-toggle="collapse" data-target="#collapse6">
-                                    06. クスリコールを別の用途で使用できますか？
+                                    06. 薬コールを別の用途で使用できますか？
                                 </button>
                             </div>
                             <div id="collapse6" class="collapse" data-parent="#accordionExample">
                                 <div class="s2_faq-body">
-                                    はい。クスリコールはお薬のリマインドだけではなく、お好きなようにご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。
+                                    はい。クスリコールはお薬のリマインドだけではなく、お好きな用途にご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。
                                 </div>
                             </div>
                         </div>
@@ -386,7 +387,7 @@
 
         </div>
         <div class="text-center banner_btn">
-            <a href="register">21日間無料試し</a>
+            <a href="register">21日間無料お試し</a>
         </div>
     </div>
 </section>
