@@ -4,6 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>KusuriKall</title>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K79J7JD');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/saas-c/phone.svg" type="image/x-icon">
 
@@ -11,37 +31,48 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/60d89d8d7f4b000ac039cc8c/1f972esvh';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/60d89d8d7f4b000ac039cc8c/1f972esvh';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-XY58M9JFJS');
-</script>
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XY58M9JFJS');
+    gtag('config', 'AW-768058142');
+    </script>
 </head>
 
 <body class="saas-classic">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <!-- preloader - start -->
     <div id="preloader" class="saas-classic-preloader"></div>
     <!-- Start of nav section
@@ -53,7 +84,8 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="col-md-2">
                         <div class="brand_logo">
                             <!-- <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/medcall-logo4.png" alt=""></a> -->
-                            <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/kusuricall-logo-ja8.png" alt=""></a>
+                            <a href="{{ url('/') }}"><img src="assets/img/saas-c/logo/kusuricall-logo-ja8.png"
+                                    alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-10">
@@ -101,10 +133,10 @@ s0.parentNode.insertBefore(s1,s0);
                                 <li><a href="#s2-pricing">{{ __('lang.pricing')}}</a></li>
                                 <li><a href="#faq">{{ __('lang.faq')}}</a></li>
                                 @if (Auth::guest())
-                                    <li><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
-                                    @else
-                                    <li><a href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
-                                    @endif
+                                <li><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
+                                @else
+                                <li><a href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
+                                @endif
                             </ul>
                         </nav>
                     </div>
@@ -121,7 +153,7 @@ s0.parentNode.insertBefore(s1,s0);
         <div class="footer_content pera-content">
             <div class="container">
                 <div class="row justify-content-center">
-                   
+
                     <div class="col-lg-4 col-md-12">
                         <div class="clearfix s2_footer_widget ul-li-block saas2-headline">
                             <div class="s2_footer_menu">
@@ -135,7 +167,9 @@ s0.parentNode.insertBefore(s1,s0);
                                     <li><a href="/#about">{{ __('lang.about')}}</a></li>
                                     <li><a href="/terms">{{ __('lang.terms')}}</a></li>
                                     <li><a href="/privacy">{{ __('lang.privacy')}}</a></li>
-                                    <li><a href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh">{{ __('lang.contact')}}</a></li>
+                                    <li><a
+                                            href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh">{{ __('lang.contact')}}</a>
+                                    </li>
                                     <!-- <li><a href="{{ Route('contact') }}">{{ __('lang.contact')}}</a></li> -->
                                 </ul>
                             </div>
