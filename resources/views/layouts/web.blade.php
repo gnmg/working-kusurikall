@@ -4,9 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>KusuriKall</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-204286431-1');
+    </script>
+
 
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
@@ -21,7 +34,7 @@
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-K79J7JD');
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,7 +67,7 @@
     <!--End of Tawk.to Script-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -65,14 +78,14 @@
 
     gtag('config', 'G-XY58M9JFJS');
     gtag('config', 'AW-768058142');
-    </script>
+    </script> -->
 </head>
 
 <body class="saas-classic">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
     <!-- preloader - start -->
     <div id="preloader" class="saas-classic-preloader"></div>
     <!-- Start of nav section

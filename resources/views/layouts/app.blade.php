@@ -3,9 +3,23 @@
 
 <head>
     <meta charset="utf-8">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-204286431-1');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
@@ -20,7 +34,7 @@
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-K79J7JD');
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -60,7 +74,7 @@
     <!--End of Tawk.to Script-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -71,10 +85,10 @@
 
     gtag('config', 'G-XY58M9JFJS');
     gtag('config', 'AW-768058142');
-    </script>
+    </script> -->
     <!-- Event snippet for Kusuri-Subscribe conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
+    <!-- <script>
     function gtag_report_conversion(url) {
         var callback = function() {
             if (typeof(url) != 'undefined') {
@@ -87,15 +101,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         });
         return false;
     }
-    </script>
+    </script> -->
 
 
 </head>
 
 <body class="min-h-screen bg-gray-100 font-body">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
     <div id="app">
 
