@@ -66,8 +66,8 @@
     </script>
     <!--End of Tawk.to Script-->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
+    <!-- Global site tag (gtag.js) - Google Ads: 768058142 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-768058142"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -76,9 +76,8 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-XY58M9JFJS');
     gtag('config', 'AW-768058142');
-    </script> -->
+    </script>
 </head>
 
 <body class="saas-classic">
