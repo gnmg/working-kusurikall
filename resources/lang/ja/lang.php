@@ -26,7 +26,7 @@ return [
     'top' => 'トップ',
     'reminder_title' => 'タイトル',
     'phone_number' => '電話番号',
-    'phone_number_placeholder' => 'ハイフンをいれない',
+    'phone_number_placeholder' => 'ハイフンは不要',
     'time' => '時間',
     'time_placeholder' => '時間',
     'edit' => '編集',
