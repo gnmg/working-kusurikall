@@ -54,5 +54,3 @@ composer config http-basic.spark.laravel.com ralph@j-start.jp grkJsextTo0AitHmFQ
 
 
 C:\Program Files\Ampps\www\kusuri\app\Providers\RouteServiceProvider.php
-
-test tes
