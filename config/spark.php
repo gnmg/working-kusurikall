@@ -125,7 +125,7 @@ return [
                 [
                     'name' => '月額プラン',
                     'short_description' => '',
-                    'trial_days' => 0,
+                    'trial_days' => 21,
                     'monthly_id' => getenv( 'STRIPE_PRICE'),
                     'features' => [ 
                         '毎日3回まで固定電話薬コール',
