@@ -29,6 +29,7 @@ return [
     'phone_number_placeholder' => 'ハイフンは不要',
     'time' => '時間',
     'time_placeholder' => '時間',
+    'user_telephone' => '電話番号',
     'edit' => '編集',
     'delete' => '削除',
     'delete_reminder' => 'リマインダーを削除',

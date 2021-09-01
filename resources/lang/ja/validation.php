@@ -154,6 +154,7 @@ return [
         'message' => 'メッセージ',
         'sos' => 'SOSメッセージ',
         'sos_email' => 'メールアドレス',
+        'user_telephone' => '電話番号',
 
         ],
 
