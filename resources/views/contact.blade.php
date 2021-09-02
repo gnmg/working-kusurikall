@@ -18,7 +18,7 @@
     <div class="container mt-5 p-lg-5 bg-light justify-content-center">
 
     <div class="row"></div>
-        <form action="" method="post" action="{{ route('contact.store') }}">
+        <form method="post" action="{{ route('contact.store') }}">
             <!-- CROSS Site Request Forgery Protection -->
             @csrf
             <!--Name-->
@@ -27,7 +27,7 @@
                 <div class="col-sm-10">
                     <input type="text" class="form-control" name="name" id="name" placeholder="名前">
                     @error('name')
-                    <div class="text-danger mt-2">
+                    <div class="mt-2 text-danger">
                         {{ $message }}
                     </div>
                     @enderror
@@ -40,7 +40,7 @@
                 <div class="col-sm-10">
                     <input type="email" class="form-control" name="email" id="email" placeholder="Eメール">
                     @error('email')
-                    <div class="text-danger mt-2">
+                    <div class="mt-2 text-danger">
                         {{ $message }}
                     </div>
                     @enderror
@@ -53,7 +53,7 @@
                 <div class="col-sm-10">
                     <input type="text" class="form-control" name="phone" id="phone" placeholder="電話番号">
                     @error('phone')
-                    <div class="text-danger mt-2">
+                    <div class="mt-2 text-danger">
                         {{ $message }}
                     </div>
                     @enderror
@@ -66,7 +66,7 @@
                 <div class="col-sm-10">
                     <input type="text" class="form-control" name="subject" id="subject" placeholder="ご用件">
                     @error('subject')
-                    <div class="text-danger mt-2">
+                    <div class="mt-2 text-danger">
                         {{ $message }}
                     </div>
                     @enderror
@@ -79,7 +79,7 @@
                 <div class="col-sm-10">
                     <textarea type="text" class="form-control" name="message" id="message" placeholder="ご用件"></textarea>
                     @error('message')
-                    <div class="text-danger mt-2">
+                    <div class="mt-2 text-danger">
                         {{ $message }}
                     </div>
                     @enderror

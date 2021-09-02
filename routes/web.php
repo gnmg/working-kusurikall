@@ -118,5 +118,9 @@ Route::get('/', function () {
     return view('lp1');
 });
 
+Route::get('affiliate', function () {
+    return view('affiliate');
+});
+
 
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');
