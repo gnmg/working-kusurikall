@@ -62,6 +62,7 @@ return [
     'read-terms' => 'I have read and agree to the Terms and Conditions and Privacy Policy.',
     'edit_reminder' => 'リマインダーを変化',
     'can_not_add_anymore_reminders' => 'リマインダーを追加できません。',
+    'user_telephone_placeholder' => '例）03-1234-5678',
     
 
 
