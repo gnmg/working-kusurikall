@@ -29,6 +29,7 @@ return [
     'phone_number_placeholder' => 'ハイフンは不要',
     'time' => '時間',
     'time_placeholder' => '時間',
+    'user_telephone' => '電話番号',
     'edit' => '編集',
     'delete' => '削除',
     'delete_reminder' => 'リマインダーを削除',
@@ -61,6 +62,7 @@ return [
     'read-terms' => 'I have read and agree to the Terms and Conditions and Privacy Policy.',
     'edit_reminder' => 'リマインダーを変化',
     'can_not_add_anymore_reminders' => 'リマインダーを追加できません。',
+    'user_telephone_placeholder' => '例）03-1234-5678',
     
 
 
