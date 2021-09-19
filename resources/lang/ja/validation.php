@@ -154,6 +154,17 @@ return [
         'message' => 'メッセージ',
         'sos' => 'SOSメッセージ',
         'sos_email' => 'メールアドレス',
+        'company_name' => '貴社名',
+        'name' => 'タイトル',
+        'title' => '担当者名前',
+        'email' => 'メールアドレス',
+        'telephone' => '電話番号',
+        'post_code' => '郵便番号',
+        'address' => '住所',
+        'bank_name' => '金融機関',
+        'branch_name' => '支店',
+        'bank_account' => '口座番号',
+        'account_type' => '口座タイプ',
 
         ],
 

@@ -5,6 +5,7 @@ use App\Http\Controllers\CallController;
 use App\Http\Controllers\ContactUsFormController;
 use App\Http\Controllers\PrelaunchemailController;
 use App\Http\Controllers\StripeController;
+use App\Http\Controllers\AffiliateController;
 require __DIR__.'/auth.php';
 
 Route::group([
@@ -124,3 +125,8 @@ Route::get('affiliate', function () {
 
 
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');
+
+
+Route::get('/affiliate', [AffiliateController::class, 'createForm']);
+
+Route::post('/affiliate', [AffiliateController::class, 'Affiliate'])->name('affiliate.store');
