@@ -20,7 +20,7 @@
 
     @endif
 
-    <form action="{{ route('affiliate.store') }}" method="post">
+    <form action="{{ route('affiliate.store') }}" method="post" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('{{ __('lang.terms-agree')}}'); return false; }">
         @csrf
         <div class="">
             <div class="flex flex-col items-center px-8 py-20">
@@ -165,7 +165,7 @@
                             <label class="inline-flex items-center mr-5 ">
                                 <input type="radio" id="account_type" name="account_type" value="普通" class="ml-2"
                                     placeholder="Message Voice" @if(old('account_type')=='普通' ) checked @endif<span
-                                    class="ml-2">普通</span>
+                                    class="ml-2" checked>普通</span>
                             </label>
                             <label class="inline-flex items-center mr-5">
                                 <input type="radio" id="account_type" name="account_type" value="当座" class=""
@@ -177,12 +177,13 @@
                                     placeholder="Message Voice" @if(old('account_type')=='貯蓄' ) checked @endif<span
                                     class="ml-2">貯蓄</span>
                             </label>
-                            @error('bank_account')
+                            @error('account_type')
                             <div class="mt-2 text-sm text-red-500">
                                 {{ $message }}
                             </div>
                             @enderror
                         </div>
+                        <div class="pt-5"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree" /><a href="{{ url('/affiliate-terms') }}" class="ml-2 text-indigo-600">利用規約</a>・<a href="{{ url('/privacy') }}" target="_blank" class="text-indigo-600">プライバシーポリシー</a>に同意の上でお進みください。</div>
                         <div class="w-full mt-10">
                             <div class="items-center">
                                 <button type="submit"

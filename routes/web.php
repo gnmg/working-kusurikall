@@ -123,6 +123,10 @@ Route::get('affiliate', function () {
     return view('affiliate');
 });
 
+Route::get('affiliate-terms', function () {
+    return view('affiliate-terms');
+});
+
 
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');
 
