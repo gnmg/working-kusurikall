@@ -152,6 +152,53 @@
                                     @endforeach
                                 </tbody>
                             </table>
+
+
+
+
+                            <div class="table" id="results">
+                                <div class='theader'>
+                                    <div class='table_header'>{{ __('lang.reminder_title')}}</div>
+                                    <div class='table_header'>{{ __('lang.time')}}</div>
+                                    <div class='table_header'>{{ __('lang.phone_number')}}</div>
+                                    
+                                </div>
+                                @foreach($calls as $call)
+                                <div class='table_row'>
+                                    <div class='table_small'>
+                                        <div class='table_cell'>{{ __('lang.reminder_title')}}</div>
+                                        <div class='table_cell'>{{ $call -> title }}</div>
+                                    </div>
+                                    <div class='table_small'>
+                                        <div class='table_cell'>{{ __('lang.time')}}</div>
+                                        <div class='table_cell'>{{$call -> time}}</div>
+                                    </div>
+                                    <div class='table_small'>
+                                        <div class='table_cell'>{{ __('lang.phone_number')}}</div>
+                                        <div class='table_cell'>0{{ $call -> phone_numbers }}</div>
+                                    </div>
+                                    <div class='table_small'>
+                                        <div class='table_cell'></div>
+                                        <div class='table_cell'><a href="{{ route('call.edit', $call->id)}}"
+                                                class="text-indigo-600 hover:text-indigo-900"><span
+                                                    class="inline-flex px-4 py-2 text-base font-semibold leading-5 bg-blue-200 rounded text-black-800">
+                                                    {{ __('lang.edit')}}
+                                                </span></a></div>
+                                    </div>
+                                    <div class='table_small'>
+                                        <div class='table_cell'></div>
+                                        <div class='table_cell'><button
+                                                onclick="document.getElementById('id03{{$call->id}}').style.display='block'"
+                                                class="inline-flex px-4 py-2 text-base font-semibold leading-5 bg-red-200 rounded text-black-800">{{ __('lang.delete')}}
+                                            </button></div>
+                                    </div>
+                                </div>
+                                @endforeach
+                            </div>
+
+
+
+
                             @else
 
                             <div class="container max-w-lg px-4 mx-auto sm:px-8">
@@ -163,8 +210,10 @@
 
 
                                         <div class="text-center card-text">
-                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">リマインダーは</h1>
-                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">現在設定されていません</h1>
+                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">
+                                                リマインダーは</h1>
+                                            <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl">
+                                                現在設定されていません</h1>
 
                                         </div>
 
