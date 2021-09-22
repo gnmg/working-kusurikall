@@ -103,7 +103,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     }
     </script> -->
 
-<style>  .table {
+<style>  
+
+.table {
     display: table;
     text-align: center;
     width: 60%;
@@ -148,8 +150,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   
   .table_row > .table_small > .table_cell:nth-child(odd) {
     display: none;
-    background: #bdbdbd;
-    color: #e5e5e5;
+    background: white;
+    color: #000000;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -157,6 +159,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   .table_row > .table_small > .table_cell {
     padding-top: 3px;
     padding-bottom: 3px;
+    background: white;
     color: #5b5b5b;
     border-bottom: #ccc 1px solid;
   }
@@ -183,11 +186,28 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   
   @media screen and (max-width: 900px) {
     .table {
-      width: 90%
+      width: 90%;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .hide-table {
+      display: none;
     }
   }
   
   @media screen and (max-width: 650px) {
+    .vis {
+      visibility: hidden;
+      text-align: center;
+    }
+    .vis-text {
+      margin-left: 30px;
+    }
+    
+    .hide {
+      display: none;
+    }
     .table {
       display: block;
     }
@@ -204,14 +224,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     .table_cell {
       display: table-cell;
       width: 50%;
+      padding-left: 30px
     }
     .table_row {
       display: table;
-      width: 50%;
+      width: 100%;
       border-collapse: separate;
       padding-bottom: 20px;
       margin: 5% auto 0;
-      text-align: center;
+      text-align: left;
     }
     .table_small {
       display: table-row;
@@ -242,7 +263,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     .table_row > .table_small:last-child > .table_cell:last-child {
       border-bottom-right-radius: 5px;
     }
-  }</style>
+  }
+  
+  
+    
+  </style>
 
 </head>
 
