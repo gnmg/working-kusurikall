@@ -13,7 +13,7 @@
 
         @if(is_countable($calls) && count($calls) > 0)
         <!-- Start Call Table-->
-        <div class="mt-12 lg:w-full">
+        <div class=" sm:mt-24 md:mt-12">
             <div class="flex justify-between vis">
                 <h2 class="text-xl font-bold vis">{{ __('lang.myreminders')}}</h2>
                 @if(is_countable($calls) && count($calls) < 3) <a href="{{route('call.create')}}"
