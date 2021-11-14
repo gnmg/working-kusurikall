@@ -766,7 +766,6 @@ functions
 
 .functions__image img {
     display: block;
-    max-width: 334px;
 }
 
 @media (max-width: 1000px) {
