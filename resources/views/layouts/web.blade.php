@@ -59,15 +59,8 @@
     </script>
 </head>
 
-<body class="saas-classic">
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K79J7JD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- preloader - start -->
-    <div id="preloader" class="saas-classic-preloader"></div>
-    <!-- Start of nav section
-        ============================================= -->
+<body>
+    
     <header class="header">
         <div class="header__inner">
             <div class="header__contents">
