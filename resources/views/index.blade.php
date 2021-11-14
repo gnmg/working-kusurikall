@@ -20,7 +20,7 @@
     </section>
     
     <div id="function" class="try-button">
-        <a href="#">
+        <a href="{{ url('/register') }}">
             <img src="img/try-button.png" alt="">
         </a>
     </div>
@@ -127,7 +127,7 @@
                 <h4 class="price__underbar-title">まずは無料お試しサービスからご登録</h4>
             </div>
             <div class="price-button">
-                <a href="#">
+                <a href="{{ url('/register') }}">
                     <img src="img/try-button.png" alt="">
                 </a>
             </div>
@@ -182,7 +182,7 @@
             </div>
         </div>
         <div class="try-button">
-            <a href="#">
+            <a href="{{ url('/register') }}">
                 <img src="img/try-button.png" alt="">
             </a>
         </div>

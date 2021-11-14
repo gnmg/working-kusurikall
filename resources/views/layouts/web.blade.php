@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -76,20 +77,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li class="header__list"><a href="#price">料金プラン</a></li>
                     <li class="header__list"><a href="#flow">ご利用のながれ</a></li>
                     <li class="header__list"><a href="#faq">よくある質問</a></li>
-                    <li class="header__list"><a href="#">お問い合わせ</a></li>
-                    @if (Auth::guest())
-                    <li class="header__list"><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
-                    @else
-                    <li class="header__list"><a href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
-                    @endif
-                   
+                    <li class="header__list"><a
+                            href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh">お問い合わせ</a></li>
+
+
                 </ul>
                 @if (Auth::guest())
                 <div class="header__btn"><a href="{{ url('/register') }}" class="btn">無料お試しサービス</a></div>
                 @else
 
                 @endif
-
+                @if (Auth::guest())
+                <li class="header__list"><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
+                @else
+                <li class="header__list"><a id="myreminder__link"
+                        href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
+                @endif
             </div>
         </div>
     </header>
@@ -108,13 +111,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="drawer__inner">
                 <div class="drawer__nav">
                     <ul class="drawer__lists">
-                        <li class="drawer__list"><a href="#function"><i class="fas fa-caret-right"></i>トップページ</a></li>
-                        <li class="drawer__list"><a href="#faq"><i class="fas fa-caret-right"></i>よくある質問</a></li>
-                        <li class="drawer__list"><a href="function"><i class="fas fa-caret-right"></i>機能</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>ログイン</a></li>
-                        <li class="drawer__list"><a href="#price"><i class="fas fa-caret-right"></i>料金プラン</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>お問い合わせ</a></li>
-                        <li class="drawer__list"><a href="#flow"><i class="fas fa-caret-right"></i>ご利用のながれ</a></li>
+                        <li class="drawer__list"><a href="/"><i class="fas fa-caret-right"></i>トップページ</a></li>
+                        <!-- <li class="drawer__list"><a href="#faq"><i class="fas fa-caret-right"></i>よくある質問</a></li>
+                        <li class="drawer__list"><a href="http://127.0.0.1:8000/#function"><i class="fas fa-caret-right"></i>機能</a></li> -->
+                        @if (Auth::guest())
+                        <li class="drawer__list"><a href="{{ url('/login') }}"><i
+                                    class="fas fa-caret-right"></i>{{ __('lang.login')}}</a></li>
+                        @else
+                        <li class="drawer__list"><a href="{{ url('/dashboard') }}"><i
+                                    class="fas fa-caret-right"></i>{{ __('lang.myreminders')}}</a></li>
+                        @endif
+                        <!-- <li class="drawer__list"><a href="#price"><i class="fas fa-caret-right"></i>料金プラン</a></li> -->
+                        <li class="drawer__list"><a href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh"><i
+                                    class="fas fa-caret-right"></i>お問い合わせ</a></li>
+                        <!-- <li class="drawer__list"><a href="#flow"><i class="fas fa-caret-right"></i>ご利用のながれ</a></li> -->
                     </ul>
                 </div>
                 <div class="drawer__right">
@@ -138,13 +148,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="footer__logo"><img src="img/logo-white.png" alt=""></div>
                 <div class="footer__nav">
                     <ul class="footer__lists">
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>トップページ</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>よくある質問</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>機能</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>ログイン</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>料金プラン</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>お問い合わせ</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>ご利用のながれ</a></li>
+                        <li class="footer__list"><a href="/"><i class="fas fa-caret-right"></i>トップページ</a></li>
+                        <li class="footer__list"><a href="#faq"><i class="fas fa-caret-right"></i>よくある質問</a></li>
+                        <li class="footer__list"><a href="#function"><i class="fas fa-caret-right"></i>機能</a></li>
+                        @if (Auth::guest())
+                        <li class="footer__list"><a href="{{ url('/login') }}"><i class="fas fa-caret-right"></i>{{ __('lang.login')}}</a></li>
+                        @else
+                        <li class="footer__list"><a
+                                href="{{ url('/dashboard') }}"><i class="fas fa-caret-right"></i>{{ __('lang.myreminders')}}</a></li>
+                        @endif
+                        <li class="footer__list"><a href="#price"><i class="fas fa-caret-right"></i>料金プラン</a></li>
+                        <li class="footer__list"><a href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh"><i
+                                    class="fas fa-caret-right"></i>お問い合わせ</a></li>
+                        <li class="footer__list"><a href="#flow"><i class="fas fa-caret-right"></i>ご利用のながれ</a></li>
                     </ul>
                 </div>
                 <div class="footer__right">
