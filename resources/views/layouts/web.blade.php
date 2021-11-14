@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -81,9 +83,9 @@
 
                 @endif
                 @if (Auth::guest())
-                <li class="header__list"><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
+                <li class="header__list sp-hide"><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
                 @else
-                <li class="header__list"><a id="myreminder__link"
+                <li class="header__list sp-hide"><a id="myreminder__link"
                         href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
                 @endif
             </div>
@@ -167,11 +169,11 @@
             </div>
             <div class="copy-right">©2021 くすりコール</div>
         </div>
-        <div class="page__up" id="page-up">
+        <!-- <div class="page__up" id="page-up">
             <div class="page__up-btn"></div>
-        </div>
+        </div> -->
         <div class="try-button">
-            <a href="#">
+            <a href="{{ url('/register') }}">
                 <img src="img/try-button.png" alt="">
             </a>
         </div>

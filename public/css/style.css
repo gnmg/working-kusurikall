@@ -28,7 +28,7 @@ body {
 }
 
 body {
-    font-family: 'Noto Sans JP', "源柔ゴシック", "GenJyuuGothic", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-family: 'Noto Sans JP', "M PLUS Rounded 1c", "M PLUS 1p", "源柔ゴシック", "GenJyuuGothic", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     line-height: 1.6;
     background: #fff;
 }
@@ -766,6 +766,7 @@ functions
 
 .functions__image img {
     display: block;
+    max-width: 334px;
 }
 
 @media (max-width: 1000px) {
@@ -1361,7 +1362,6 @@ flow
     .flow__item-image {
         width: 47%;
         height: 100%;
-        margin: 5px 0;
     }
 }
 
@@ -1718,8 +1718,6 @@ footer
 @media (max-width: 1000px) {
     .footer .try-button {
         display: block;
-        position: fixed;
-        z-index: 100;
         bottom: 0;
         padding: 0;
         width: 100%;
@@ -2157,4 +2155,13 @@ footer
 
 .blue {
     color: blue;
+}
+
+@media (max-width: 1000px) {
+    .sp-hide {
+        display: none;
+    }
+}
+
+
 }
