@@ -1,69 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+@extends('layouts.web')
 
-    <header class="header">
-        <div class="header__inner">
-            <div class="header__contents">
-                <h1 class="header__logo" id="header__logo"><a href="#"><img src="img/logo.png" alt="ヘッダーロゴ"></a></h1>
-                <ul class="header__nav">
-                    <li class="header__list"><a href="#">機能</a></li>
-                    <li class="header__list"><a href="#">料金プラン</a></li>
-                    <li class="header__list"><a href="#">ご利用のながれ</a></li>
-                    <li class="header__list"><a href="#">よくある質問</a></li>
-                    <li class="header__list"><a href="#">ログイン</a></li>
-                    <li class="header__list"><a href="#">お問い合わせ</a></li>
-                    <!-- <li class="header__list"><a href="#"><i class="fas fa-caret-right"></i>機能</a></li>
-                    <li class="header__list"><a href="#"><i class="fas fa-caret-right"></i>料金プラン</a></li>
-                    <li class="header__list"><a href="#"><i class="fas fa-caret-right"></i>ご利用のながれ</a></li>
-                    <li class="header__list"><a href="#"><i class="fas fa-caret-right"></i>よくある質問</a></li>
-                    <li class="header__list"><a href="#"><i class="fas fa-caret-right"></i>ログイン</a></li>
-                    <li class="header__list"><a href="#"><i class="fas fa-caret-right"></i>お問い合わせ</a></li> -->
-                </ul>
-                <div class="header__btn"><a href="#" class="btn">無料お試しサービス</a></div>
-            </div>
-        </div>
-    </header>
+@section('content')
 
-    <div id="bars" class="bars-items">
-        <div class="bars">
-            <div id="bar1" class="bar-1"></div>
-            <div id="bar2" class="bar-2"></div>
-            <div id="bar3" class="bar-3"></div>
-        </div>
-    </div>
 
-    <div class="drawer" id="drawer">
-        <div class="drawer__logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
-        <div class="drawer__contents">
-            <div class="drawer__inner">
-                <div class="drawer__nav">
-                    <ul class="drawer__lists">
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>トップページ</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>よくある質問</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>機能</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>ログイン</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>料金プラン</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>お問い合わせ</a></li>
-                        <li class="drawer__list"><a href=""><i class="fas fa-caret-right"></i>ご利用のながれ</a></li>
-                    </ul>
-                </div>
-                <div class="drawer__right">
-                    <ul class="drawer__terms">
-                        <li class="drawer__term"><a href="">利用規約</a></li>
-                        <li class="drawer__term"><a href="">個人情報保護方針</a></li>
-                        <li class="drawer__term"><a href="">特定商取引に関する法律</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <section class="main">
         <div class="main__visual">
@@ -74,19 +13,19 @@
                 </div>
             </div>
         </div>
-        <div class="main__titles">
+        <div id="function" class="main__titles">
             <h2 class="main__title">「くすりコール」はご本人と周りの方々の服薬忘れの不安を解決するサービスです。</h2>
             <p class="main__text">別居しているご両親が定時にお薬を飲むように、1日3回まで確認のお電話をいたします。電話に出なければ飲み忘れメールが管理者に届くので安心です。</p>
         </div>
     </section>
-
-    <div class="try-button">
-        <a href="#">
+    
+    <div id="function" class="try-button">
+        <a href="{{ url('/register') }}">
             <img src="img/try-button.png" alt="">
         </a>
     </div>
 
-    <section class="functions">
+    <section  class="functions">
         <div class="functions__inner inner">
             <h3 class="functions__title title">便利な3つの機能</h3>
             <h3 class="functions__title2 title">「くすりコール」便利な3つの機能</h3>
@@ -159,7 +98,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section id="price" class="price">
         <div class="price__inner inner">
             <h3 class="price__title">料金プラン</h3>
             <div class="price__contents">
@@ -188,14 +127,14 @@
                 <h4 class="price__underbar-title">まずは無料お試しサービスからご登録</h4>
             </div>
             <div class="price-button">
-                <a href="#">
+                <a href="{{ url('/register') }}">
                     <img src="img/try-button.png" alt="">
                 </a>
             </div>
         </div>
     </section>
 
-    <section class="flow">
+    <section id="flow" class="flow">
         <div class="flow__inner inner">
             <div class="flow__title title">ご利用のながれ</div>
             <div class="flow__contents">
@@ -243,13 +182,13 @@
             </div>
         </div>
         <div class="try-button">
-            <a href="#">
+            <a href="{{ url('/register') }}">
                 <img src="img/try-button.png" alt="">
             </a>
         </div>
     </section>
 
-    <section class="question">
+    <section id="faq" class="question">
         <div class="question__inner inner">
             <h3 class="question__title title">よくある質問</h3>
             <div class="question__items">
@@ -313,42 +252,4 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer__inner inner">
-            <div class="footer__contents">
-                <div class="footer__logo"><img src="img/logo-white.png" alt=""></div>
-                <div class="footer__nav">
-                    <ul class="footer__lists">
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>トップページ</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>よくある質問</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>機能</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>ログイン</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>料金プラン</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>お問い合わせ</a></li>
-                        <li class="footer__list"><a href=""><i class="fas fa-caret-right"></i>ご利用のながれ</a></li>
-                    </ul>
-                </div>
-                <div class="footer__right">
-                    <ul class="footer__terms">
-                        <li class="footer__term"><a href="">利用規約</a></li>
-                        <li class="footer__term"><a href="">個人情報保護方針</a></li>
-                        <li class="footer__term"><a href="">特定商取引に関する法律</a></li>
-                    </ul>
-                </div>
-                <div class="footer__logo none"><img src="img/logo-white.png" alt=""></div>
-            </div>
-            <div class="copy-right">©2021 くすりコール</div>
-        </div>
-        <div class="page__up" id="page-up">
-            <div class="page__up-btn"></div>
-        </div>
-        <div class="try-button">
-            <a href="#">
-                <img src="img/try-button.png" alt="">
-            </a>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+    @endsection

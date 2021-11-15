@@ -28,7 +28,7 @@ body {
 }
 
 body {
-    font-family: 'Noto Sans JP', "M PLUS Rounded 1c", "M PLUS 1p", "源柔ゴシック", "GenJyuuGothic", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-family: 'Noto Sans JP', "源柔ゴシック", "GenJyuuGothic", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     line-height: 1.6;
     background: #fff;
 }
@@ -2163,4 +2163,9 @@ footer
 }
 
 
+}
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
 }

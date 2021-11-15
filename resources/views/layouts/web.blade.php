@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"> -->
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -68,10 +68,10 @@
             <div class="header__contents">
                 <h1 class="header__logo" id="header__logo"><a href="#"><img src="img/logo.png" alt="ヘッダーロゴ"></a></h1>
                 <ul class="header__nav">
-                    <li class="header__list"><a href="#function">機能</a></li>
-                    <li class="header__list"><a href="#price">料金プラン</a></li>
-                    <li class="header__list"><a href="#flow">ご利用のながれ</a></li>
-                    <li class="header__list"><a href="#faq">よくある質問</a></li>
+                    <li class="header__list"><a href="/#function">機能</a></li>
+                    <li class="header__list"><a href="/#price">料金プラン</a></li>
+                    <li class="header__list"><a href="/#flow">ご利用のながれ</a></li>
+                    <li class="header__list"><a href="/#faq">よくある質問</a></li>
                     <li class="header__list"><a
                             href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh">お問い合わせ</a></li>
 
@@ -160,9 +160,9 @@
                 </div>
                 <div class="footer__right">
                     <ul class="footer__terms">
-                        <li class="footer__term"><a href="">利用規約</a></li>
-                        <li class="footer__term"><a href="">個人情報保護方針</a></li>
-                        <li class="footer__term"><a href="">特定商取引に関する法律</a></li>
+                        <li class="footer__term"><a href="/terms">利用規約</a></li>
+                        <li class="footer__term"><a href="/privacy">個人情報保護方針</a></li>
+                        <li class="footer__term"><a href="/trade">特定商取引に関する法律</a></li>
                     </ul>
                 </div>
                 <div class="footer__logo none"><img src="img/logo-white.png" alt=""></div>
