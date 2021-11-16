@@ -898,9 +898,9 @@ merit
 }
 
 @media (max-width: 1000px) {
-    .merit__item-checkbox {
-        width: 40px;
-        margin-right: 5px;
+    .merit__item-checkbox img {
+        width: 2.3rem;
+        height: 2.3rem;
     }
 }
 
@@ -922,7 +922,7 @@ merit
     font-size: 2rem;
     color: #1F2C5C;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 @media (max-width: 1000px) {
@@ -1675,7 +1675,7 @@ question
     font-size: 1.625rem;
     margin: 0px calc(50% - 50vw) 0;
     width: 99.4vw;
-    padding: 20px 260px;
+    padding: 20px 0;
     text-align: left;
     display: none;
 }
@@ -1685,12 +1685,31 @@ question
         width: 100%;
         margin: 0;
         font-size: 1.1rem;
-        padding: 10px 80px;
     }
 }
 
 .question__none {
     display: block;
+}
+
+.answer-text {
+    width: calc(100% - 50px - 20px);
+    padding-left: 70px;
+    font-weight: bold;
+    font-size: 1.625rem;
+}
+
+@media (max-width: 1000px) {
+    .answer-text {
+        font-size: 1.1rem;
+        padding-left: 50px;
+        padding-right: 30px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 
