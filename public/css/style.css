@@ -766,12 +766,13 @@ functions
 
 .functions__image img {
     display: block;
+    width: 335px;
 }
 
 @media (max-width: 1000px) {
     .functions__image img {
         margin: 50px auto 0;
-        width: 350px;
+        width: 75%;
     }
 }
 
