@@ -35,7 +35,7 @@
                     <h4 class="functions__left-text">1日3回までの時間を設定できます。</h4>
                     <p class="functions__left-excerpt">ご自宅の固定電話に1日3回まで、決められた時間にお電話をします。</p>
                 </div>
-                <div class="functions__image"><img src="img/use-1.png" alt=""></div>
+                <div class="functions__image"><img src="img/use-1-small.png" alt=""></div>
                 <div class="functions__number"><img src="img/1.png" alt=""></div>
             </div>
             <div class="functions__item">
@@ -43,7 +43,7 @@
                     <h4 class="functions__left-text">お知らせメッセージの内容は個別に設定可能。</h4>
                     <p class="functions__left-excerpt">メッセージの内容はパーソナイズされているので薬の種類と量をメッセージで伝えることができます。</p>
                 </div>
-                <div class="functions__image"><img src="img/use-2.png" alt=""></div>
+                <div class="functions__image"><img src="img/use-2-small.png" alt=""></div>
                 <div class="functions__number"><img src="img/2.png" alt=""></div>
             </div>
             <div class="functions__item">
@@ -51,7 +51,7 @@
                     <h4 class="functions__left-text">3回電話に出ない場合、<br>SOSメールを管理者に送信。</h4>
                     <p class="functions__left-excerpt">3回お電話しても電話に出られない場合、事前に登録されている管理者の方にお薬の飲み忘れがあることをメールでお知らせします。</p>
                 </div>
-                <div class="functions__image"><img src="img/use-3.png" alt=""></div>
+                <div class="functions__image"><img src="img/use-3-small.png" alt=""></div>
                 <div class="functions__number"><img src="img/3.png" alt=""></div>
             </div>
         </div>
