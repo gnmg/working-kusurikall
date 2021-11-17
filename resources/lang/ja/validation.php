@@ -154,6 +154,7 @@ return [
         'message' => 'メッセージ',
         'sos' => 'SOSメッセージ',
         'sos_email' => 'メールアドレス',
+<<<<<<< HEAD
         'company_name' => '貴社名',
         'name' => 'タイトル',
         'title' => '担当者名前',
@@ -165,6 +166,9 @@ return [
         'branch_name' => '支店',
         'bank_account' => '口座番号',
         'account_type' => '口座タイプ',
+=======
+        'user_telephone' => '電話番号',
+>>>>>>> develop
 
         ],
 

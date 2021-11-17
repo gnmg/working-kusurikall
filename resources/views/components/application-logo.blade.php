@@ -46,4 +46,4 @@
 	<path fill="#C7936D" d="M521.692,1.655h16.137v89.136h-16.137V1.655z"/>
 </g>
 </svg> -->
-<div class="w-48 center"><img src="assets/img/saas-c/logo/kusuricall-logo-ja8.png" alt=""></div>
+<div class="w-48 center"><img src="img/logo.png" alt=""></div>

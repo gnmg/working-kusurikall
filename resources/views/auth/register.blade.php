@@ -42,10 +42,18 @@
 
             <!-- Confirm Password -->
             <div class="mt-4">
-                <x-label for="password_confirmation"" />{{ __('lang.password_confirm') }}
+                <x-label for="password_confirmation" />{{ __('lang.password_confirm') }}
 
                 <x-input id=" password_confirmation" class="block w-full mt-1" type="password"
                     name="password_confirmation" required />
+            </div>
+
+             <!-- Telephone -->
+            <div class="mt-4">
+                <x-label for="user_telephone" />{{ __('lang.user_telephone')}}
+
+                <x-input id="user_telephone" class="block w-full mt-1" type="text" placeholder="{{ __('lang.user_telephone_placeholder')}}" name="user_telephone"  required
+                    autofocus />
             </div>
             <div class="pt-3"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree" /><a href="{{ url('/terms') }}" class="ml-2 text-indigo-600">利用規約</a>・<a href="{{ url('/privacy') }}" target="_blank" class="text-indigo-600">プライバシーポリシー</a>に同意の上でお進みください。</div>
 

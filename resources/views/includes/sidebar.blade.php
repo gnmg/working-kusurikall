@@ -1,7 +1,7 @@
 <aside class="fixed top-0 w-full bg-white border-r-2 border-gray-300 md:w-64 md:min-h-screen" x-data="{ isOpen: false }">
     <div class="flex items-center justify-between h-16 p-4 bg-white">
         <a href="/" class="flex items-center">
-            <span class="mx-2 text-xl font-semibold text-center text-gray-900"><img src="{{url('/assets/img/saas-c/logo/medcall-logo4.png')}}" alt="Image"/></span>
+            <span class="mx-2 mt-2 text-xl font-semibold text-center text-gray-900 md:mt-8"><img src="{{url('/img/logo-small.png')}}" alt="Image"/></span>
         </a>
         <div class="flex md:hidden">
             <button type="button" @click="isOpen = !isOpen"
@@ -13,7 +13,7 @@
             </button>
         </div>
     </div>
-    <div class="px-2 py-6 md:block" :class="isOpen? 'block': 'hidden'">
+    <div class="px-2 py-6 mt-8 md:block" :class="isOpen? 'block': 'hidden'">
         <ul>
             <li class="px-2 py-3 rounded hover:bg-gray-200">
                 <a href="{{ URL::route('dashboard') }}" class="flex items-center">
