@@ -167,7 +167,7 @@
                 </div>
                 <div class="footer__logo none"><img src="img/logo-white.png" alt=""></div>
             </div>
-            <div class="copy-right">©2021 くすりコール</div>
+            <div class="copy-right">©<?php echo date("Y"); ?> くすりコール</div>
         </div>
         <!-- <div class="page__up" id="page-up">
             <div class="page__up-btn"></div>
