@@ -716,7 +716,7 @@ functions
     -ms-flex-pack: justify;
     justify-content: space-between;
     z-index: 10;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -727,8 +727,7 @@ functions
 }
 
 .functions__left {
-    width: 80%;
-    margin-right: 10px;
+    width: 60%;
 }
 
 @media (max-width: 1000px) {
@@ -767,27 +766,20 @@ functions
 
 .functions__image img {
     display: block;
-    height: auto;
-    width: 100%;
+    width: 335px;
 }
 
 @media (max-width: 1000px) {
     .functions__image img {
         margin: 50px auto 0;
-        width: 350px;
-        text-align: center;
-        display: block;
+        width: 75%;
     }
-}
-
-.functions__image {
-    width: 100%;
 }
 
 .functions__number {
     position: absolute;
     z-index: -1;
-    top: 0px;
+    top: -20px;
 }
 
 .functions__number img {
