@@ -132,5 +132,9 @@ Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, '
 
 
 Route::get('/affiliate', [AffiliateController::class, 'createForm']);
+Route::get('/dairiten-terms', function () {
+    return view('dairiten-terms');
+});
+
 
 Route::post('/affiliate', [AffiliateController::class, 'Affiliate'])->name('affiliate.store');
