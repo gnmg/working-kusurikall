@@ -118,5 +118,9 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/dairiten-terms', function () {
+    return view('dairiten-terms');
+});
+
 
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');

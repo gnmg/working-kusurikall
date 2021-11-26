@@ -44,9 +44,16 @@ img {
     height: auto;
 }
 
-ul,
+
+/* ul,
 ol,
 li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} */
+
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -2188,4 +2195,12 @@ footer
     html {
         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     }
+}
+
+/* Dairiten Terms */
+.terms__item-excerpt ol {
+    list-style: lower-alpha;
+}
+.terms__item-excerpt li {
+    margin-bottom: 10px;
 }
