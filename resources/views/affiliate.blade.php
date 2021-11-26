@@ -183,7 +183,7 @@
                             </div>
                             @enderror
                         </div>
-                        <div class="pt-5"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree" /><a href="{{ url('/affiliate-terms') }}" class="ml-2 text-indigo-600">利用規約</a>・<a href="{{ url('/privacy') }}" target="_blank" class="text-indigo-600">プライバシーポリシー</a>に同意の上でお進みください。</div>
+                        <div class="pt-5"><input class="mr-1" type="checkbox" name="checkbox" value="check" id="agree" /><a href="{{ url('/dairiten-terms') }}" class="ml-2 text-indigo-600">利用規約</a>・<a href="{{ url('/privacy') }}" target="_blank" class="text-indigo-600">プライバシーポリシー</a>に同意の上でお進みください。</div>
                         <div class="w-full mt-10">
                             <div class="items-center">
                                 <button type="submit"
