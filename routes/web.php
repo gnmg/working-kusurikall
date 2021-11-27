@@ -127,6 +127,10 @@ Route::get('affiliate-terms', function () {
     return view('affiliate-terms');
 });
 
+Route::get('dairiten', function () {
+    return view('dairiten');
+});
+
 
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');
 
