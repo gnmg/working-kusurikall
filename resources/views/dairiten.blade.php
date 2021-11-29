@@ -58,7 +58,7 @@
             <div class="register-flow__box">
                 <div class="register-flow__title">
                     <img src="img/step-1.png" alt="Steps">
-                    <h2>登 録</h2>
+                    <h2>登  録</h2>
                 </div>
 
                 <div class="register-flow__image">
@@ -90,7 +90,7 @@
             <div class="register-flow__box">
                 <div class="register-flow__title">
                     <img src="img/step-3.png" alt="Steps">
-                    <h2>配 布</h2>
+                    <h2>配  布</h2>
                 </div>
 
                 <div class="register-flow__image">
@@ -103,7 +103,7 @@
 
             </div>
 
-
+            
             <div class="register-flow__box">
                 <div class="register-flow__title">
                     <img src="img/step-4.png" alt="Steps">
@@ -120,18 +120,18 @@
 
             </div>
 
-
+              
             <div class="register-flow__box">
                 <div class="register-flow__title">
                     <img src="img/step-5.png" alt="Steps">
-                    <h2>出 金</h2>
+                    <h2>出  金</h2>
                 </div>
 
                 <div class="register-flow__image">
                     <img src="img/step-fifth.png" alt="Fifth">
                 </div>
 
-                <div class="register-flow__text">
+            <div class="register-flow__text">
                     <p>報酬を確認できるあなた専用のページへのリンクをお送りします。
                         報酬を引き出すには、電話またはメッセージでご連絡いただければ、ご登録の銀行口座にお振り込みします。</p>
                 </div>
@@ -148,7 +148,7 @@
         <div class="easyregister__wrap">
             <h3>誰でもカンタン登録！あとはくすりコールのチラシを配るだけ！</h3>
 
-            <!-- [REGISTER BUTTON] -->
+                <!-- [REGISTER BUTTON] -->
             <div class="register-here">
                 <a href="#"><img src="img/register-btn.png" alt="register here"></a>
             </div>

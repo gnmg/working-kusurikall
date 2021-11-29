@@ -34,10 +34,6 @@
 
 /* ----------  [AGENCY HEADER] */
 
-.agency-header {
-    padding-top: 110px;
-}
-
 .agency-header-bar {
     background-color: #49B9C2;
     height: 3.11386rem;
@@ -61,7 +57,7 @@
 }
 
 .agency-header-img {
-    max-width: 1100px;
+    max-width: 42.75249rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -153,7 +149,7 @@
 }
 
 .about-reward-img {
-    max-width: 1100px;
+    max-width: 38.83912rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -204,7 +200,7 @@
 }
 
 .register-flow__container {
-    max-width: 1100px;
+    max-width: 33.66337rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -290,7 +286,7 @@
 }
 
 .easyregister__wrap {
-    max-width: 1100px;
+    max-width: 39.13367rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
