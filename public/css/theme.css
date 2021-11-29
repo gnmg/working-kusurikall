@@ -61,7 +61,7 @@
 }
 
 .agency-header-img {
-    max-width: 46.28714rem;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -153,7 +153,7 @@
 }
 
 .about-reward-img {
-    max-width: 46.28714rem;
+    max-width: 1100px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -204,7 +204,7 @@
 }
 
 .register-flow__container {
-    max-width: 46.28714rem;
+    max-width: 1100px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -266,10 +266,13 @@
 }
 
 .register-flow__text {
+    max-width: 16.07426rem;
     width: 100%;
 }
 
 .register-flow__text p {
+    font-size: 0.92574rem;
+    line-height: 1.68317rem;
     color: #4D4D4D;
     font-weight: 500;
 }
@@ -287,9 +290,7 @@
 }
 
 .easyregister__wrap {
-    max-width: 46.28714rem;
     max-width: 1100px;
-    max-width: 46.28714rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
