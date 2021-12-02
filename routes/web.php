@@ -135,6 +135,9 @@ Route::get('dairiten-reg', function () {
     return view('dairiten-reg');
 });
 
+Route::get('test', function () {
+    return view('test');
+});
 
 Route::get('/send_reminder', [\App\Http\Controllers\MakeCallController::class, 'send_reminder'])->name('send_reminder');
 
