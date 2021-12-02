@@ -26,7 +26,7 @@
 
 <!-- [REGISTER BUTTON] -->
 <div class="try-button">
-<a href="#"><img src="img/register-btn.png" alt="register here"></a>
+<a href="dairiten-reg"><img src="img/register-btn.png" alt="register here"></a>
 </div>
 
 <!-- [THIRD SECTION] ------------ -->
@@ -149,7 +149,7 @@
 
         <!-- [REGISTER BUTTON] -->
     <div class="register-here">
-        <a href="#"><img src="img/register-btn.png" alt="register here"></a>
+        <a href="dairiten-reg"><img src="img/register-btn.png" alt="register here"></a>
     </div>
 
     <div class="easyregister__image">

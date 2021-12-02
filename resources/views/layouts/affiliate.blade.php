@@ -82,7 +82,7 @@
                 <nav class="justify-start hidden h-16 p-4 pr-16 mb-10 bg-white shadow-md md:flex">
                     <a href="/" class="flex items-center">
                         <span class="mx-2 text-xl font-semibold text-center text-gray-900"><img
-                                src="{{url('/assets/img/saas-c/logo/medcall-logo4.png')}}" alt="Image" /></span>
+                                src="img/small-logo.png" alt="Image" /></span>
                     </a>
                 </nav>
                 <main>
