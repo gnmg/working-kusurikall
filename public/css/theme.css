@@ -6,7 +6,7 @@
 }
 
 .title-text {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: normal;
     text-align: center;
     color: #1F2C5C;
@@ -101,7 +101,7 @@
 /* -----------------> [REGISTER BUTTON] */
 
 .register-here {
-    max-width: 26.63615rem;
+    max-width: 54rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -225,7 +225,7 @@
 }
 
 .register-flow__container {
-    max-width: 33.66337rem;
+    max-width: 49rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -245,7 +245,7 @@
 }
 
 .register-flow__box:not(:last-child) {
-    margin-bottom: 1.05198rem;
+    margin-bottom: 3.0rem;
 }
 
 .register-flow__title {
@@ -263,7 +263,7 @@
 }
 
 .register-flow__title h2 {
-    font-size: 2.27228rem;
+    font-size: 3.1rem;
     font-weight: bold;
     color: #1F2C5C;
     line-height: 3.4505rem;
@@ -274,7 +274,7 @@
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
-    max-width: 15.56931rem;
+    max-width: 24rem;
     width: 100%;
     height: auto;
 }
@@ -287,12 +287,12 @@
 }
 
 .register-flow__text {
-    max-width: 16.07426rem;
+    max-width: 21rem;
     width: 100%;
 }
 
 .register-flow__text p {
-    font-size: 0.92574rem;
+    font-size: 1.37rem;
     line-height: 1.68317rem;
     color: #4D4D4D;
     font-weight: 500;
@@ -311,7 +311,7 @@
 }
 
 .easyregister__wrap {
-    max-width: 39.13367rem;
+    max-width: 54rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -322,7 +322,7 @@
 }
 
 .easyregister h3 {
-    font-size: 1.34653rem;
+    font-size: 1.6rem;
     line-height: 1.97772rem;
     color: #1F2C5C;
     text-align: center;
@@ -331,7 +331,7 @@
 
 .easyregister__image {
     margin-top: 2.52475rem;
-    max-width: 37.4505rem;
+    max-width: 54rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -369,10 +369,19 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    /* -----------------> [REGISTER BUTTON] */
-    .register-here {
-        display: none;
+    .agency-header-img {
+        max-width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
     }
+    /* -----------------> [REGISTER BUTTON] */
+    /* .register-here {
+        display: none;
+    } */
     .about-reward {
         padding: 2.10396rem 1.68317rem;
     }
@@ -382,6 +391,14 @@
     .about-reward-img .pc {
         display: none;
     }
+    .about-reward-img {
+        max-width: 36rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.68317rem;
+        margin-bottom: 1.68317rem;
+    }
     /* [FOURTH SECTION]
       --------------------------*/
     .register-flow__box {
@@ -389,7 +406,7 @@
         grid-template-columns: 1fr;
         -ms-grid-rows: auto;
         grid-template-rows: auto;
-        max-width: 17.0rem;
+        max-width: 21.0rem;
         width: 100%;
         gap: 1.51485rem;
         margin-left: auto;
@@ -402,6 +419,18 @@
     .register-flow__title {
         margin-bottom: 0;
     }
+    .register-flow__title h2 {
+        font-size: 2.6rem;
+        font-weight: bold;
+        color: #1F2C5C;
+        line-height: 3.4505rem;
+    }
+    .register-flow__text p {
+        font-size: 1.3rem;
+        line-height: 1.68317rem;
+        color: #4D4D4D;
+        font-weight: 500;
+    }
     /* [EASY REGISTER]
       --------------------------*/
     .easyregister .ph {
@@ -409,6 +438,13 @@
     }
     .easyregister .pc {
         display: none;
+    }
+    .easyregister__image {
+        margin-top: 2.52475rem;
+        max-width: 35rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
