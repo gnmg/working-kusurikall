@@ -13,7 +13,7 @@
 <div class="agency-header-content">
     <div class="agency-header-img">
         <img src="img/header-pc.png" alt="Header PC" class="agency-header-pc">
-        <img src="img/header-sp.png" alt="Header PC" class="agency-header-mobile">
+        
     </div>
 </div>
 
