@@ -6,7 +6,7 @@
 }
 
 .title-text {
-    font-size: 1.17822rem;
+    font-size: 1.75rem;
     line-height: normal;
     text-align: center;
     color: #1F2C5C;
@@ -14,7 +14,7 @@
 }
 
 .text-genral {
-    font-size: 1.09406rem;
+    font-size: 1.6rem;
     line-height: 1.55693rem;
     color: #1F2C5C;
     font-weight: bold;
@@ -26,7 +26,7 @@
     width: 100%;
     border: none;
     background-color: #1F2C5C;
-    max-width: 40.901rem;
+    max-width: 57rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,6 +36,12 @@
 
 .agency-header {
     padding-top: 110px;
+}
+
+@media (max-width: 1000px) {
+    .agency-header {
+        padding-top: 0;
+    }
 }
 
 .agency-header-bar {
@@ -61,7 +67,7 @@
 }
 
 .agency-header-img {
-    max-width: 1100px;
+    max-width: 68rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -84,11 +90,11 @@
 }
 
 .agency-header-text {
-    max-width: 30.84407rem;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-top: 1.34653rem;
+    margin-top: 3rem;
 }
 
 
@@ -119,7 +125,7 @@
     text-align: center;
     padding: 2.52475rem;
     margin-top: 2.10396rem;
-    background-color: #E6E6E6;
+    background-color: #F4F4F4;
     position: relative;
 }
 
@@ -137,15 +143,23 @@
     pointer-events: none;
 }
 
+.section-title-big {
+    color: #1F2C5C;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 .about-reward h1 {
-    border-bottom: 0.50495rem solid #BEEDE8;
+    border-bottom: 12px solid #BEEDE8;
     display: inline-block;
     padding: 0 1.26238rem;
     margin-bottom: 1.68317rem;
 }
 
 .about-reward .title-text {
-    max-width: 29.20298rem;
+    max-width: 50rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -153,7 +167,7 @@
 }
 
 .about-reward-img {
-    max-width: 1100px;
+    max-width: 57rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -170,6 +184,13 @@
 
 .about-reward-img .ph {
     display: none;
+}
+
+.highlight {
+    background: linear-gradient(120deg, #BEEDE8 0%, #BEEDE8 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 90%;
 }
 
 
@@ -197,14 +218,14 @@
 }
 
 .register-flow h1 {
-    border-bottom: 0.50495rem solid #FFE33F;
+    border-bottom: 12px solid #FFE33F;
     display: inline-block;
     padding: 0 1.26238rem;
     margin-bottom: 2.94555rem;
 }
 
 .register-flow__container {
-    max-width: 1100px;
+    max-width: 33.66337rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -290,7 +311,7 @@
 }
 
 .easyregister__wrap {
-    max-width: 1100px;
+    max-width: 39.13367rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
