@@ -2209,3 +2209,7 @@ footer
 .terms__item-excerpt li {
     margin-bottom: 10px;
 }
+
+.no-decoration {
+    text-decoration: none;
+}

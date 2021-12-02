@@ -67,7 +67,7 @@
     <header class="header">
         <div class="header__inner">
             <div class="header__contents">
-                <h1 class="header__logo" id="header__logo"><a href="#"><img src="img/logo.png" alt="ヘッダーロゴ"></a></h1>
+                <h1 class="header__logo" id="header__logo"><a href="/"><img src="img/logo.png" alt="ヘッダーロゴ"></a></h1>
                 <ul class="header__nav">
                     <li class="header__list"><a href="/#function">機能</a></li>
                     <li class="header__list"><a href="/#price">料金プラン</a></li>
@@ -84,9 +84,9 @@
 
                 @endif
                 @if (Auth::guest())
-                <li class="header__list sp-hide"><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
+                <div class="header__list sp-hide no-decoration"><a href="{{ url('/login') }}">{{ __('lang.login')}}</a></li>
                 @else
-                <li class="header__list sp-hide"><a id="myreminder__link"
+                <div class="header__list sp-hide"><a id="myreminder__link"
                         href="{{ url('/dashboard') }}">{{ __('lang.myreminders')}}</a></li>
                 @endif
             </div>
@@ -102,7 +102,7 @@
     </div>
 
     <div class="drawer" id="drawer">
-        <div class="drawer__logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+        <div class="drawer__logo"><a href="/"><img src="img/logo.png" alt=""></a></div>
         <div class="drawer__contents">
             <div class="drawer__inner">
                 <div class="drawer__nav">
@@ -147,6 +147,7 @@
                         <li class="footer__list"><a href="/"><i class="fas fa-caret-right"></i>トップページ</a></li>
                         <li class="footer__list"><a href="#faq"><i class="fas fa-caret-right"></i>よくある質問</a></li>
                         <li class="footer__list"><a href="#function"><i class="fas fa-caret-right"></i>機能</a></li>
+                        <li class="footer__list"><a href="dairiten"><i class="fas fa-caret-right"></i>代理店</a></li>
                         @if (Auth::guest())
                         <li class="footer__list"><a href="{{ url('/login') }}"><i class="fas fa-caret-right"></i>{{ __('lang.login')}}</a></li>
                         @else
