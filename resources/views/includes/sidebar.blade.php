@@ -26,7 +26,7 @@
                     <span class="mx-2 text-sm font-bold text-gray-700">{{ __('lang.myreminders')}}</span>
                 </a>
             </li>
-            <li class="px-2 py-3 mt-2 rounded hover:bg-gray-200">
+            <!-- <li class="px-2 py-3 mt-2 rounded hover:bg-gray-200">
                 <a href="{{ URL::route('call.create') }}" class="flex items-center">
                     <svg class="w-6 text-black" fill="none" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" viewBox="0 0 24 24" stroke="#63b3ed">
@@ -36,7 +36,8 @@
                     </svg>
                     <span class="mx-2 text-sm font-bold text-gray-700">{{ __('lang.addreminder')}}</span>
                 </a>
-            </li>
+            </li> -->
+            
             <li class="px-2 py-3 mt-2 rounded hover:bg-gray-200">
                 <a href="billing" class="flex items-center">
                     <svg class="w-6 text-black" fill="none" stroke-linecap="round" stroke-linejoin="round"
