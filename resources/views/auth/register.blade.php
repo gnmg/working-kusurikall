@@ -14,7 +14,7 @@
             @csrf
             <div class="mb-2 text-3xl text-center">無料お試し申し込み</div>
             <div class="text-base mb-7"><span class="font-bold">
-                    21日間 無料で利用できる
+                    14日間 無料で利用できる
                 </span> メールワイズアカウントを作成できます。無料期間の終了後、自動的に課金されることはありません。</div>
             <!-- Name -->
             <div>
