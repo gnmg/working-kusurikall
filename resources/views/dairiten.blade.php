@@ -81,7 +81,7 @@
                     <li class="header__list"><a href="/#faq">よくある質問</a></li>
                     <li class="header__list"><a
                             href="https://tawk.to/chat/60d89d8d7f4b000ac039cc8c/1f972esvh">お問い合わせ</a></li>
-                            <div class="header__btn"><a href="{{ url('/dairiten-reg') }}" class="btn">代理店登録こちら</a></div>
+                            <div class="header__btn"><a href="dairiten-reg" class="btn">代理店登録こちら</a></div>
 
                 </ul>
                 <!-- @if (Auth::guest())
