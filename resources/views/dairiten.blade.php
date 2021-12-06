@@ -162,7 +162,7 @@
 
     <!-- [REGISTER BUTTON] -->
     <div class="register-here">
-        <a href="#"><img src="img/register-btn.png" alt="register here"></a>
+        <a href="dairiten-reg"><img src="img/register-btn.png" alt="register here"></a>
     </div>
 
     <!-- [THIRD SECTION] ------------ -->
