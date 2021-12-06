@@ -12,7 +12,7 @@
                 </div>
                 <div class="law__item">
                     <div class="law__item-head">所在地</div>
-                    <div class="law__item-excerpt">〒399-4117長野県駒ヶ根市赤穂10405-2</div>
+                    <div class="law__item-excerpt">〒108-0074 東京都港区高輪４丁目8-25</div>
                 </div>
                 <div class="law__item">
                     <div class="law__item-head">電話番号</div>
