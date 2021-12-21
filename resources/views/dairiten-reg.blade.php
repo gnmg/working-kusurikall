@@ -32,8 +32,7 @@
                                     {{ session('success') }}</p>
                                 
                                 @endif
-                            <p class="text-center">ご質問、ご相談は以下のフォームよりお送りください。
-                                内容確認後、担当より通常1営業日以内にご連絡いたします。</p>
+                            <p class="text-center">下記のフォームに必要事項を入力してください。5日ほどでチラシをお送りします。</p>
                         </div>
                     </div>
                     <div class="w-full mb-4">
