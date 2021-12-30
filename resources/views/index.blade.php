@@ -207,7 +207,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">はい。ご登録後14日間、無料でお試しいただけます。15日目にご登録されたクレジットカードから決済、毎月同じ日にお支払いとなります。</p>
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">申し訳ございません。固定電話へのお電話のみとなります。</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">登録された電話番号にお客様が設定したお時間にお電話をします。電話に出られるまで5分間おきに３回かけます。もし電話にでない場合、登録されているご家族またはケアテイカーあてにメールにて電話にでなかったことをお知らせします。</p>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">クレジットカードでのお支払いとなります。</p>
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">スマートフォンには多くの便利な機能のついたアプリがあります。しかし、常に手元に持ち歩いていなければアプリの意味がありません。特に多くのご高齢者は携帯の不携帯が多いようです。クスリコールは、家の固定電話にお電話でお知らせをするため、聞こえない、ということがなく、毎日、薬の服用を忘れません。</p>
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">はい。クスリコールはお薬のリマインドだけではなく、お好きな用途にご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。</p>
                         </div>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                     </div>
                     <div class="question__item-answer">
                         <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                            <p class="answer-text">不思議に思われる方も多いことでしょう。とても便利で生活に欠かせないスマートフォンですが、ご高齢者やスマホを使いこなせない方には固定電話でのご連絡がまだまだ必要な時代です。スマホは便利で慣れすぎてしまいアラームをすぐに消してしまう、その場から立ち上がらないから忘れてしまう、などの問題を解決するのがクスリコールです。</p>
                         </div>
                     </div>
                 </div>
