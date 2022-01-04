@@ -93,13 +93,13 @@ class Call extends Model
                     
                     Log::info("in sos");
                     $toMail = $row->sos_email;
-                    $data = array( "body" => "「薬コール」のお電話に相手の方が反応しませんでした。
+                    $data = array( "body" => "「くすりコール」のお電話に相手の方が反応しませんでした。
                     お薬を飲み忘れている可能性もありますので、ご本人様とのご確認をお勧めいたします。");
                     
                     Mail::send('max_attampt', $data, function($message) use ($toMail) {
                     $message->to($toMail)
-                    ->subject('「薬コール」のリマインダー');
-                    $message->from(env('MAIL_FROM_ADDRESS'),'薬コール');
+                    ->subject('「くすりコール」のリマインダー');
+                    $message->from(env('MAIL_FROM_ADDRESS'),'くすりコール');
                     });
                     
                 } 
