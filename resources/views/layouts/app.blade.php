@@ -73,6 +73,16 @@
     </script>
     <!--End of Tawk.to Script-->
 
+
+    <script type="text/javascript" src="https://static.leaddyno.com/js"></script>
+    <script>
+    LeadDyno.key = "a7d557dba0387e907b3f5359b186b2d26eb294cd"
+    LeadDyno.recordVisit();
+    LeadDyno.autoWatch();
+    </script>
+
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
     <script>
@@ -103,171 +113,183 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     }
     </script> -->
 
-<style>  
-
-.table {
-    display: table;
-    text-align: center;
-    width: 60%;
-    margin: 10% auto 0;
-    border-collapse: separate;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-  }
-  
-  .table_row {
-    display: table-row;
-  }
-  
-  .theader {
-    display: table-row;
-  }
-  
-  .table_header {
-    display: table-cell;
-    border-bottom: #ccc 1px solid;
-    border-top: #ccc 1px solid;
-    background: #bdbdbd;
-    color: #e5e5e5;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-  }
-  
-  .table_header:first-child {
-    border-left: #ccc 1px solid;
-    border-top-left-radius: 5px;
-  }
-  
-  .table_header:last-child {
-    border-right: #ccc 1px solid;
-    border-top-right-radius: 5px;
-  }
-  
-  .table_small {
-    display: table-cell;
-  }
-  
-  .table_row > .table_small > .table_cell:nth-child(odd) {
-    display: none;
-    background: white;
-    color: #000000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  .table_row > .table_small > .table_cell {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    background: white;
-    color: #5b5b5b;
-    border-bottom: #ccc 1px solid;
-  }
-  
-  .table_row > .table_small:first-child > .table_cell {
-    border-left: #ccc 1px solid;
-  }
-  
-  .table_row > .table_small:last-child > .table_cell {
-    border-right: #ccc 1px solid;
-  }
-  
-  .table_row:last-child > .table_small:last-child > .table_cell:last-child {
-    border-bottom-right-radius: 5px;
-  }
-  
-  .table_row:last-child > .table_small:first-child > .table_cell:last-child {
-    border-bottom-left-radius: 5px;
-  }
-  
-  .table_row:nth-child(2n+3) {
-    background: #e9e9e9;
-  }
-  
-  @media screen and (max-width: 900px) {
+    <style>
     .table {
-      width: 90%;
+        display: table;
+        text-align: center;
+        width: 60%;
+        margin: 10% auto 0;
+        border-collapse: separate;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
     }
-  }
 
-  @media screen and (min-width: 650px) {
-    .hide-table {
-      display: none;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    .vis {
-      visibility: hidden;
-      text-align: center;
-    }
-    .vis-text {
-      margin-left: 30px;
-    }
-    
-    .hide {
-      display: none;
-    }
-    .table {
-      display: block;
-    }
-    .table_row:nth-child(2n+3) {
-      background: none;
-    }
-    .theader {
-      display: none;
-    }
-    .table_row > .table_small > .table_cell:nth-child(odd) {
-      display: table-cell;
-      width: 50%;
-    }
-    .table_cell {
-      display: table-cell;
-      width: 50%;
-      padding-left: 30px
-    }
     .table_row {
-      display: table;
-      width: 100%;
-      border-collapse: separate;
-      padding-bottom: 20px;
-      margin: 5% auto 0;
-      text-align: left;
+        display: table-row;
     }
+
+    .theader {
+        display: table-row;
+    }
+
+    .table_header {
+        display: table-cell;
+        border-bottom: #ccc 1px solid;
+        border-top: #ccc 1px solid;
+        background: #bdbdbd;
+        color: #e5e5e5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 700;
+    }
+
+    .table_header:first-child {
+        border-left: #ccc 1px solid;
+        border-top-left-radius: 5px;
+    }
+
+    .table_header:last-child {
+        border-right: #ccc 1px solid;
+        border-top-right-radius: 5px;
+    }
+
     .table_small {
-      display: table-row;
+        display: table-cell;
     }
-    .table_row > .table_small:first-child > .table_cell:last-child {
-      border-left: none;
+
+    .table_row>.table_small>.table_cell:nth-child(odd) {
+        display: none;
+        background: white;
+        color: #000000;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    .table_row > .table_small > .table_cell:first-child {
-      border-left: #ccc 1px solid;
+
+    .table_row>.table_small>.table_cell {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background: white;
+        color: #5b5b5b;
+        border-bottom: #ccc 1px solid;
     }
-    .table_row > .table_small:first-child > .table_cell:first-child {
-      border-top-left-radius: 5px;
-      border-top: #ccc 1px solid;
+
+    .table_row>.table_small:first-child>.table_cell {
+        border-left: #ccc 1px solid;
     }
-    .table_row > .table_small:first-child > .table_cell:last-child {
-      border-top-right-radius: 5px;
-      border-top: #ccc 1px solid;
+
+    .table_row>.table_small:last-child>.table_cell {
+        border-right: #ccc 1px solid;
     }
-    .table_row > .table_small:last-child > .table_cell:first-child {
-      border-right: none;
+
+    .table_row:last-child>.table_small:last-child>.table_cell:last-child {
+        border-bottom-right-radius: 5px;
     }
-    .table_row > .table_small > .table_cell:last-child {
-      border-right: #ccc 1px solid;
+
+    .table_row:last-child>.table_small:first-child>.table_cell:last-child {
+        border-bottom-left-radius: 5px;
     }
-    .table_row > .table_small:last-child > .table_cell:first-child {
-      border-bottom-left-radius: 5px;
+
+    .table_row:nth-child(2n+3) {
+        background: #e9e9e9;
     }
-    .table_row > .table_small:last-child > .table_cell:last-child {
-      border-bottom-right-radius: 5px;
+
+    @media screen and (max-width: 900px) {
+        .table {
+            width: 90%;
+        }
     }
-  }
-  
-  
-    
-  </style>
+
+    @media screen and (min-width: 650px) {
+        .hide-table {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .vis {
+            visibility: hidden;
+            text-align: center;
+        }
+
+        .vis-text {
+            margin-left: 30px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .table {
+            display: block;
+        }
+
+        .table_row:nth-child(2n+3) {
+            background: none;
+        }
+
+        .theader {
+            display: none;
+        }
+
+        .table_row>.table_small>.table_cell:nth-child(odd) {
+            display: table-cell;
+            width: 50%;
+        }
+
+        .table_cell {
+            display: table-cell;
+            width: 50%;
+            padding-left: 30px
+        }
+
+        .table_row {
+            display: table;
+            width: 100%;
+            border-collapse: separate;
+            padding-bottom: 20px;
+            margin: 5% auto 0;
+            text-align: left;
+        }
+
+        .table_small {
+            display: table-row;
+        }
+
+        .table_row>.table_small:first-child>.table_cell:last-child {
+            border-left: none;
+        }
+
+        .table_row>.table_small>.table_cell:first-child {
+            border-left: #ccc 1px solid;
+        }
+
+        .table_row>.table_small:first-child>.table_cell:first-child {
+            border-top-left-radius: 5px;
+            border-top: #ccc 1px solid;
+        }
+
+        .table_row>.table_small:first-child>.table_cell:last-child {
+            border-top-right-radius: 5px;
+            border-top: #ccc 1px solid;
+        }
+
+        .table_row>.table_small:last-child>.table_cell:first-child {
+            border-right: none;
+        }
+
+        .table_row>.table_small>.table_cell:last-child {
+            border-right: #ccc 1px solid;
+        }
+
+        .table_row>.table_small:last-child>.table_cell:first-child {
+            border-bottom-left-radius: 5px;
+        }
+
+        .table_row>.table_small:last-child>.table_cell:last-child {
+            border-bottom-right-radius: 5px;
+        }
+    }
+    </style>
 
 </head>
 
