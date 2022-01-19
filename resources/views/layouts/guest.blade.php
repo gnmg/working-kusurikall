@@ -54,6 +54,13 @@
     </script>
     <!--End of Tawk.to Script-->
 
+    <script type="text/javascript" src="https://static.leaddyno.com/js"></script>
+    <script>
+    LeadDyno.key = "a7d557dba0387e907b3f5359b186b2d26eb294cd";
+    LeadDyno.recordVisit();
+    LeadDyno.autoWatch();
+    </script>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY58M9JFJS"></script>
     <script>
