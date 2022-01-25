@@ -147,7 +147,7 @@
                         <li class="footer__list"><a href="/"><i class="fas fa-caret-right"></i>トップページ</a></li>
                         <li class="footer__list"><a href="#faq"><i class="fas fa-caret-right"></i>よくある質問</a></li>
                         <li class="footer__list"><a href="#function"><i class="fas fa-caret-right"></i>機能</a></li>
-                        <li class="footer__list"><a href="dairiten"><i class="fas fa-caret-right"></i>代理店</a></li>
+                        <!-- <li class="footer__list"><a href="dairiten"><i class="fas fa-caret-right"></i>代理店</a></li> -->
                         @if (Auth::guest())
                         <li class="footer__list"><a href="{{ url('/login') }}"><i class="fas fa-caret-right"></i>{{ __('lang.login')}}</a></li>
                         @else
