@@ -16,7 +16,7 @@
                 </div>
                 <div class="law__item">
                     <div class="law__item-head">電話番号</div>
-                    <div class="law__item-excerpt">050-3196-1492（代）</div>
+                    <div class="law__item-excerpt">050-3174-3375（代）</div>
                 </div>
                 <div class="law__item">
                     <div class="law__item-head">支払い方法</div>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="law__item">
                     <div class="law__item-head">お問合せ先</div>
-                    <div class="law__item-excerpt">050-3186-2388（代）</div>
+                    <div class="law__item-excerpt">050-3174-3375（代）</div>
                 </div>
             </div>
         </div>

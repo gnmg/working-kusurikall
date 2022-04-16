@@ -76,7 +76,7 @@
 
     <script type="text/javascript" src="https://static.leaddyno.com/js"></script>
     <script>
-    LeadDyno.key = "a7d557dba0387e907b3f5359b186b2d26eb294cd"
+    LeadDyno.key = "a7d557dba0387e907b3f5359b186b2d26eb294cd";
     LeadDyno.recordVisit();
     LeadDyno.autoWatch();
     </script>
