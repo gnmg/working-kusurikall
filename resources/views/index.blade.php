@@ -26,37 +26,37 @@
 </div>
 
 <section class="functions">
-        <div class="functions__inner inner">
-            <h3 class="functions__title title">便利な3つの機能</h3>
-            <h3 class="functions__title2 title">「くすりコール」便利な3つの機能</h3>
-            <div class="functions__items">
-                <div class="functions__item">
-                    <div class="functions__left">
-                        <h4 class="functions__left-text">1日3回までの時間を設定できます。</h4>
-                        <p class="functions__left-excerpt">ご自宅の固定電話に1日3回まで、決められた時間にお電話をします。</p>
-                    </div>
-                    <div class="functions__image"><img src="img/use-1.png" alt=""></div>
-                    <div class="functions__number"><img src="img/1.png" alt=""></div>
+    <div class="functions__inner inner">
+        <h3 class="functions__title title">便利な3つの機能</h3>
+        <h3 class="functions__title2 title">「くすりコール」便利な3つの機能</h3>
+        <div class="functions__items">
+            <div class="functions__item">
+                <div class="functions__left">
+                    <h4 class="functions__left-text">1日3回までの時間を設定できます。</h4>
+                    <p class="functions__left-excerpt">ご自宅の固定電話に1日3回まで、決められた時間にお電話をします。</p>
                 </div>
-                <div class="functions__item">
-                    <div class="functions__left">
-                        <h4 class="functions__left-text">お知らせメッセージの内容は個別に設定可能。</h4>
-                        <p class="functions__left-excerpt">メッセージの内容はパーソナイズされているので薬の種類と量をメッセージで伝えることができます。</p>
-                    </div>
-                    <div class="functions__image"><img src="img/use-2.png" alt=""></div>
-                    <div class="functions__number"><img src="img/2.png" alt=""></div>
+                <div class="functions__image"><img src="img/use-1.png" alt=""></div>
+                <div class="functions__number"><img src="img/1.png" alt=""></div>
+            </div>
+            <div class="functions__item">
+                <div class="functions__left">
+                    <h4 class="functions__left-text">お知らせメッセージの内容は個別に設定可能。</h4>
+                    <p class="functions__left-excerpt">メッセージの内容はパーソナイズされているので薬の種類と量をメッセージで伝えることができます。</p>
                 </div>
-                <div class="functions__item">
-                    <div class="functions__left">
-                        <h4 class="functions__left-text">3回電話に出ない場合、<br>SOSメールを管理者に送信。</h4>
-                        <p class="functions__left-excerpt">3回お電話しても電話に出られない場合、事前に登録されている管理者の方にお薬の飲み忘れがあることをメールでお知らせします。</p>
-                    </div>
-                    <div class="functions__image"><img src="img/use-3.png" alt=""></div>
-                    <div class="functions__number"><img src="img/3.png" alt=""></div>
+                <div class="functions__image"><img src="img/use-2.png" alt=""></div>
+                <div class="functions__number"><img src="img/2.png" alt=""></div>
+            </div>
+            <div class="functions__item">
+                <div class="functions__left">
+                    <h4 class="functions__left-text">3回電話に出ない場合、<br>SOSメールを管理者に送信。</h4>
+                    <p class="functions__left-excerpt">3回お電話しても電話に出られない場合、事前に登録されている管理者の方にお薬の飲み忘れがあることをメールでお知らせします。</p>
                 </div>
+                <div class="functions__image"><img src="img/use-3.png" alt=""></div>
+                <div class="functions__number"><img src="img/3.png" alt=""></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="merit">
     <div class="merit__inner inner">
@@ -200,96 +200,114 @@
     <div class="question__inner inner">
         <h3 class="question__title title">よくある質問</h3>
         <div class="question__items">
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">01.</div>
-                        <div class="question__content">無料でお試しできますか？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">はい。ご登録後14日間、無料でお試しいただけます。15日目にご登録されたクレジットカードから決済、毎月同じ日にお支払いとなります。</p>
-                        </div>
-                    </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">01.</div>
+                    <div class="question__content">無料でお試しできますか？</div>
                 </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">02.</div>
-                        <div class="question__content">登録電話を携帯電話に設定できますか？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">申し訳ございません。固定電話へのお電話のみとなります。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">03.</div>
-                        <div class="question__content">電話に出なかった時のお知らせとはどういうものですか？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">登録された電話番号にお客様が設定したお時間にお電話をします。電話に出られるまで5分間おきに３回かけます。もし電話にでない場合、登録されているご家族またはケアテイカーあてにメールにて電話にでなかったことをお知らせします。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">04.</div>
-                        <div class="question__content">お支払い方法は？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">クレジットカードでのお支払いとなります。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">05.</div>
-                        <div class="question__content">スマートフォンのアプリではだめなの？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">スマートフォンには多くの便利な機能のついたアプリがあります。しかし、常に手元に持ち歩いていなければアプリの意味がありません。特に多くのご高齢者は携帯の不携帯が多いようです。クスリコールは、家の固定電話にお電話でお知らせをするため、聞こえない、ということがなく、毎日、薬の服用を忘れません。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">06.</div>
-                        <div class="question__content">くすりコールを別の用途で使用できますか？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">はい。クスリコールはお薬のリマインドだけではなく、お好きな用途にご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">07.</div>
-                        <div class="question__content">スマートフォンの時代になぜ固定電話？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">不思議に思われる方も多いことでしょう。とても便利で生活に欠かせないスマートフォンですが、ご高齢者やスマホを使いこなせない方には固定電話でのご連絡がまだまだ必要な時代です。スマホは便利で慣れすぎてしまいアラームをすぐに消してしまう、その場から立ち上がらないから忘れてしまう、などの問題を解決するのがクスリコールです。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="question__item">
-                    <div class="question__item-question">
-                        <div class="question__number">08.</div>
-                        <div class="question__content">キャンセルはいつでもできますか？</div>
-                    </div>
-                    <div class="question__item-answer">
-                        <div class="answer-inner inner">
-                            <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
-                        </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">はい。ご登録後14日間、無料でお試しいただけます。15日目にご登録されたクレジットカードから決済、毎月同じ日にお支払いとなります。</p>
                     </div>
                 </div>
             </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">02.</div>
+                    <div class="question__content">登録電話を携帯電話に設定できますか？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">申し訳ございません。固定電話へのお電話のみとなります。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">03.</div>
+                    <div class="question__content">電話に出なかった時のお知らせとはどういうものですか？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">
+                            登録された電話番号にお客様が設定したお時間にお電話をします。電話に出られるまで5分間おきに３回かけます。もし電話にでない場合、登録されているご家族またはケアテイカーあてにメールにて電話にでなかったことをお知らせします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">04.</div>
+                    <div class="question__content">お支払い方法は？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">クレジットカードでのお支払いとなります。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">05.</div>
+                    <div class="question__content">スマートフォンのアプリではだめなの？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">
+                            スマートフォンには多くの便利な機能のついたアプリがあります。しかし、常に手元に持ち歩いていなければアプリの意味がありません。特に多くのご高齢者は携帯の不携帯が多いようです。クスリコールは、家の固定電話にお電話でお知らせをするため、聞こえない、ということがなく、毎日、薬の服用を忘れません。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">06.</div>
+                    <div class="question__content">くすりコールを別の用途で使用できますか？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">
+                            はい。クスリコールはお薬のリマインドだけではなく、お好きな用途にご利用いただけます。モーニングコールやその日のスケジュールのリマインドにもご利用いただけます。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">07.</div>
+                    <div class="question__content">スマートフォンの時代になぜ固定電話？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">
+                            不思議に思われる方も多いことでしょう。とても便利で生活に欠かせないスマートフォンですが、ご高齢者やスマホを使いこなせない方には固定電話でのご連絡がまだまだ必要な時代です。スマホは便利で慣れすぎてしまいアラームをすぐに消してしまう、その場から立ち上がらないから忘れてしまう、などの問題を解決するのがクスリコールです。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="question__item">
+                <div class="question__item-question">
+                    <div class="question__number">08.</div>
+                    <div class="question__content">キャンセルはいつでもできますか？</div>
+                </div>
+                <div class="question__item-answer">
+                    <div class="answer-inner inner">
+                        <p class="answer-text">はい。キャンセル後も決まったお支払い日まではサービスを受けることができます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+<script src="https://code.jquery.com/jquery-1.9.0.min.js"
+    integrity="sha256-f6DVw/U4x2+HjgEqw5BZf67Kq/5vudRZuRkljnbF344=" crossorigin="anonymous"></script>
+<script id="ulp-remote" src="http://j-start.jp/popup/content/plugins/layered-popups/js/remote.min.js?ver=6.52"
+    data-handler="http://j-start.jp/popup/ajax.php"></script>
+<script>
+ulp_add_event("onload", {
+    popup: "PUmeuDlHdYv76ht3",
+    mode: "every-time",
+    dedlay: "10"
+});
+</script>
 
 @endsection
