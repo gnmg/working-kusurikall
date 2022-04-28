@@ -300,8 +300,8 @@
 </section>
 <script src="https://code.jquery.com/jquery-1.9.0.min.js"
     integrity="sha256-f6DVw/U4x2+HjgEqw5BZf67Kq/5vudRZuRkljnbF344=" crossorigin="anonymous"></script>
-<script id="ulp-remote" src="http://kusurikall.jp/popup/content/plugins/layered-popups/js/remote.min.js?ver=6.52"
-    data-handler="http://kusurikall.jp/popup/ajax.php"></script>
+<script id="ulp-remote" src="https://kusurikall.jp/popup/content/plugins/layered-popups/js/remote.min.js?ver=6.52"
+    data-handler="https://kusurikall.jp/popup/ajax.php"></script>
 <script>
 ulp_add_event("onload", {
     popup: "9iMUj6Ubw3mfRBTU",
