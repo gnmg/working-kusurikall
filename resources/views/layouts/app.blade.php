@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204286431-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -13,9 +13,8 @@
         dataLayer.push(arguments);
     }
     gtag('js', new Date());
-
     gtag('config', 'UA-204286431-1');
-    </script> -->
+    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Tag Manager -->
