@@ -116,7 +116,7 @@ Route::get('trade', function () {
 });
 
 Route::get('/', function () {
-    return view('index');
+    return view('not-working');
 });
 
 Route::get('affiliate', function () {
